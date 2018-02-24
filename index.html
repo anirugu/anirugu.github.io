@@ -19,19 +19,9 @@
 <body>
     <script src="https://smartlock.google.com/client"></script>
     <script>
-        const retrievePromise = googleyolo.retrieve({
-            supportedAuthMethods: [
-                "https://accounts.google.com",
-                "googleyolo://id-and-password"
-            ],
-            supportedIdTokenProviders: [
-                {
-                    uri: "https://accounts.google.com",
-                    clientId: "847592807197-jv2ej8ie4nag0n5sug9irrlqph377vn5.apps.googleusercontent.com"
-                }
-            ]
-        });
-
+        window.onGoogleYoloLoad = (googleyolo) => {
+            // The 'googleyolo' object is ready for use.
+        };
     </script>
 </body>
 
