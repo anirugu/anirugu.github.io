@@ -1,0 +1,68 @@
+<html lang="en"><head>
+
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" type="image/x-icon" href="https://static.codepen.io/assets/favicon/favicon-8ea04875e70c4b0bb41da869e81236e54394d63638a1ef12fa558a4a835f1164.ico">
+    <link rel="mask-icon" type="" href="https://static.codepen.io/assets/favicon/logo-pin-f2d2b6d2c61838f7e76325261b7195c27224080bc099486ddd6dccb469b8e8e6.svg" color="#111">
+    <title>CodePen - A Pen by  anirugu</title>
+    
+    
+    
+    <link rel="stylesheet prefetch" href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.5/css/select2.min.css">
+  
+    
+    <script>
+    window.console = window.console || function(t) {};
+  </script>
+  
+    
+    
+    <script>
+    if (document.location.search.match(/type=embed/gi)) {
+      window.parent.postMessage("resize", "*");
+    }
+  </script>
+  
+  
+  </head>
+  
+  <body translate="no">
+  
+    <select id="sel2" tabindex="-1" class="select2-hidden-accessible" aria-hidden="true">
+  <option value="Foo">Foo</option><option value="Bar">Bar</option></select><span class="select2 select2-container select2-container--default" dir="ltr" style="width: 48px;"><span class="selection"><span class="select2-selection select2-selection--single" role="combobox" aria-haspopup="true" aria-expanded="false" tabindex="0" aria-labelledby="select2-sel2-container"><span class="select2-selection__rendered" id="select2-sel2-container" title="Foo">Foo</span><span class="select2-selection__arrow" role="presentation"><b role="presentation"></b></span></span></span><span class="dropdown-wrapper" aria-hidden="true"></span></span>
+   
+  <button onclick="updateData()">Update</button>
+  
+  <br>
+  <br><br><br><br>
+  <a href="https://stackoverflow.com/questions/49252094/how-to-append-ajax-data-into-select2?noredirect=1#comment85509708_49252094">Adrian On Stackoverflow</a>
+      <script src="//static.codepen.io/assets/common/stopExecutionOnTimeout-b2a7b3fe212eaa732349046d8416e00a9dec26eb7fd347590fbced3ab38af52e.js"></script>
+  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.5/js/select2.full.min.js"></script>
+  
+    
+  
+      <script>
+        var data = [{"id":"Foo","text":"Foo"},{"id":"Bar","text":"Bar"}];
+  
+  $(function(){
+    $("#sel2").select2({data: data});
+  })
+  
+  
+  function updateData(){
+    data = [{"id":"Foo","text":"Foo"},{"id":"Bar","text":"Bar"},{"id":"OMG","text":"Oh My God, It's working"}];
+    
+  }
+        //# sourceURL=pen.js
+      </script>
+  
+  
+  
+    
+    
+  
+  
+  
+  
+   </body></html>
