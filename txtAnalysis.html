@@ -4,14 +4,40 @@
 <head>
 	<title></title>
 	<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400" rel="stylesheet">
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 	<script>
 		window.onload = function () {
 		}
-
+		var text = "";
 		let analyze = (e) => {
-			var text = document.getElementById("text").value;
-			debugger;
+			text = document.getElementById("text").value;
+			$.ajax({
+				url: "https://southeastasia.api.cognitive.microsoft.com/text/analytics/v2.0/sentiment?" + $.param(params),
+				beforeSend: function (xhrObj) {
+					// Request headers
+					xhrObj.setRequestHeader("Content-Type", "application/json");
+					xhrObj.setRequestHeader("Ocp-Apim-Subscription-Key", "909c92d360a5453f8a40e99b0b52ff4c");
+				},
+				type: "POST",
+				// Request body
+				data: text,
+			})
+				.done(function (data) {
+					alert("success");
+				})
+				.fail(function () {
+					alert("error");
+				});
 		}
+
+		// var result = {
+		// 	"documents": [
+		// 		{
+		// 			"id": "string",
+		// 			"text": text
+		// 		}
+		// 	]
+		// };
 	</script>
 	<style>
 		body {
@@ -30,7 +56,7 @@
 <body>
 
 	<h1>
-		Analyze your Text
+		Sentiment Analysis
 	</h1>
 	<p>Enter your text here to analyze.</p>
 	<textarea id="text"></textarea>
