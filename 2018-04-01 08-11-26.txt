@@ -1,0 +1,139 @@
+08:11:27.850: CPU Name: Intel(R) Core(TM) i5-7200U CPU @ 2.50GHz
+08:11:27.850: CPU Speed: 2712MHz
+08:11:27.850: Physical Cores: 2, Logical Cores: 4
+08:11:27.850: Physical Memory: 12188MB Total, 7365MB Free
+08:11:27.850: Windows Version: 10.0 Build 17133 (revision: 1; 64-bit)
+08:11:27.850: Running as administrator: false
+08:11:27.850: Aero is Enabled (Aero is always on for windows 8 and above)
+08:11:27.850: Windows 10 Gaming Features:
+08:11:27.850: 	Game DVR: On
+08:11:27.852: Sec. Software Status:
+08:11:27.853: 	Windows Defender Antivirus: disabled (AV)
+08:11:27.853: 	Windows Firewall: disabled (FW)
+08:11:27.853: 	Windows Defender Antivirus: disabled (ASW)
+08:11:27.854: Portable mode: false
+08:11:27.983: OBS 21.1.0 (64bit, windows)
+08:11:27.983: ---------------------------------
+08:11:27.987: ---------------------------------
+08:11:27.987: audio settings reset:
+08:11:27.987: 	samples per sec: 44100
+08:11:27.987: 	speakers:        2
+08:11:27.988: ---------------------------------
+08:11:27.988: Initializing D3D11...
+08:11:27.988: Available Video Adapters: 
+08:11:27.989: 	Adapter 1: Intel(R) HD Graphics 620
+08:11:27.989: 	  Dedicated VRAM: 134217728
+08:11:27.989: 	  Shared VRAM:    2095171584
+08:11:27.989: 	  output 1: pos={0, 0}, size={1366, 768}, attached=true
+08:11:27.989: 	Adapter 2: NVIDIA GeForce 920MX
+08:11:27.989: 	  Dedicated VRAM: 2107703296
+08:11:27.989: 	  Shared VRAM:    2095171584
+08:11:27.991: Loading up D3D11 on adapter Intel(R) HD Graphics 620 (0)
+08:11:27.999: D3D11 loaded successfully, feature level used: 45056
+08:11:28.812: ---------------------------------
+08:11:28.812: video settings reset:
+08:11:28.812: 	base resolution:   1366x768
+08:11:28.812: 	output resolution: 1092x614
+08:11:28.812: 	downscale filter:  Bicubic
+08:11:28.812: 	fps:               30/1
+08:11:28.812: 	format:            NV12
+08:11:28.812: 	YUV mode:          601/Partial
+08:11:28.813: Audio monitoring device:
+08:11:28.813: 	name: Default
+08:11:28.813: 	id: default
+08:11:28.813: ---------------------------------
+08:11:28.815: Required module function 'obs_module_load' in module '../../obs-plugins/64bit/chrome_elf.dll' not found, loading of module failed
+08:11:28.817: [CoreAudio encoder]: CoreAudio AAC encoder not installed on the system or couldn't be loaded
+08:11:28.842: [AMF] AMF Test failed due to one or more errors.
+08:11:28.842: Failed to initialize module 'enc-amf.dll'
+08:11:28.860: Required module function 'obs_module_load' in module '../../obs-plugins/64bit/libcef.dll' not found, loading of module failed
+08:11:28.860: LoadLibrary failed for '../../obs-plugins/64bit/libEGL.dll': The specified procedure could not be found.
+08:11:28.860:  (127)
+08:11:28.861: Module '../../obs-plugins/64bit/libEGL.dll' not loaded
+08:11:28.861: Required module function 'obs_module_load' in module '../../obs-plugins/64bit/libGLESv2.dll' not found, loading of module failed
+08:11:28.862: [browser_source: 'Version: 1.31.0']
+08:11:28.865: NVENC supported
+08:11:28.879: Couldn't find VLC installation, VLC video source disabled
+08:11:28.883: No blackmagic support
+08:11:28.889: ---------------------------------
+08:11:28.889:   Loaded Modules:
+08:11:28.889:     win-wasapi.dll
+08:11:28.889:     win-mf.dll
+08:11:28.889:     win-ivcam.dll
+08:11:28.889:     win-dshow.dll
+08:11:28.889:     win-decklink.dll
+08:11:28.889:     win-capture.dll
+08:11:28.889:     vlc-video.dll
+08:11:28.889:     text-freetype2.dll
+08:11:28.889:     rtmp-services.dll
+08:11:28.889:     obs-x264.dll
+08:11:28.889:     obs-vst.dll
+08:11:28.889:     obs-transitions.dll
+08:11:28.889:     obs-text.dll
+08:11:28.889:     obs-qsv11.dll
+08:11:28.889:     obs-outputs.dll
+08:11:28.889:     obs-filters.dll
+08:11:28.889:     obs-ffmpeg.dll
+08:11:28.889:     obs-browser.dll
+08:11:28.889:     image-source.dll
+08:11:28.889:     frontend-tools.dll
+08:11:28.889:     enc-amf.dll
+08:11:28.889:     coreaudio-encoder.dll
+08:11:28.889: ---------------------------------
+08:11:28.889: ==== Startup complete ===============================================
+08:11:28.889: Service '' not found
+08:11:28.892: No scene file found, creating default scene
+08:11:28.893: All scene data cleared
+08:11:28.893: ------------------------------------------------
+08:11:28.957: WASAPI: Device 'Speakers (Conexant SmartAudio HD)' initialized
+08:11:29.011: WASAPI: Device 'Microphone (Conexant SmartAudio HD)' initialized
+08:11:29.012: Switched to scene 'Scene'
+08:11:29.012: Failed to glob scene collections
+08:11:29.062: adding 69 milliseconds of audio buffering, total audio buffering is now 69 milliseconds
+08:11:38.843: 
+08:11:38.843: ==== Auto-config wizard testing commencing ======
+
+08:11:39.948: ---------------------------------
+08:11:39.948: video settings reset:
+08:11:39.948: 	base resolution:   1366x768
+08:11:39.948: 	output resolution: 908x512
+08:11:39.948: 	downscale filter:  Bicubic
+08:11:39.948: 	fps:               30/1
+08:11:39.948: 	format:            NV12
+08:11:39.948: 	YUV mode:          601/Partial
+08:11:39.951: 
+08:11:39.951: ==== Auto-config wizard testing stopping ========
+
+08:11:46.566: User added source 'Display Capture' (monitor_capture) to scene 'Scene'
+08:11:52.954: ---------------------------------
+08:11:52.954: [NVENC encoder: 'simple_h264_recording'] settings:
+08:11:52.954: 	rate_control: CQP
+08:11:52.954: 	bitrate:      0
+08:11:52.954: 	cqp:          19
+08:11:52.954: 	keyint:       250
+08:11:52.954: 	preset:       hq
+08:11:52.954: 	profile:      high
+08:11:52.954: 	level:        auto
+08:11:52.954: 	width:        908
+08:11:52.954: 	height:       512
+08:11:52.954: 	2-pass:       true
+08:11:52.954: 	b-frames:     2
+08:11:52.954: 	GPU:          0
+08:11:52.954: 
+08:11:53.329: [NVENC encoder: 'simple_h264_recording'] Failed to open NVENC codec: Generic error in an external library
+08:12:11.407: ---------------------------------
+08:12:11.407: [NVENC encoder: 'simple_h264_recording'] settings:
+08:12:11.407: 	rate_control: CQP
+08:12:11.407: 	bitrate:      0
+08:12:11.407: 	cqp:          19
+08:12:11.407: 	keyint:       250
+08:12:11.407: 	preset:       hq
+08:12:11.407: 	profile:      high
+08:12:11.407: 	level:        auto
+08:12:11.407: 	width:        908
+08:12:11.407: 	height:       512
+08:12:11.407: 	2-pass:       true
+08:12:11.407: 	b-frames:     2
+08:12:11.407: 	GPU:          0
+08:12:11.407: 
+08:12:11.498: [NVENC encoder: 'simple_h264_recording'] Failed to open NVENC codec: Generic error in an external library
