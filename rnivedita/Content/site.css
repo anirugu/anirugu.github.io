@@ -2,6 +2,133 @@
 @import url('https://fonts.googleapis.com/css?family=Product+Sans');
 body { font-family: 'Roboto', sans-serif; }
 
-header{max-width: 1280px; margin:0 auto;}
-#header-logo h1{font-family: Product Sans; text-transform: uppercase;
-font-size:21px;}
+header{
+    border-bottom: 1px solid #cfcfcf;
+    padding: 30px;
+}
+header .outer { 
+    padding:0px 16px;
+}
+
+header .outer .inner, .wrapper{max-width: 978px; margin:0 auto;}
+
+#header-logo h1{
+    color: rgba(0,0,0,.54);
+    display: inline-block;
+    font-size: 32px;
+    font-family: Roboto, sans-serif;
+    font-weight: normal;
+    line-height: 40px;
+    vertical-align: top;
+    margin: 0px;
+    text-transform: uppercase;
+    }
+    #header-logo h1:first-letter{
+        color:#4f8df5;
+        font-size:155%;
+    }
+    .main-wrapper{
+        float: left;
+        width: 100%;
+    }
+    .col-main{
+        margin-right: 278px;
+        max-width: 660px;
+    }
+    .post{
+        margin-top: 30px;
+        margin-bottom: 10px;
+        border-bottom: 1px dotted #E6E6E6;
+        padding-bottom: 20px;
+    }
+    .post .title{
+        margin:0px;
+    }
+    .post .title a{
+        font-weight: 700;
+        color: #4c4c4c;
+        color: rgba(0,0,0,.70);
+        line-height: 30px;
+    }
+    a, a:visited {
+        color: #4184F3;
+        text-decoration: none;
+    }
+
+    #main .post .title a:hover {
+        text-decoration: none;
+        color: #4184F3;
+    }
+    .post-header .publishdate {
+        font-size: 17px;
+        font-weight: normal;
+        color: #757575;
+        color: rgba(0,0,0,.54);
+    }
+
+    h1, h2, h3, h4, h5 {
+        line-height: 2em;
+    }
+    @media (max-width: 480px), (max-height: 480px){
+        .list-page .post-summary {
+            display: block;
+        }
+    }
+
+@media (max-width: 480px), (max-height: 480px){
+    .post .post-content {
+        line-height: 28px;
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 480px), (max-height: 480px){
+    .post-header .publishdate, .post .post-content {
+        font-size: 16px;
+    }
+}
+
+.post .post-content {
+    color: #212121;
+    color: rgba(0,0,0,.87);
+    font-size: 17px;
+    margin: 25px 0 36px 0;
+    line-height: 32px;
+}
+
+@media (max-width: 480px), (max-height: 480px){
+    .byline-author {
+        display: block;
+        font-size: 12px;
+        line-height: 24px;
+        margin-top: 6px;
+    }
+}
+.post-author, .byline-author {
+    font-size: 14px;
+    font-weight: normal;
+    color: #757575;
+    color: rgba(0,0,0,.54);
+}
+
+@media (max-width: 480px), (max-height: 480px){
+    .post .read-more {
+        display: block;
+        margin-top: 14px;
+    }
+}
+@media (max-width: 960px){
+header{
+    padding: 14px 0px;
+}
+.col-main{
+    width:100%;
+}
+.post{
+    padding-left: 10px;
+}
+br{
+    width:0px;
+    height: 0px;
+}
+}
