@@ -27,7 +27,11 @@ function setupEvents() {
         var text = $("#editor").val();
         var from = $("#from").val();
         var to = $("#to").val();
-
+        if (from == to) {
+            alert("Please choose different language");
+            return;
+        }
+        
         var url = "https://cxl-services.appspot.com/proxy?url=https%3A%2F%2Ftranslation.googleapis.com%2Flanguage%2Ftranslate%2Fv2%2F%3Fq%3D" + encodeURI(text)+"%26source%3D" + from + "%26target%3D" + to;
         $.get(url, function (res) {
             var result = res.data.translations[0].translatedText;
