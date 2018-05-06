@@ -1,0 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+body { font-family: 'Roboto', sans-serif; }
+.mt10 { margin-top: 10px; }
+.result-wrapper { width: 100%; min-height: 120px; }
+#rightcopy {position: absolute;width: 26px;height: 26px;right: 14px;padding: 0px;margin: 0px;}
+
+#from, #to { max-width: 150px; display: inline-block; }
+.result-wrapper {border: 1px solid #cfcfcf;padding: 5px 5px;border-radius: 3px;}
