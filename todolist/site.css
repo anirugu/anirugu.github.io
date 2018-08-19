@@ -1,15 +1,18 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
 body{
-    background:#c0c0c059;
-    /* font-family: 'Roboto', sans-serif; */
-    font:normal x-small verdana,arial,helvetica,sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
-h1{
-    font-size: initial;
+.topPart{
+    
 }
-.mdc-text-field--focused:not(.mdc-text-field--disabled) .mdc-floating-label{
-    color:black;
+#txtTask{
+    border:1px solid #cfcfcf;
+    border-radius:4px;
+   font-size:140%;
+    width:100%;
+    min-height: 50px;
 }
-#my-text-field{
-    margin:0 auto;
+#txtTask:focus{
+    outline:0;
 }

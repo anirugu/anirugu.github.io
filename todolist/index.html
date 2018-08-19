@@ -1,33 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Todo List</title>
-
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" rel="Stylesheet" type="text/css"
-    />
-    <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
-    <script src="script.js" type="text/javascript"></script>
-    <link href="site.css" rel="stylesheet" type="text/css" />
-</head>
-
-<body>
-    <h1>To do List</h1>
-    <div class="mdc-text-field" id="my-text-field">
-        <input type="text" class="mdc-text-field__input">
-        <label class="mdc-floating-label" for="my-text-field">Type your text here</label>
-        <div class="mdc-line-ripple"></div>
-    </div>
-
-    <ul class="mdc-list" id="task-lists" aria-orientation="vertical">
-        <li class="mdc-list-item">Single-line item</li>
-        <li class="mdc-list-item">Single-line item</li>
-        <li class="mdc-list-item">Single-line item</li>
-    </ul>
-</body>
-
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Todo List</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="script.js" type="text/javascript"></script>
+        <link href="site.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <div class="topPart">
+            <div class="txtTask-wrap">
+            <textarea id="txtTask" placeholder="Enter your current Task"></textarea>
+            </div>
+        </div>
+    </body>
 </html>
