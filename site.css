@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Lora|Unica+One');
+
+body {
+    font-family: 'Lora', serif;
+    font-size:19px;
+  }
+  .b
+  {
+      color:#268bd2;
+  }
+  a{
+text-transform: uppercase;
+display: inline-block;
+text-decoration: none;
+color:black;
+  }
+  a:hover{
+    text-decoration: underline;
+  }
+  .wrap{
+    font-weight: bold;
+    font-size: 21px;
+  }
+  .s{
+    text-decoration: line-through;
+  }
