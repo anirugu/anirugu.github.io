@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Poppins&display=swap');
+body{
+    font-family: 'Lato', sans-serif;
+}
+/* .top-menu li{
+ width:33.32%;
+} */
+.top-menu li a{
+    border-bottom: 1px solid red;
+    display: inline-block;
+}
+.top-menu li a:hover{
+    border-bottom: 3px solid black;
+}
+.anirudha{
+    font-family: 'Poppins', sans-serif;
+    
+}
+.hello{
+    margin-bottom: 0;
+margin-top: 0.3rem;
+}
+.name{
+font-size:150%;
+color:#35ADFF;
+}
+.anirudha kbd{
+    display: inline-block;
+    margin-top: 5px;
+}
+.anirudha kbd a{
+    color:white;
+}
