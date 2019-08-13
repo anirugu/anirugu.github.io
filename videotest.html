@@ -1,32 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang='en'>
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <meta http-equiv='X-UA-Compatible' content='ie=edge'>
     <title>Document</title>
 </head>
 
 <body>
-    <video src="big_buck_bunny.mp4"> </video>
-    <video src="echo-hereweare.mp4"> </video>
+    <video src='big_buck_bunny.mp4'> </video>
+    <video src='echo-hereweare.mp4'> </video>
     <script>
-
         var states = { play: 0, pause: 1 };
         var state = pause;
-
-        var videos = document.querySelectorAll("video");
+        var videos = document.querySelectorAll('video');
         videos.forEach(function (x) {
-            x.addEventListener("play", played());
+            x.addEventListener('play', played());
             x.addEventListener('pause', paused());
         });
-
         function played() {
             state= states.play;
+            alert("Played");
         }
         function paused() {
             state= states.pause;
+            alert("Paused");
         }
     </script>
 </body>
