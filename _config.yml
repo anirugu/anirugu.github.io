@@ -14,6 +14,8 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Ani Gupta's Blog
+
+repository: anirugu/anirudhagupta.com
 email:
 description: >- # this means to ignore newlines until "baseurl:"
   This is Ani Gupta's Blog. He write here about Azure, .Net, Cloud Computing etc.
