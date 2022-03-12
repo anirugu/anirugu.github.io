@@ -3,7 +3,7 @@ permalink: /about/
 title: "About"
 ---
 
-Hello Everyone, My name is Ani Gupta I am a software engineer.
+Hello Everyone, My name is Anirudha Gupta I am a software engineer.
 
 #### Certification
 
