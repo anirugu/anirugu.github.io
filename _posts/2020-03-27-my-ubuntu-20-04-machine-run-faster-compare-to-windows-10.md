@@ -1,3 +1,13 @@
+---
+title: "My ubuntu machine 20.04 is run faster compare to Windows 10"
+date: 2020-03-27T15:34:30-04:00
+categories:
+  - blog
+tags:
+  - Windows10
+  - Ubuntu
+---
+
 <p><div>From years I was using Windows. Windows 10 was good OS for use when you work with mostly dotnet kind of things. You have a best editor to use that is Visual Studio 2019.</div><div><br />
 </div><div>I was using my windows machine for docker and node kind of thing. Things goes terrible when docker got updated and I loose everything I pull from docker hub. I tried to use WSL2 (from insider iso). That thing look good but still not perfect. I am getting very small speed when I try to use my WSL software on windows machine (WSL allow you to use same CLI from linux on windows folder).<br />
 </div><div><br />
