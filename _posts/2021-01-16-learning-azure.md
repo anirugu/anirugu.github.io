@@ -11,6 +11,4 @@ tags:
 Hi everyone, In this post we will learn how we can practice the azure. Subscription is very vital to learn Azure. If you don't have one you can use [sandbox] [sandbox]
 
 
-.
-
 [sandbox]: /blog/Azure-Sandbox/
