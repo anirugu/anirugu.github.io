@@ -1,5 +1,5 @@
 ---
-title: "How Cnet Com Install Spyware In My Pc"
+title: "How CNET Installed Spyware on My PC"
 date: 2014-01-14T12:00:00-04:00
 categories:
   - blog
@@ -7,20 +7,20 @@ tags:
   - .NET
   - Chrome
 ---
-<p>CNET Is one of the worst service ever. Today when I installed the software through it because that software is not available anywhere on internet. I installed it. </p>
+CNET is one of the worst download services ever. Today, I downloaded a software installer from CNET because the tool wasn't hosted anywhere else on the internet.
 
-<p>After the installer open I run it there is no option that tell me that it install it anything on my PC. Maybe this design very cheaply to enter a spyware in someone’s computer. </p>
+When I ran the installer, it gave no indication that it would install additional software on my PC. The setup was likely designed to sneak spyware onto systems without the user's consent.
 
-<p>It’s install 2 spyware. First it’s download the EXE (which is correct as it should) then I close it. This is not closed. He still downloading the 2 spyware in my PC. </p>
+It installed two pieces of spyware. Initially, it downloaded the legitimate executable (which was expected), but even after I closed the installer window, it continued downloading the spyware in the background.
 
-<p>Then suddenly my Chrome crash. I amazed because I rarely got any crash. I never doing any experiments so what happen. Now After restart the chrome I restart the chrome. I am 100% sure something going wrong in my PC. I check the extensions in Chrome, Now It’s have a extension that I never have installed in my chrome.</p>
+Suddenly, Google Chrome crashed. I was surprised since Chrome rarely crashes on my system, and I wasn't running any experimental flags. After restarting Chrome, I knew something was wrong. I checked my active extensions and found one that I had never installed.
 
-<p>Suddenly another crash happen. Because 2nd crash I disabled that extension now I got another extension in my Chrome. I really don’t want these 2 extension without any reason. Now I disable it too. I finally check my Task manager and delete that exe (which cnet used to install something on my PC).</p>
+Shortly after, Chrome crashed a second time. I disabled the rogue extension, only to find another unexpected extension in my browser. I definitely did not want these. After disabling both, I opened Task Manager, located the installer executable CNET used, and terminated it.
 
-<p>Remember that CNET installing the CRAP spyware in your PC for Freeware which is freely available to user.</p>
+Be aware that CNET bundles bloatware and spyware with otherwise free software.
 
-<p>The same thing also happen with my one of <a href="http://sourceforge.net/" title="http://sourceforge.net/">http://sourceforge.net/</a> project. A site on internet make installer of my repository and distribute it on their own site. after run that kind of setup it’s install the spyware.</p>
+A similar issue happened with one of my SourceForge projects. A third-party website created a wrapper installer for my repository and distributed it on their site. Running that installer also attempted to install spyware.
 
-<p>Beware of site like this. CNET and many other install the spyware and that’s how they work. </p>
+Beware of download hubs like this. CNET and many similar wrapper installers bundle spyware to monetize their platforms.
 
-<p>Thanks for read my post <img src="/2014_01_14_how_cnet.com_install_spyware_Image1.png" alt="Smile" /></p>
+Thanks for reading my post! <img src="/2014_01_14_how_cnet.com_install_spyware_Image1.png" alt="Smile" />
