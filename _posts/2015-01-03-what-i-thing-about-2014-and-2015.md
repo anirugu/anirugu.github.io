@@ -1,5 +1,5 @@
 ---
-title: "What I Thing About 2014 And 2015"
+title: "What I Think About 2014 And 2015"
 date: 2015-01-03T12:00:00-04:00
 categories:
   - blog
@@ -15,50 +15,50 @@ tags:
   - Firefox
   - Windows
 ---
-<p>As a ASP.NET Developer when a C# developer meet another kind of developer (Ruby, PHP and anything else) than first thing we hate is </p>
+<p>As an ASP.NET and C# developer, when meeting developers working in other ecosystems (like Ruby or PHP), the first thing we often envy is their freedom of tools.</p>
 
-<p>He can choose any kind of IDE. He can use PHP in Sublime text and sublime text code are able to debug the PHP code. Many kind of gap between us and these people will be filled by Microsoft in upcoming years. </p>
+<p>They can choose any IDE they want. For instance, they can write PHP code in Sublime Text and debug it seamlessly. Fortunately, many of these gaps between us are being bridged by Microsoft's upcoming releases.</p>
 
-<p>Now we can write code in Sublime text that is about C# language. It’s not awesome as VS IDE experience.</p>
+<p>Now, we can write C# code in Sublime Text using OmniSharp, although the experience is not yet as full-featured as Visual Studio.</p>
 
-<p>In 2014 I don’t add too many bugs to connect.Microsoft.com , I thing that place need to be retired. That sound old thing that need more polish to get it worked. </p>
+<p>In 2014, I didn't submit too many bug reports to connect.microsoft.com; I think that platform needs to be retired. It feels like an outdated system that requires too much effort to work with.</p>
 
-<p>Many bugs that I posted in 2014 has been closed without any message. When I say how, Got response that it’s has been fixed. </p>
+<p>Many bugs that I submitted in 2014 were closed without any detailed feedback. When I asked about the resolution, I simply received a response stating that it had been fixed.</p>
 
-<p>So a bug that has been opened from 15, 30 days suddenly closed and got hear nothing before getting it closed. this kind of thing threat to the person who continuously find a bug that can improve the stability of software and found a various kind of changes that improve workflow. </p>
+<p>A bug report that has been open for 15 or 30 days is suddenly closed with no prior notification. This kind of experience can be discouraging for people who spend their time finding bugs to improve software stability and suggesting workflow enhancements.</p>
 
-<p>The Open-source software Like Firefox and other take bugs seriously. For Example Posting bugs to Firefox is better than for Visual studio. At-least dozen of people come and respond me that is not work directly for Mozilla but on connect.Microsoft.com I feel like I have gone to government place where nobody care or care less seriously.</p>
+<p>Open-source communities like Firefox take bug reports very seriously. For example, reporting issues to Firefox is a much better experience than to Visual Studio. At least a dozen community members, many of whom don't even work for Mozilla directly, jump in to help. On connect.microsoft.com, however, it feels like dealing with a slow government department where nobody seems to care.</p>
 
-<p>when Microsoft is releasing Community edition of Visual studio 2013 I thing to write a post here to mention that Visual studio express missing many features that should be available to a web-developer that is using Express version of Visual studio. They release it and I want to say “Thanks you for that”.</p>
+<p>When Microsoft released the Community edition of Visual Studio 2013, I wanted to write a post highlighting how the Express version was missing many critical features for web developers. When they finally launched the Community edition, all I wanted to say was, "Thank you for that!"</p>
 
-<p>In last year Microsoft open-source the .net Framework. If I thing clearly I didn’t get enough time to play with stuff released in 2014. What I hope is getting more active in community for ASP.NET MVC programming.</p>
+<p>Last year, Microsoft open-sourced the .NET Framework. Reflecting on it, I didn't get enough time to experiment with all the exciting things released in 2014. In 2015, I hope to become more active in the ASP.NET MVC community.</p>
 
-<p>In last days I hear that Microsoft going to going to kill IE. I have no wonder because IE is a software that mostly wastage of Time for web-developer. I hear from people who got there project late just because IE.</p>
+<p>Recently, I heard that Microsoft is planning to retire Internet Explorer. I am not surprised, as troubleshooting for IE is mostly a waste of time for web developers. I've heard of projects getting delayed solely due to IE compatibility issues.</p>
 
-<p>2 year ago I write this post <a href="http://geekswithblogs.net/anirugu/archive/2013/03/02/how-to-write-css-only-for-internet-explorer--10.aspx" title="http://geekswithblogs.net/anirugu/archive/2013/03/02/how-to-write-css-only-for-internet-explorer--10.aspx">http://geekswithblogs.net/anirugu/archive/2013/03/02/how-to-write-css-only-for-internet-explorer--10.aspx</a> and got too much traffic for just one thing that is broken in IE.</p>
+<p>Two years ago, I wrote <a href="http://geekswithblogs.net/anirugu/archive/2013/03/02/how-to-write-css-only-for-internet-explorer--10.aspx" title="How to write CSS only for Internet Explorer 10">this post</a> and received a significant amount of traffic just for addressing a single broken feature in IE.</p>
 
-<p>IE has 2 impact on web-developer’s life. One is they make money because of IE, This is skill that you can troubleshoot IE or not, secondly it’s bad when it’s make website not running in good way.</p>
+<p>IE has had two main impacts on a web developer's life. On one hand, it creates work opportunities if you have the specialized skill to troubleshoot it; on the other hand, it is incredibly frustrating when it prevents websites from rendering correctly.</p>
 
-<p>Forget it, I hope Microsoft will fix this trouble better. </p>
+<p>Regardless, I hope Microsoft's future solutions will handle this much better.</p>
 
-<p>2 year ago I bought Windows 8 phone Lumia 520 and it’s not running good as I expect. The hardware is good but software is crap. Yes, I hate it for many thing. I recently read on some blog that in future I can run android app in Windows phone. If it’s gone done it’s can be very good for Windows phone platform.</p>
+<p>Two years ago, I bought a Lumia 520 Windows Phone 8, and it did not perform as well as I had expected. While the hardware was decent, the software felt severely lacking, and I disliked many aspects of it. Recently, I read on a blog that users might be able to run Android apps on Windows Phones in the future. If that actually happens, it could be a game-changer for the Windows Phone platform.</p>
 
-<p><a href="http://www.bluestacks.com/" title="http://www.bluestacks.com/">http://www.bluestacks.com/</a> has done it already for Windows OS. if it’s come to Windows phone platform it will be best.</p>
+<p><a href="http://www.bluestacks.com/" title="http://www.bluestacks.com/">http://www.bluestacks.com/</a> has done it already for Windows OS. If it comes to the Windows Phone platform, that would be amazing.</p>
 
-<p>Few days ago Github has been blocked in India for they have ISIS content. Now Government has unblock the site. These thing will make no impact because If site is genuine then more people will come to protest.</p>
+<p>A few days ago, GitHub was briefly blocked in India due to concerns over hosting extremist content. Fortunately, the government has since unblocked the site. Such temporary blocks ultimately have little impact because when a service is essential, the community will naturally voice their protest.</p>
 
-<p>I read all over the internet that in future everything will become packages. The .net framework for Desktop programming will be different than the one who are used for web-programming. That thing sound cool.</p>
+<p>I have been reading that in the future, everything will be packaged and modularized. The .NET framework used for desktop development will be separate from the one used for web applications. That sounds like a very cool approach.</p>
 
-<p>Another cool thing will be Spartan that Is New Browser from Microsoft according to news over the internet. Let’s see how people take bugs in Spartan. As me I always ready to found bugs in everything (any kind of apps). It’s may doesn’t sound cool but help to make a software better.</p>
+<p>Another exciting development is Project Spartan, Microsoft's rumored new browser. I'm curious to see how they will handle bug reports for it. Personally, I am always on the lookout for bugs in any application I use. While finding bugs might not sound like the most glamorous hobby, it plays a vital role in making software better.</p>
 
-<p>So Maybe VS15 and Win10 will launch this year (if it’s not going late). As everything has been disclosed on internet nothing make any exclamation to people because everyone know earlier something about that.</p>
+<p>It looks like Visual Studio 2015 and Windows 10 are slated to launch this year. Since almost all details are already leaked or shared online, there are very few surprises left, as everyone has some prior knowledge about them.</p>
 
-<p>So only thing I need to focus in 2015 is ASP.NET programming to learn something better and be more productive. Yeah since VS community 2015 will be free ,I can fill more bugs to connect.microsoft.com This is my fantasy with Microsoft and I enjoy it. </p>
+<p>My primary goal for 2015 is to focus on ASP.NET development, improve my skills, and boost my productivity. Since Visual Studio Community 2015 will be completely free, I look forward to filing even more bugs on connect.microsoft.com. It is a peculiar hobby of mine, but I really enjoy it!</p>
 
-<p>I hope this year will be wonderful to everyone. </p>
+<p>I hope this year will be wonderful for everyone.</p>
 
-<p>Happy coding year 2015.</p>
+<p>Happy coding in 2015!</p>
 
-<p>Wish you a very happy new year,</p>
+<p>Wishing you all a very happy New Year!</p>
 
-<p>Don’t worry, I know today is 2015- Jan 3 and I am late. np <img src="/2015_01_03_what_i_thing_about_Image1.png" alt="Smile" /></p>
+<p>Don't worry, I know today is already January 3rd and I'm a bit late in posting this. No problem! <img src="/2015_01_03_what_i_thing_about_Image1.png" alt="Smile" /></p>

@@ -9,17 +9,17 @@ tags:
   - NuGet
   - Xamarin
 ---
-<p><div>Today I was busy working in one of WPF apps that I am holding from last few days. Everything is going on, I have made Release build 2 days ago 11 of July.</div><div><br />
-</div><div>Suddenly I need to give it to another person. I delete package and hand over and come back and change to release and compile. Boom, Compile Failed.</div><div><br />
-</div><div>Suddenly my first xaml file (Splash is also failed to work). It's happen in morning, Could be disaster because I just finished my work. I restore the package from Recycle bin but still nothing compiled.</div><div><br />
-</div><div>I first individually go to to my splash.xaml.cs and import all namespace. ( I am not sure how they gone by just change to Release). </div><div><br />
-</div><div>The problem in my case was</div><div><br />
-</div><div>Nuget.org Aka Nuget Gallery doesn't have any information about 103 version (2016). It's failed to restore from Nuget site. I see that it's also have reference in my .csproj file. I upgrade to 108 (which is latest but VS doesn't remove 103 from .csproj and not done anything). My project might have reference to 108 Sqlite dll but it's  referenced to 103. </div><div><br />
-</div><div>This means</div><div><br />
-</div><div>103 will not be copied to my executable directory since my package folder doesn't exist or empty or don't have that DLL. </div><div><br />
-</div><div>VS will not be able to help since they are not exist anymore, I am not sure what VS do internally, maybe it's assume that my reference are local from my system.</div><div><br />
-</div><div><strong>Fix</strong></div><div><em>*<br />
-*</em></div><div>I remove the 103 version by uninstall it, The bad thing is VS not remove 103 from .csproj (2 time mentioned in .csproj file). I opened my .csproj file and remove it manually.</div><div><br />
-</div><div>I install the 108 version of Sqlite in my WPF C# project and now everything work awesome. If you stuck in situation like this, Better have a old backup (or git repos something), Try to learn some .csproj file, It's helpful if you stuck in situation like this.</div><div><br />
-</div><div>Few days ago I stuck in xamarin issue that the code I compile (XAML,C#,UWP) is not match with the code I have, Later I got help from Nico on Stackoverflow on this issue and thing become running flawlessly.</div><div><br />
-</div><div>Here is the reference to that answer <a href="https://stackoverflow.com/a/51166764/713789">https://stackoverflow.com/a/51166764/713789</a></div></p>
+<p><div>Today, I was busy working on one of the WPF apps that I have been developing over the last few days. Everything was going fine; I had even made a Release build two days ago on the 11th of July.</div><div><br />
+</div><div>Suddenly, I needed to hand the project over to another developer. I deleted the package folder, handed over the code, came back, switched my build configuration to Release, and attempted to compile. Boom, the compile failed.</div><div><br />
+</div><div>Suddenly, my main XAML file (specifically the Splash screen) also failed to work. This happened in the morning and could have been a disaster since I had just finished my work. I restored the package folder from the Recycle Bin, but still, nothing would compile.</div><div><br />
+</div><div>At first, I went into `splash.xaml.cs` and manually imported all the required namespaces (I am not sure how they got removed just by switching to the Release configuration).</div><div><br />
+</div><div>The root cause in my case was:</div><div><br />
+</div><div>NuGet.org (the NuGet Gallery) did not have any information about version 1.0.3 (from 2016), causing the package restore from the NuGet site to fail. I noticed that the `.csproj` file still referenced version 1.0.3. I upgraded the package to version 1.0.8 (which is the latest version), but Visual Studio did not clean up the 1.0.3 reference from the `.csproj` file and failed to resolve it. Although my project was supposed to reference the 1.0.8 SQLite DLL, it was still pointing to version 1.0.3.</div><div><br />
+</div><div>This meant:</div><div><br />
+</div><div>Version 1.0.3 would not be copied to my output directory since the package folder was empty, missing, or did not contain that DLL.</div><div><br />
+</div><div>Visual Studio wasn't able to resolve this automatically because the package didn't exist anymore. I'm not sure how VS handles this internally; perhaps it assumed the reference was local on my system.</div><div><br />
+</div><div><strong>The Fix</strong></div><div><em>*<br />
+*</em></div><div>I uninstalled version 1.0.3. Unfortunately, Visual Studio did not remove the 1.0.3 reference from the `.csproj` file (where it was actually mentioned twice). I had to open the `.csproj` file in a text editor and remove the references manually.</div><div><br />
+</div><div>I then installed version 1.0.8 of SQLite in my WPF C# project, and now everything works beautifully. If you ever get stuck in a similar situation, it is always a good idea to keep a backup (or use a Git repository). Additionally, learning how `.csproj` files are structured is incredibly helpful when troubleshooting reference issues like this.</div><div><br />
+</div><div>A few days ago, I was stuck on a Xamarin issue where the compiled code (XAML, C#, UWP) did not match the code I actually had. Later, I got help from Nico on Stack Overflow, and everything started running flawlessly.</div><div><br />
+</div><div>Here is the reference to that helpful answer: <a href="https://stackoverflow.com/a/51166764/713789">https://stackoverflow.com/a/51166764/713789</a></div></p>

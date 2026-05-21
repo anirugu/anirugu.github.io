@@ -7,7 +7,7 @@ tags:
   - .NET
   - MVC
 ---
-From 2010 I was writing at [old blog][old-blog]. Everything was going good. Time by time I see a lot of issue coming on site. One day site goes down and never come back online. So I moved everything here. Lots of thing I write decade ago doesn't make sense today. For example MVC3,4,5,IE7, Pingback, Trackback etc. Since I have the backup I have restored it here. If you like you can read those thing.
+Since 2010, I have been writing at my [old blog][old-blog]. Everything was going well. However, over time, I began to see a lot of issues appearing on the site. One day, the site went down and never came back online. Consequently, I moved everything here. A lot of the things I wrote a decade ago don't make much sense today—for example, topics like MVC 3, 4, 5, IE7, pingbacks, and trackbacks. Since I had a backup, I have restored them here. If you'd like, you are welcome to read them.
 
 
 [old-blog]: http://geekswithblogs.net/anirugu
