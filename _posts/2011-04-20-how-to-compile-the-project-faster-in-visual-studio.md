@@ -6,14 +6,16 @@ categories:
 tags:
   - Visual-Studio
 ---
-<p><strong>UPDATED 13 January 2013</strong></p>
+**UPDATED: 13 January 2013**
 
-<p><em>This post is written at a time of Visual studio 2010.</em></p>
+*Note: This post was originally written during the Visual Studio 2010 era, but the concepts still apply.*
 
-<hr />
+***
 
-<p>In Visual studio When you compile your project You compile every project under the same solution. For make fast resolution you can compile only the project that you are working on now. Exclude the project from debug which you currently not working on.</p>
+By default, when you compile your solution in Visual Studio, it compiles every single project contained within that solution. This can be incredibly time-consuming for large enterprise solutions. 
 
-<p>Here is some great discussion on SO</p>
+To speed up your build times significantly, you should only compile the specific projects you are currently working on. You can do this by opening the **Configuration Manager** and unchecking the "Build" checkbox for any projects that you don't need to debug or that haven't changed.
 
-<p><a href="http://stackoverflow.com/questions/14316591/compile-speed-visual-studio" title="http://stackoverflow.com/questions/14316591/compile-speed-visual-studio">http://stackoverflow.com/questions/14316591/compile-speed-visual-studio</a></p>
+For a more in-depth discussion on improving Visual Studio compile speeds, check out this excellent thread on Stack Overflow:
+
+[Compile Speed in Visual Studio](http://stackoverflow.com/questions/14316591/compile-speed-visual-studio)

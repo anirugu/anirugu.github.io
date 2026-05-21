@@ -1,5 +1,5 @@
 ---
-title: "Visual Studio 2015 Update 1 Bug Ldquoan Error Was Encountered During Code Genera"
+title: "Visual Studio 2015 Update 1 Bug \u201cAn Error Was Encountered During Code Genera\u201d"
 date: 2016-01-12T12:00:00-04:00
 categories:
   - blog

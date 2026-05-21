@@ -9,24 +9,22 @@ tags:
   - HTML
   - CSS
 ---
-<p>Few months ago I am looking for a editor to doing simply edit on html,css,javascript. Before it I tried notepad++ which is quite awesome to do all works I want to get done with him. I choose 2 editor on my list.</p>
+A few months ago, I started looking for a lightweight editor specifically for writing HTML, CSS, and JavaScript. Prior to this, I primarily used Notepad++, which was fantastic for getting the job done. However, I wanted to explore more modern alternatives, so I narrowed my choices down to two editors: Sublime Text and PhpStorm. 
 
-<p>first is sublime text and second is phpstorm. both are cross-plateform. I tried both and both is working fine. I finally go with sublime text 2.</p>
+Both are cross-platform, and both performed well during my trials. Ultimately, I decided to go with Sublime Text 2. 
 
-<p>Here is the reason why sublime text 2 is awesome.</p>
+Here is why Sublime Text 2 stands out to me:
 
-<p>phpstorm and sublime text 2 both is licensed software. In sublime text 2 you can use it for unlimited time when phpstorm is available for 30 days only.</p>
+First, the licensing model is extremely flexible. While both PhpStorm and Sublime Text 2 are licensed software, Sublime Text offers an unlimited evaluation period. PhpStorm restricts you to a strict 30-day trial.
 
-<p>Sublime text 2 is very memory efficient and lightweight software this is first thing people found best in sublime text 2. in phpstorm problem for me is sometime it’s goes unresponsive when I tried html5 boilerplate. sublime text 2 is never hang depend on memory size of project compare to phpstorm.</p>
+Second, Sublime Text 2 is incredibly memory-efficient and lightweight. This is often the first thing people praise about it. In my experience with PhpStorm, the editor would occasionally become unresponsive when I loaded up heavy templates like the HTML5 Boilerplate. In contrast, Sublime Text 2 never hangs, regardless of the project's memory size.
 
-<p>in Sublime text 2 you can got better speed at coding after learning some shortcut and basic thing applied specially sublime text 2. Sublime text 2 come with distraction free mode when phpstorm have nothing with full-screen.</p>
+Third, Sublime Text 2 dramatically increases your coding speed once you learn its core keyboard shortcuts. It also includes an excellent Distraction Free Mode, which hides the UI chrome so you can focus entirely on the code—something PhpStorm lacked natively at the time.
 
-<p>Sublime text 2 support almost every language. I have seen many people in community who has move from their PHP IDE to sublime text 2. You can use LESS and coffeescript in it. There are many kind of customization out in github regarding sublime text 2.</p>
+Finally, Sublime Text 2 supports almost every programming language out of the box. I've seen many developers in the community transition from dedicated PHP IDEs directly to Sublime Text. It also supports modern tooling like LESS and CoffeeScript, and there is a massive ecosystem of open-source plugins and customizations available on GitHub.
 
-<p>In past I also have also tried webmatrix. the latest version of webmatrix have nothing good as sublime text 2. Sublime text 2 is best fit for my requirement. </p>
+In the past, I also tried Microsoft WebMatrix. However, even the latest versions of WebMatrix couldn't compete with the speed and flexibility of Sublime Text. For my specific requirements, Sublime Text 2 is the absolute best fit.
 
-<p>[oops, their is some grammatical mistake done in this post.Sorry for it, I will update it in my free time.]</p>
+If you are looking for a fast, solid, and reliable text editor to learn new technologies, I highly recommend giving Sublime Text 2 a try. You can download it directly from [sublimetext.com](http://www.sublimetext.com/).
 
-<p>So cheers, people should tried once Sublime text 2 if they are look for a solid tool for learning new things. sublime text 2 can be downloaded from <a href="http://www.sublimetext.com/" title="http://www.sublimetext.com/">http://www.sublimetext.com/</a>.</p>
-
-<p>Thanks for reading my post.</p>
+Thanks for reading!

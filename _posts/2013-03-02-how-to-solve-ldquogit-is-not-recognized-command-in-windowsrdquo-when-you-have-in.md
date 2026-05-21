@@ -1,19 +1,33 @@
 ---
-title: "How To Solve Ldquogit Is Not Recognized Command In Windowsrdquo When You Have In"
+title: "How To Solve \u201cgit Is Not Recognized Command In Windows\u201d When You Have In"
 date: 2013-03-02T12:00:00-04:00
 categories:
   - blog
 tags:
   - Windows
 ---
-<p>If you have installed Github for Windows and still got trouble when you tried to running command on CMD then here is a sollution to trouble.</p>
+If you have installed **GitHub for Windows** but still get a `'git' is not recognized as an internal or external command` error when running git commands in CMD, it is because the git executable's location hasn't been added to your system's `PATH` variable.
 
-<p>Open this C:\Users\myusername\AppData\Local\GitHub\PortableGit_93e8418133eb85e81a81e5e19c272776524496c6\libexec\git-core in your windows explorer. Now copy this path.</p>
+### Fix: Add Git to Your System PATH
 
-<p>Now go to Start –> Edit environment variable > search the System Variable “path” Edit the value. Add ; and the path you have just copied. Now you can run git commands on Cmd.</p>
+1. Open **Windows Explorer** and navigate to the GitHub for Windows portable git installation. The path typically looks like:
+   `C:\Users\myusername\AppData\Local\GitHub\PortableGit_93e8418133eb85e81a81e5e19c272776524496c6\libexec\git-core`
+   *(The hash in the folder name will differ on your machine.)*
 
-<p>If you still have trouble that some DLL is missing then download Git from <a href="http://git-scm.com/" title="http://git-scm.com/">http://git-scm.com/</a> </p>
+2. Copy this full path.
 
-<p>Now after installing this you can Follow <a href="http://stackoverflow.com/questions/3431361/git-for-windows-the-program-cant-start-because-libiconv2-dll-is-missing" title="http://stackoverflow.com/questions/3431361/git-for-windows-the-program-cant-start-because-libiconv2-dll-is-missing">http://stackoverflow.com/questions/3431361/git-for-windows-the-program-cant-start-because-libiconv2-dll-is-missing</a> to solve the issue for missing DLL. </p>
+3. Go to **Start > Search for "Edit the system environment variables"** and open it.
 
-<p>Thanks for read my post</p>
+4. Under **System Variables**, find the `Path` variable and click **Edit**.
+
+5. Append a semicolon (`;`) followed by the path you just copied to the end of the existing value, then click **OK**.
+
+6. Open a new CMD window and run `git --version` to verify it works.
+
+### Still Getting a Missing DLL Error?
+
+If you see an error about a missing DLL (such as `libiconv2.dll`), the GitHub for Windows portable git installation may be incomplete. In that case, download and install the full standalone Git client from [git-scm.com](http://git-scm.com/) and add its `bin` folder to your PATH instead.
+
+For more details on resolving the missing DLL issue, see this [Stack Overflow answer](http://stackoverflow.com/questions/3431361/git-for-windows-the-program-cant-start-because-libiconv2-dll-is-missing).
+
+Thanks for reading!

@@ -8,23 +8,23 @@ tags:
   - PHP
   - ASP.NET
 ---
-<p>This post is obsolete. Read New post <a href="http://geekswithblogs.net/anirugu/archive/2012/11/13/how-to-run-php-in-webmatrix-updated.aspx">How to run PHP in Webmatrix (updated) ?</a> regarding same topic.</p>
+> [!NOTE]
+> This post is now outdated. Please read the updated post instead: [How to Run PHP in WebMatrix (Updated)](/blog/how-to-run-php-in-webmatrix-updated/).
 
-<p>Do you have tried running PHP application in webmatrix. You can run them as well your ASP.NET application.</p>
+Have you tried running a PHP application inside WebMatrix? It is actually quite straightforward—WebMatrix can host PHP applications just as easily as ASP.NET applications using IIS Express under the hood.
 
-<p>Here is two solution for you if you are unable to run your own PHP application on your computer.</p>
+If you are having trouble getting your PHP application to run, here are two things to check:
 
-<ol>
-<li><p>try to check <em>*C:\Program Files (x86)\IIS Express\PHP/V *</em>if you are unable to find this directory then it's means you don't have install PHP for webmatrix. You need to install them through Web plateform installer.</p></li>
-<li><p>If first option is OK for you and you are still not able to run your own application then check that if you are enable PHP or not for your website.</p></li>
-</ol>
+1. **Verify that PHP is installed for WebMatrix.**
+   Check whether the directory `C:\Program Files (x86)\IIS Express\PHP\` exists on your machine. If it doesn't, it means PHP has not been installed for WebMatrix yet. You can install it easily using the **Web Platform Installer (WPI)**.
 
-<p>for checking go to Site > Settings > PHP settings. Check the checkbox and it's will run your php application.</p>
+2. **Verify that PHP is enabled for your site.**
+   Even if PHP is installed globally, it must be explicitly enabled per website in WebMatrix. If you have confirmed PHP is installed but your application still won't run, the site-level PHP setting is the most likely culprit. Check the next step.
 
-<p><strong>Updates</strong>:-</p>
+To enable PHP for your site, go to **Site > Settings > PHP Settings** in WebMatrix and check the checkbox to enable PHP for that specific website.
 
-<p>Brian's post on <a href="http://blogs.msdn.com/b/brian_swan/archive/2010/07/12/creating-php-websites-with-webmatrix.aspx">creating PHP websites in webmatrix</a>   </p>
+**Additional Resources:**
+- [Creating PHP Websites with WebMatrix](http://blogs.msdn.com/b/brian_swan/archive/2010/07/12/creating-php-websites-with-webmatrix.aspx) — by Brian Swan
+- [How to Enable Xdebug in WebMatrix](http://ruslany.net/2011/02/how-to-enable-xdebug-in-webmatrix/) — by RuslanY
 
-<p>RuslanY's post on  <a href="http://ruslany.net/2011/02/how-to-enable-xdebug-in-webmatrix/">How to enable Xdebug in WebMatrix</a>  </p>
-
-<p>Thanks</p>
+Thanks!

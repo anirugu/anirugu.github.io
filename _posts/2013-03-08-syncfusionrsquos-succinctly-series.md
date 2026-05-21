@@ -1,5 +1,5 @@
 ---
-title: "Syncfusionrsquos Succinctly Series"
+title: "Syncfusion's Succinctly Series"
 date: 2013-03-08T12:00:00-04:00
 categories:
   - blog

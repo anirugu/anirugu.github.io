@@ -7,20 +7,31 @@ tags:
   - Firefox
   - Windows
 ---
-<p>How to install the multiple version of Firefox here i show you some great thing who can help you to setup fx multiple version in your own system.</p>
+In this post, I will show you how to install and run multiple versions of Firefox simultaneously on the same system without encountering profile conflicts or plug-in incompatibilities.
 
-<p>you need to know that when you run the setup he just override the installed Firefox so you need to install the Fx in two different directories by making a custom installation.</p>
+The first thing to understand is that the standard Firefox installer will overwrite any existing Firefox installation on your machine. To prevent this, you must choose **Custom Installation** during the setup process and install the new version into a completely different directory.
 
-<p>plug-in incompatibility is a big trouble user found and a another things is that Firefox every time check for computable version when another version of Firefox you trying to run who not match which version of Firefox you run last time. for troubleshooting both kind of problem you need to setup profile for every version of Firefox.</p>
+However, just separating the installation directories isn't enough. When you run a different version of Firefox, it will attempt to use your default user profile. This leads to two major problems: plug-in incompatibility errors, and constant compatibility checks triggered whenever the browser detects a version mismatch from your last session. 
 
-<p>for setting profile you need to run firefox.exe –P after closing all instance of Firefox. by running this you found the windows who help you to make new profile. in the windows you find a existing profile default who you currently have.</p>
+To solve these issues, you need to set up a dedicated profile for each version of Firefox.
 
-<p>after making a profile you need to attach the profile with Firefox seprately then their is no problem come when two version of Firefox you run in your system. now i show you you how to attach the profile in Firefox</p>
+### How to Create a Dedicated Firefox Profile
 
-<p>open the firefox shortcut properties and put their</p>
+1. Close all active instances of Firefox.
+2. Open the Windows Run dialog (`Win + R`) and run the command: `firefox.exe -P`
+3. This opens the Firefox Profile Manager. Here, you will see your existing `default` profile. Click **Create Profile** to make a new one (for example, name it "Firefox 4").
 
-<p>"C:\Program Files (x86)\Mozilla Firefox\firefox.exe" -P "Firefox 4"</p>
+### How to Link a Profile to a Specific Firefox Version
 
-<p>C:\Program Files (x86)\Mozilla Firefox\firefox.exe" is a url of executable and -P "Firefox 4" is argument who run the Firefox in a profile we want to use. in this example i put "Firefox 4" because profile name is Firefox 4.</p>
+Once you have created the new profile, you need to instruct the specific version of Firefox to always launch using that profile.
 
-<p>using this trick we can use multiple version of Firefox with no problem of plug-in incompatible</p>
+1. Locate the desktop shortcut for your newly installed version of Firefox.
+2. Right-click the shortcut and select **Properties**.
+3. In the **Target** field, append `-P "YourProfileName"` to the end of the executable path.
+
+It should look something like this:
+`"C:\Program Files (x86)\Mozilla Firefox\firefox.exe" -P "Firefox 4"`
+
+In this example, `"C:\Program Files (x86)\Mozilla Firefox\firefox.exe"` is the path to the executable, and `-P "Firefox 4"` is the command-line argument that forces Firefox to launch using the "Firefox 4" profile we just created.
+
+By using this trick, you can safely run multiple versions of Firefox side-by-side with absolutely no plug-in incompatibility issues!

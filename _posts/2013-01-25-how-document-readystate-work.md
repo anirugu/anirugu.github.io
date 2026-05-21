@@ -7,14 +7,25 @@ tags:
   - JavaScript
   - HTML
 ---
-<p>in javascript we can use document.readyState to know the state of page.</p>
+In JavaScript, you can use `document.readyState` to check the current loading state of the page. This is particularly useful when you need to conditionally run code depending on how far along the page load process is.
 
-<p>Some state of page is </p>
+### Possible States
 
-<p>“loading” :- when page is still loading and script is executed.</p>
+| State | Description |
+|---|---|
+| `"loading"` | The page is still loading and the script is being executed before all resources are available. |
+| `"interactive"` | The HTML document has been fully parsed, but sub-resources such as images and stylesheets may still be loading. |
+| `"complete"` | The page and all its sub-resources are fully loaded. |
 
-<p>“interactive” :- when page is finished parsing but still loading sub-resources.</p>
+### Example Usage
 
-<p>“completed” :- page is completely loaded.</p>
+```javascript
+document.onreadystatechange = function() {
+    if (document.readyState === "complete") {
+        // Safe to interact with all page elements
+        console.log("Page fully loaded!");
+    }
+};
+```
 
-<p>check a little demo at <a href="http://f1beta.com/demo/document.readyState.html">http://f1beta.com/demo/document.readyState.html</a></p>
+This is essentially what jQuery's `$(document).ready()` is built on under the hood. Using `document.readyState` directly gives you more fine-grained control without a framework dependency.

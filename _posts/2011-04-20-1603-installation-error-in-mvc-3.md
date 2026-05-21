@@ -9,23 +9,34 @@ tags:
   - MVC
   - ASP.NET
 ---
-<p>When a user tries to install MVC 3 using the Microsoft Web Platform Installer (WPI), they might receive a message indicating that MVC 3 and some other components have been installed successfully. However, when they open the WPI again, they are presented with the option to add those same components again. This indicates that they were not installed successfully or that an error occurred in the WPI.</p>
-<p><strong>So, how can you install MVC 3 if you get error 1603, your system is unable to run the setup, or an error occurs during the installation?</strong></p>
-<p>To install MVC 3, run the WPI again, select the option for MVC 3, and click the "Install" button. A new window will appear showing the executable's location on the server. You can download the setup from this location or directly from the official Microsoft website.</p>
-<p>When you try to run the setup, it will likely fail. However, there is a trick to install MVC 3 indirectly.</p>
-<p>When you run the setup and receive an error message stating that the setup did not succeed, open the log file in your browser. At the bottom, you will see an error code 1603 indicating an issue during the MVC 3 installation. Do not close the setup window; just ignore it.</p>
-<p><em>Note:</em> If you close the setup window, all the temporary files extracted to your system for the MVC 3 installation will be deleted, so it is crucial not to close it.</p>
-<p>While the setup is still open, navigate to your temporary folder (often <code>%temp%</code> or <code>C:\temp</code>) and you will find multiple executables. Run these setups individually to install them on your system. These executables include:</p>
-<ul>
-  <li>ASP.NET MVC 3 (Required for MVC 3 to work on your system)</li>
-  <li>ASP.NET MVC 3 for Visual Studio Tools (Optional, for users with Visual Studio installed)</li>
-  <li>ASP.NET MVC 3 for VWD Tools (Optional, for users with Visual Web Developer installed)</li>
-  <li>ASP.NET Web Pages (Required for ASP.NET Web Pages to work on your system)</li>
-  <li>ASP.NET Web Pages for Visual Studio Tools (Optional, for users with Visual Studio installed)</li>
-  <li>ASP.NET Web Pages for VWD Tools (Optional, for users with Visual Web Developer installed)</li>
-</ul>
-<p><em>Note:</em> There is no harm in running the optional executables. If you install Visual Web Developer (VWD) in the future, you won't need to install the MVC 3 tools again.</p>
-<p>During the installation, ensure that Visual Studio and VWD are closed. Running them might prevent the MVC 3 executables from installing properly. Also, avoid running any executables with "KB" in their names, as they are updates rather than the main setup files. Running them may result in the same error you received initially. Additionally, if you run the original setup executable again, it will roll back everything, so be careful.</p>
-<p>After installing the extracted executables, and before closing the original setup window, open Visual Studio or VWD to verify that MVC 3 is now working. Once confirmed, you can safely close the initial setup window that showed the "setup did not succeed" message. Although the main setup failed, the manual installation of the components will allow MVC 3 to work on your system.</p>
+When attempting to install MVC 3 via the Microsoft Web Platform Installer (WPI), you might see a message stating that MVC 3 and other components installed successfully. However, reopening WPI may prompt you to install those exact same components again. This loop typically indicates a silent failure or a hidden error within WPI.
 
+**How can you successfully install MVC 3 if you encounter Error 1603, your system fails to run the setup, or an installation error persists?**
+
+First, try running WPI again. Select the MVC 3 option and click **Install**. A window should appear displaying the executable's location on the server. You can download the setup directly from this location or from the official Microsoft website.
+
+When you run this downloaded setup, it will likely still fail—but this failure is actually the key to a workaround.
+
+When the setup fails and displays a "setup did not succeed" error message, open the provided log file in your browser. Scroll to the bottom to verify that it shows **Error Code 1603**, which points to a specific issue with the MVC 3 installation. 
+
+> [!WARNING]
+> Do **not** close the failed setup window. If you close it, Windows will automatically delete all the temporary files extracted for the installation, which we need for the workaround.
+
+While the failed setup window is still open, navigate to your temporary folder (usually `%temp%` or `C:\temp`). Inside, you will find several extracted executable files. You must run these executables individually to install the components manually:
+
+- **ASP.NET MVC 3**: Required for MVC 3 core functionality.
+- **ASP.NET MVC 3 for Visual Studio Tools**: Optional, but recommended if you have Visual Studio installed.
+- **ASP.NET MVC 3 for VWD Tools**: Optional, for users with Visual Web Developer installed.
+- **ASP.NET Web Pages**: Required for ASP.NET Web Pages functionality.
+- **ASP.NET Web Pages for Visual Studio Tools**: Optional.
+- **ASP.NET Web Pages for VWD Tools**: Optional.
+
+*Note:* There is no harm in installing the optional executables. If you install Visual Web Developer (VWD) later, you won't have to install the MVC 3 tools again.
+
+**Crucial Installation Tips:**
+- Ensure Visual Studio and VWD are completely closed. Having them open can lock files and prevent the executables from installing properly.
+- Do not run any executables that have "KB" in their filename. These are updates, not the main setup files, and running them may trigger the same Error 1603.
+- Do not re-run the original main setup executable, as it will trigger a rollback of everything you just manually installed.
+
+After you have manually installed the extracted executables, open Visual Studio or VWD to verify that MVC 3 is functioning correctly. Once you confirm it works, you can finally close the original setup window that displayed the failure message. Even though the main setup failed, your manual installation of its extracted components will allow MVC 3 to run perfectly on your system.
 <p>This is an alternative method to install MVC 3 when the standard installation process fails.</p>

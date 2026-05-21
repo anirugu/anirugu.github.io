@@ -9,20 +9,20 @@ tags:
   - MVC
   - ASP.NET
 ---
-<p>In this post i show you how you can migrate your existing project to MVC4 and make compitable for vnext.</p>
+In this post, I will show you how to migrate an existing ASP.NET MVC 3 project to MVC 4, and how to make it compatible with the next generation of Visual Studio tools (referred to here as "vNext", which was the pre-release codename for Visual Studio 2012).
 
-<p>for visual studio 2010 you can install the MVC4 in your own system through WPI</p>
+### Migrating to MVC 4 in Visual Studio 2010
 
-<p>for migrating the project see the reference </p>
+For Visual Studio 2010, you can install MVC 4 on your system using the **Microsoft Web Platform Installer (WPI)**. After installing it, follow the official migration guide from the ASP.NET team to upgrade your project's references and configuration files:
 
-<p><a href="http://www.asp.net/learn/whitepapers/mvc4-release-notes#_Toc303253806">http://www.asp.net/learn/whitepapers/mvc4-release-notes#_Toc303253806</a></p>
+- [ASP.NET MVC 4 Release Notes – Upgrading from MVC 3](http://www.asp.net/learn/whitepapers/mvc4-release-notes#_Toc303253806)
 
-<p><strong>for vnext</strong></p>
+### MVC 3 Support in Visual Studio 2012 (vNext)
 
-<p>visual studio 2011 not working with MVC3 project without installing MVC3 for it (vnext). for getting MVC3 in Vnext get the setup from here. this can provide support for MVC3 in Vnext</p>
+Visual Studio 2012 (vNext) does not support MVC 3 projects out of the box. To open and work with MVC 3 projects in vNext, you need to install the **ASP.NET MVC 3 tooling update**:
 
-<p><a href="http://www.microsoft.com/download/en/details.aspx?id=1491">http://www.microsoft.com/download/en/details.aspx?id=1491</a> </p>
+- [Download ASP.NET MVC 3 Tooling Update](http://www.microsoft.com/download/en/details.aspx?id=1491)
 
-<p>for getting Microsoft web plateform</p>
+If you don't have the Web Platform Installer yet, you can download it here:
 
-<p><a href="http://www.microsoft.com/web/downloads/platform.aspx">http://www.microsoft.com/web/downloads/platform.aspx</a></p>
+- [Download Microsoft Web Platform Installer](http://www.microsoft.com/web/downloads/platform.aspx)

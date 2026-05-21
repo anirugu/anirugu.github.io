@@ -1,5 +1,5 @@
 ---
-title: "Meizursquos Worst Phone Quality"
+title: "Meizu's Worst Phone Quality"
 date: 2016-08-13T12:00:00-04:00
 categories:
   - blog

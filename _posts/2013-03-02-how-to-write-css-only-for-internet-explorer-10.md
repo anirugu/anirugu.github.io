@@ -10,46 +10,50 @@ tags:
   - Firefox
   - Windows
 ---
-<p>Recently I hear about IE 10 launch for windows 7. It’s sound pretty good to me. I have check if this have something good for me as a designer’s prospective. I start checking the code that is break in Ie9 or old browser. I found this code still not work in IE10 for me . Same way code work without any issue in Firefox and Chrome perfectly.</p>
+When IE 10 launched for Windows 7, I started investigating what had changed from a web developer's perspective. I noticed that some CSS code that broke in IE 9 still wasn't rendering correctly in IE 10, even though the same code worked perfectly in Firefox and Chrome.
 
-<p>So all I want is writing Custom CSS for IE browser. Unfortunately it will not work In IE10. Microsoft have removed this feature in Ie10 see <a href="http://blogs.msdn.com/b/ie/archive/2011/07/06/html5-parsing-in-ie10.aspx">link1</a> <a href="http://msdn.microsoft.com/en-us/library/ms537512(v=VS.85).aspx">link2</a> This means the code I have written for legacy support doesn’t work in Ie10.</p>
+My first instinct was to apply IE-specific CSS using the classic **conditional comments** approach:
 
-<p>This means this code will no longer work in IE10</p>
+```html
+<!--[if IE]>
+  <link rel="stylesheet" href="assets/ie.css">
+<![endif]-->
+```
 
-<p><!–[if IE]><br />
- <link rel=”stylesheet” href=”assets/ie.css”><br />
- <![endif]—></p>
+However, **Microsoft removed conditional comment support in IE 10**. This means the CSS hack that worked for all previous versions of IE will simply be ignored by IE 10. See the official references: [link1](http://blogs.msdn.com/b/ie/archive/2011/07/06/html5-parsing-in-ie10.aspx) and [link2](http://msdn.microsoft.com/en-us/library/ms537512(v=VS.85).aspx).
 
-<p>if you tried to use trick like jQuery.browser() then after jQuery 1.9 it’s no longer work too. see jQuery <a href="http://jquery.com/upgrade-guide/1.9/#jquery-browser-removed">upgrade guide</a></p>
+Additionally, if you were relying on `jQuery.browser()` for browser detection, note that it was **removed in jQuery 1.9**. See the [jQuery 1.9 Upgrade Guide](http://jquery.com/upgrade-guide/1.9/#jquery-browser-removed) for details.
 
-<p>script from <a href="http://www.impressivewebs.com/ie10-css-hacks/" title="http://www.impressivewebs.com/ie10-css-hacks/">http://www.impressivewebs.com/ie10-css-hacks/</a></p>
+### The Workaround: CSS Conditional Compilation
 
-<p><!–[if !IE]><!–<script><br />
-if (/<em>@cc_on!@</em>/false) {<br />
- document.documentElement.className+=’ ie10′;<br />
-}<br />
-</script><!–<![endif]—></p>
+A technique that works in IE 10 is to use **JScript conditional compilation** to detect IE and dynamically add a class to the `<html>` element. Credit to the approach from [impressivewebs.com](http://www.impressivewebs.com/ie10-css-hacks/):
 
-<p>Will not work. But you can use this code by remove comments and direct run the code without comments. Write above code this way.</p>
+```javascript
+if (/*@cc_on!@*/false) {
+    document.documentElement.className += ' ie10';
+}
+```
 
-<script>   
-if (/*@cc_on!@*/false) {   
- document.documentElement.className+=’ ie10′;   
-}   
-</script>
+This adds an `ie10` class to the root `<html>` element in IE 10 only, allowing you to scope styles specifically to it:
 
-<p>Now you have class ie10 on your web-pages’s html tag. Now when you write Css you can write custom css for Ie10 this way. This will only work in Ie10</p>
+```css
+.ie10 .my-element {
+    /* IE 10-only CSS fix */
+}
+```
 
-<p><strong>UPDATE 17 MARCH</strong></p>
+---
 
-<p>There is no need to add extra class .ie10 for Ie10. Because we need to run the ie.css in IE10 as what we do for earlier version. adding Ie.css dynamically is enough to solve this issue.</p>
+**UPDATE: 17 March**
 
-<p><script><br />
-if (/<em>@cc_on!@</em>/false) {<br />
- var headHTML = document.getElementsByTagName(‘head’)[0].innerHTML;<br />
-headHTML += ‘<link type=”text/css” rel=”stylesheet” href=”assets/ie.css”>’;<br />
-document.getElementsByTagName(‘head’)[0].innerHTML = headHTML;<br />
-}<br />
-</script></p>
+There is actually no need to add a custom `ie10` class at all if your only goal is to load an IE-specific stylesheet. A simpler approach is to dynamically inject `ie.css` into the `<head>` using the same conditional compilation trick:
 
-<p>This code will add ie.css in Ie10. Cheers</p>
+```javascript
+if (/*@cc_on!@*/false) {
+    var headHTML = document.getElementsByTagName('head')[0].innerHTML;
+    headHTML += '<link type="text/css" rel="stylesheet" href="assets/ie.css">';
+    document.getElementsByTagName('head')[0].innerHTML = headHTML;
+}
+```
+
+This will inject `ie.css` directly into the `<head>` of the document in IE 10. Cheers!

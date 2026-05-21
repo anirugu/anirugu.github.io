@@ -9,18 +9,23 @@ tags:
   - NuGet
   - ASP.NET
 ---
-<p><strong>UPDATED 6 JAN 14</strong></p>
+**UPDATED: 6 JAN 14**
 
-<p>In last days I Installed MVC 3 update in my PC. Today I got chance to take a look on MVC 3. I create a sample project and see a kind of problem “Nuget is not installed or out of date”.</p>
+Recently, I installed the MVC 3 update on my PC. Today, I finally got the chance to take a look at it. I created a sample project but immediately ran into an error message: **"NuGet is not installed or out of date."**
 
-<p>For those people who have trouble like this. Go to tools > Extensions > uninstall the Nuget and installed the Nuget again.</p>
+If you are experiencing this exact same issue, the fix is very straightforward:
+1. In Visual Studio, navigate to **Tools > Extensions and Updates**.
+2. Find the **NuGet Package Manager** extension.
+3. Uninstall the extension, and then simply install it again.
 
-<p>Now it will work fine. This problem happen in VWD 2010 Express sp1. </p>
+After reinstalling, the error should disappear and NuGet will work perfectly. This specific bug seems to happen quite frequently in Visual Web Developer (VWD) 2010 Express SP1.
 
-<p>For people’s information MVC3 come pre-installed in 2012 and then removed in 2013. Don’t worry MVC 3 project can still be run but have some kind of issue in Editor for editing Razor files. For people who want to upgrade use Nuget package to upgrade it to MVC 4. MVC4 can run within .net 4 as well as MVC 3. </p>
+For context, MVC 3 came pre-installed in Visual Studio 2012, but support was later removed in Visual Studio 2013. Don't worry—your MVC 3 projects will still compile and run in VS 2013, but you might encounter editor issues when working with Razor files. 
 
-<p><a href="http://geekswithblogs.net/anirugu/archive/2011/09/21/migration-of-asp.net-mvc3-project-to-vnext.aspx">Migration of MVC project to MVC 4 ?</a></p>
+If you want to resolve these editor issues, the best approach is to use a NuGet package to upgrade the project to MVC 4. MVC 4 can run on .NET 4 just as easily as MVC 3.
 
-<p><a href="http://geekswithblogs.net/anirugu/archive/2013/10/16/how-to-migrate-asp.net-mvc-3--mvc4-project-to.aspx">How to migrate ASP.NET MVC 3 , MVC4 project to ASP.NET MVC5 ?</a></p>
+For more information on migrating, check out these posts:
+- [Migration of MVC project to MVC 4?](http://geekswithblogs.net/anirugu/archive/2011/09/21/migration-of-asp.net-mvc3-project-to-vnext.aspx)
+- [How to migrate ASP.NET MVC 3, MVC 4 project to ASP.NET MVC 5?](http://geekswithblogs.net/anirugu/archive/2013/10/16/how-to-migrate-asp.net-mvc-3--mvc4-project-to.aspx)
 
-<p>thanks <a href="http://weblogs.asp.net/nmarun/">Arun Mahendrakar</a> to clear the name of nuget. i really not know that i misspelled it.</p>
+*Thanks to [Arun Mahendrakar](http://weblogs.asp.net/nmarun/) for correcting my spelling of NuGet in the original post—I didn't realize I had misspelled it!*

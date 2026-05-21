@@ -8,14 +8,20 @@ tags:
   - PHP
   - Windows
 ---
-<p>I have write <a href="http://geekswithblogs.net/anirugu/archive/2012/04/21/how-to-run-php-in-webmatrix.aspx">How to run PHP in Webmatrix ?</a> few months ago. In this post I will try to explain it little bit better.</p>
+A few months ago, I wrote [How to Run PHP in WebMatrix](/blog/how-to-run-php-in-webmatrix/). In this updated post, I'll explain the process more clearly.
 
-<p>When you create a website in webmatrix then try to go to site > settings > here you can find the option for enble the PHP for your website on IIS express.</p>
+### Enabling PHP for Your Website
 
-<p><a href="http://gwb.blob.core.windows.net/anirugu/Windows-Live-Writer/How-to-run-PHP-in-Webmatrix-update-_B9BC/11_2.png"><img src="/2012_11_13_how_to_run_php_Image1.png" alt="11" title="11" /></a></p>
+When you create a website in WebMatrix, navigate to **Site > Settings**. Here you will find the option to enable PHP for your website on the local IIS Express server.
 
-<p>You can also install the PHP through WPI (web platform installer). The PHP you have installed will be going into <strong>C:\Program Files (x86)\IIS Express\PHP/$</strong></p>
+[![WebMatrix PHP Settings Screenshot](/2012_11_13_how_to_run_php_Image1.png)](http://gwb.blob.core.windows.net/anirugu/Windows-Live-Writer/How-to-run-PHP-in-Webmatrix-update-_B9BC/11_2.png)
 
-<p>$ = version of PHP you have installed.</p>
+### Installing PHP via WPI
 
-<p>Try <a href="http://forums.iis.net/1166.aspx">http://forums.iis.net/1166.aspx</a> for any help regarding installing PHP in webmatrix. you can post your idea also to webmatrix.uservoice.com</p>
+You can also install PHP directly through the **Web Platform Installer (WPI)**. Once installed, PHP will be placed in the following directory:
+
+`C:\Program Files (x86)\IIS Express\PHP\{version}\`
+
+Where `{version}` corresponds to the specific version of PHP you chose to install.
+
+For further help with installing and configuring PHP in WebMatrix, the [IIS.net PHP forums](http://forums.iis.net/1166.aspx) are a great resource. You can also post feature requests and suggestions on the WebMatrix UserVoice page.

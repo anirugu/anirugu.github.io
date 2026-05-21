@@ -1,5 +1,5 @@
 ---
-title: "I Got Too Much Spam Mail From Ibm Dev Donrsquot Know How Better I Can Stop It"
+title: "I Got Too Much Spam Mail From Ibm Dev Don't Know How Better I Can Stop It"
 date: 2013-08-26T12:00:00-04:00
 categories:
   - blog

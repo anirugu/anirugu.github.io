@@ -6,7 +6,7 @@ categories:
 tags:
   - Azure
 ---
-Hi everyone, In this post we will learn how we can practice the azure. Subscription is very vital to learn Azure. If you don't have one you can use [sandbox] [sandbox]
+Hi everyone. In this post, we will discuss how to gain hands-on practice with Azure. Having an active Azure subscription is crucial for learning the platform effectively. However, if you don't currently have a subscription, you can take advantage of the free [Azure Sandbox][sandbox] environments provided by Microsoft Learn.
 
 
 [sandbox]: /blog/azure-Sandbox/

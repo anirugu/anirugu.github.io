@@ -1,5 +1,5 @@
 ---
-title: "Why I Donrsquot Recommanded Mysql Net Connector Anymore"
+title: "Why I Don't Recommend MySQL .NET Connector Anymore"
 date: 2013-11-04T12:00:00-04:00
 categories:
   - blog

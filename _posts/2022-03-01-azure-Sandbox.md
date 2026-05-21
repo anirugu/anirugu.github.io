@@ -6,6 +6,6 @@ categories:
 tags:
   - Azure
 ---
-In this post we will learn how we can sandbox to practice azure. For example, if you want to practice Redis, What you need is just type 'Redis exercise site:https://docs.microsoft.com/en-us/learn/modules/' in Google
+In this post, we'll explore how to use Azure Sandboxes for hands-on practice. For instance, if you want to practice using Redis, you can search Google for `Redis exercise site:https://docs.microsoft.com/en-us/learn/modules/`.
 
-Follow the link and go to excercise and you can activate sandbox and this way you can use 10 sandbox per day to practice azure.
+Follow the link to the official Microsoft Learn exercise and activate the sandbox environment. This provides a free, temporary Azure environment—you can activate up to 10 sandboxes per day to practice your Azure skills without incurring any costs.

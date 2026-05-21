@@ -1,5 +1,5 @@
 ---
-title: "How To Fix Mysql Version Mismatch With Nuget When Itrsquos Make Error When You S"
+title: "How To Fix MySQL Version Mismatch With NuGet When It's Make Error When You S"
 date: 2015-01-16T12:00:00-04:00
 categories:
   - blog

@@ -8,12 +8,17 @@ tags:
   - .NET
   - Chrome
 ---
-<p>In last post <a href="http://geekswithblogs.net/anirugu/archive/2012/01/25/i-am-animated-virus.aspx">I am animated virus ?</a> I am discuss about the problem with spell-check in different-2 programs. I clarify that there is hard to be sure about functionality over translation. Now chrome have a solution over this problem. All people can found this feature in chrome canary. in chrome 19 You can enable Google for suggestion the word for misspell word you type. Look at the image.</p>
+In my previous post, [I Am Animated Virus](/blog/i-am-animated-virus/), I discussed the frustrating problem with spell-checkers in various programs and how they completely fail on non-English names. I highlighted that it is very difficult to guarantee reliable spell-check behavior across tools, especially for words from non-English languages.
 
-<p><a href="http://gwb.blob.core.windows.net/anirugu/Windows-Live-Writer/I-am-animated_F687/img1_6.png"><img src="/2012_02_10_i_am_animated_virus_Image1.png" alt="img1" title="img1" /></a></p>
+The good news is that Chrome has since addressed this issue! The feature first appeared in Chrome Canary and was rolled out in Chrome 19. It uses **Google's online spell-check suggestions**, which are far more accurate than the browser's built-in dictionary alone. When you type a misspelled word, Chrome can now query Google's servers for a better suggestion.
 
-<p>Note that I remove the spellcheck=true attribute for textarea tag to show how it’s work. Now take a look chrome work fine and better then other programs.</p>
+[![Chrome Google Spell-check Screenshot](/2012_02_10_i_am_animated_virus_Image1.png)](http://gwb.blob.core.windows.net/anirugu/Windows-Live-Writer/I-am-animated_F687/img1_6.png)
 
-<p>Do you know Google translate also support document translation see <a href="http://translate.google.com/?tr=f&amp;hl=en">translate a document.</a></p>
+> [!NOTE]
+> In the screenshot above, the `spellcheck` attribute was intentionally removed from the `<textarea>` element to better demonstrate how Google's suggestion engine works independently.
 
-<p>thanks for reading my post.</p>
+Chrome now handles spell-checking noticeably better than other programs I tested in the original post.
+
+As a bonus tip: did you know that Google Translate also supports full **document translation**? You can upload a file and have the entire thing translated—check it out at [translate.google.com](http://translate.google.com/?tr=f&hl=en).
+
+Thanks for reading!

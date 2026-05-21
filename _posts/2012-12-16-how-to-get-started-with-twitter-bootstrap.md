@@ -12,37 +12,47 @@ tags:
   - Bootstrap
   - Windows
 ---
-<p><strong>Updated 15 May 13</strong></p>
+**Updated: 15 May 2013**
 
-<p>Through this post I will give you quick overview for using Twitter bootstrap in your web project. </p>
+In this post, I will give you a quick overview of how to get started using Twitter Bootstrap in your web project.
 
-<p>Twitter bootstrap is a framework that contain grid system and some JavaScript based plugin feature. You can quickly write better UI using Twitter bootstrap.</p>
+Twitter Bootstrap is a front-end framework built around a responsive grid system and a set of JavaScript-powered UI components. It allows you to build polished, well-structured user interfaces very quickly without writing everything from scratch.
 
-<p>For get started on This post you need to download the Bootstrap from <a href="http://twitter.github.com/bootstrap" title="http://twitter.github.com/bootstrap/">http://twitter.github.com/bootstrap</a> Now copied all these folder in your root folder of your project. use these scripts and styles by link them in your html pages (mockup).</p>
+### Step 1: Download Bootstrap
 
-<p>I personally prefer using LESS file for bootstrap. Bootstrap project on Github also use LESS for their project. For compile the LESS file you need to have things like <a href="http://wearekiss.com/simpless">SimpLESS</a> If you are using Visual Studio or webmatrix there are few plugin exist to automatically compile LESS file for you.</p>
+Download Bootstrap from [http://twitter.github.com/bootstrap](http://twitter.github.com/bootstrap) and copy all of the extracted folders into the root folder of your project. From there, link the CSS and JavaScript files in your HTML pages.
 
-<p>If you are using LESS file then you also able to track your error code easily. For example Simpless show error this way.</p>
+### Step 2: Working with LESS (Optional but Recommended)
 
-<p><a href="http://gwb.blob.core.windows.net/anirugu/Windows-Live-Writer/How-to-get-started-with-Twitter-boostra_13A2D/simpless_2.png"><img src="/2012_12_16_how_to_get_started_Image1.png" alt="simpless" title="simpless" /></a></p>
+Bootstrap's source files are written in LESS, and I personally prefer working with LESS directly rather than the pre-compiled CSS. It gives you much more control over customization and theming. A great tool for compiling LESS files is [SimpleLESS](http://wearekiss.com/simpless). If you are using Visual Studio or WebMatrix, there are also plugins available that will automatically compile your LESS files on save.
 
-<p>See this example code for how I link my files </p>
+One benefit of working with LESS source files directly is better error reporting. For example, SimpleLESS highlights LESS compilation errors clearly:
 
-<p><link rel="stylesheet" href="assets/normalize.css"><br />
-<link rel="stylesheet" href="assets/css/bootstrap.min.css"/><br />
-<link rel="stylesheet" href="assets/css/bootstrap-responsive.min.css"/><br />
-<link rel="stylesheet" href="assets/style.css"/> </p>
+[![SimpleLESS error reporting screenshot](/2012_12_16_how_to_get_started_Image1.png)](http://gwb.blob.core.windows.net/anirugu/Windows-Live-Writer/How-to-get-started-with-Twitter-boostra_13A2D/simpless_2.png)
 
-<p>Note that Normalize.css is not come with bootstrap. You need to get it separately from <a href="http://necolas.github.com/normalize.css/">Github</a></p>
+### Step 3: Link Your Files
 
-<p>The JavaScript features of Twitter bootstrap also required jQuery </p>
+Here is an example of how I link the Bootstrap CSS files in my HTML `<head>`:
 
-<script src="assets/jquery-1.8.3.js"></script>   
+```html
+<link rel="stylesheet" href="assets/normalize.css">
+<link rel="stylesheet" href="assets/css/bootstrap.min.css"/>
+<link rel="stylesheet" href="assets/css/bootstrap-responsive.min.css"/>
+<link rel="stylesheet" href="assets/style.css"/>
+```
 
-<script type="text/javascript" src="assets/script.js"> </script>
+> [!NOTE]
+> `normalize.css` does not ship with Bootstrap. You need to download it separately from its [GitHub repository](http://necolas.github.com/normalize.css/).
 
-<p>Now do What <img src="/2012_12_16_how_to_get_started_Image2.png" alt="Laughing out loud" /></p>
+Bootstrap's JavaScript components require jQuery. Add it before your closing `</body>` tag:
 
-<p>Now start looking at <a href="http://twitter.github.com/bootstrap/getting-started.html" title="http://twitter.github.com/bootstrap/getting-started.html">http://twitter.github.com/bootstrap/getting-started.html</a> There is a lot of sites on internet who help you to get started with it. If you found any issue Just use Stackoverflow ,google or pots bugs/issues on Github.</p>
+```html
+<script src="assets/jquery-1.8.3.js"></script>
+<script type="text/javascript" src="assets/script.js"></script>
+```
 
-<p>Thanks for read my post. any suggestion Comments here for let me know <img src="/2012_12_16_how_to_get_started_Image3.png" alt="Smile" /></p>
+### Step 4: Learn the Components
+
+Once your files are linked, start exploring the [official Bootstrap documentation](http://twitter.github.com/bootstrap/getting-started.html). There is also a large amount of community-written tutorials available online. If you run into any issues, Stack Overflow and Bootstrap's GitHub Issues page are your best resources.
+
+Thanks for reading! Feel free to leave a comment with any questions or suggestions. ![Smile](/2012_12_16_how_to_get_started_Image3.png)
