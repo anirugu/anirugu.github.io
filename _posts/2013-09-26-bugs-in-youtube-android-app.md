@@ -1,32 +1,34 @@
 ---
-title: "Bugs In Youtube Android App"
+title: "Bugs in the YouTube Android App"
 date: 2013-09-26T12:00:00-04:00
 categories:
   - blog
 tags:
   - Android
 ---
-<p>Recently Youtube update their android app. In this post I will demonstrate you the feature that is not work correctly (maybe not totally).</p>
+<p>Recently, YouTube updated its Android app. In this post, I will demonstrate a few features that do not work correctly.</p>
 
-<p>When a user want to unsubscribe and click on subscribe it’s look like they have successfully unsubscribed but it’s not. I tried to do same with many channel but none of them unsubscribed.</p>
+<p>When a user wants to unsubscribe from a channel and taps the "Subscribed" button, it appears as though they have successfully unsubscribed, but they actually haven't. I tried this with several channels, and none of them were actually unsubscribed.</p>
 
-<p>When I click on subscribed (which I already have) then it’s removed from left side “What to Watch” panel. Now it’s means it’s successfully unsubscribed but it’s not. Sometime it’s not removed from left (when you tried fast).</p>
+<p>When I tap "Subscribed" for a channel I'm already subscribed to, it is removed from the left-side "What to Watch" panel, implying a successful unsubscription. However, it isn't actually removed. Sometimes, if you tap too quickly, the channel isn't even removed from the left panel.</p>
 
-<p>When I check the subscription on YouTube none of channel is removed from my subscription. I remove them one by one on their site. </p>
+<p>When checking my subscriptions list on the YouTube website later, I noticed that none of the channels were removed. I ended up having to unsubscribe from them one by one directly on the website.</p>
 
-<p>In my android device I have a settings > preloading > checked both option</p>
+<p>On my Android device, I navigated to <strong>Settings > Preloading</strong> and checked both options:</p>
 
-<p>Preload subscriber </p>
+<ul>
+  <li>Preload subscriptions</li>
+  <li>Preload Watch Later</li>
+</ul>
 
-<p>Preload Watch later.</p>
+<p>Enabling both of these options seems to introduce another bug. The app continues to show channels in the preloaded list that I had previously removed directly on the YouTube website. The list doesn't sync or update frequently, causing a lot of confusion.</p>
 
-<p>Check both option have a new kind of bug now. I have seen that now it’s show me list of channel which I have removed from youtube by going to site directly. it’s not updated frequently. it’s make a confusion to user.</p>
-
-<p>So there is 2 problem in Youtube android app.</p>
+<p>To summarize, there are two primary issues in the YouTube Android app:</p>
 
 <ol>
-<li><p>Remove the channel from subscription doesn’t do anything. </p></li>
-<li><p>not update the list of subscription when frequently. removing channel sometime not even removed from left side panel.</p></li>
+  <li>Removing a channel from your subscriptions inside the app does not actually unsubscribe you.</li>
+  <li>The subscriptions list does not update frequently, and removing a channel sometimes fails to update the left-side navigation panel.</li>
 </ol>
 
-<p>Hey Youtube, Fix those issue <img src="/2013_09_26_bugs_in_youtube_android_Image1.png" alt="Smile" /> <img src="/2013_09_26_bugs_in_youtube_android_Image2.png" alt="Sad smile" /> <img src="/2013_09_26_bugs_in_youtube_android_Image3.png" alt="Smile with tongue out" /></p>
+<p>Hopefully, YouTube will address these sync issues in the next update! <img src="/2013_09_26_bugs_in_youtube_android_Image1.png" alt="Smile" /> <img src="/2013_09_26_bugs_in_youtube_android_Image2.png" alt="Sad smile" /> <img src="/2013_09_26_bugs_in_youtube_android_Image3.png" alt="Smile with tongue out" /></p>
+

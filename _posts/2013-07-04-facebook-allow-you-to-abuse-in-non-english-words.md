@@ -1,23 +1,21 @@
 ---
-title: "Facebook Allow You To Abuse In Non English Words"
+title: "Facebook Allows Abuse Through Non-English Words"
 date: 2013-07-04T12:00:00-04:00
 categories:
   - blog
 tags:
   - General
 ---
-<p>Last month I see post of some of pages that I like on Facebook. Because they have a lot of comment on single post on FB they can’t check every comment. Now see what happen to them.</p>
+<p>Last month, I noticed some posts on Facebook pages that I follow. Because these pages receive a huge number of comments on a single post, they are unable to review every one of them. Here is what happens as a result.</p>
 
-<p>Few bad people who even don’t live in Same country and have a bad mentality start abusing it. Because both country are near so they can abuse in their local language that people can read.</p>
+<p>Some bad actors — even from different countries — start posting abusive content in their local language that others can understand. Because the language is not English, Facebook's automated moderation systems fail to detect it.</p>
 
-<p>The Facebook.com have 2 stupid thing about this.</p>
+<p>There are two design flaws on Facebook that make this worse.</p>
 
-<p>You can comment by just type but if you want to report abuse then click click > this option > blah blah. This means you need to spent minute(s) for a single comment that is abusive.</p>
+<p>First, posting a comment takes just a few keystrokes, but reporting an abusive comment requires multiple clicks through several menus. This asymmetry means a user must spend several minutes to report a single abusive comment — a frustrating and inefficient process.</p>
 
-<p>When I report 2 comment that is abusive then I got silly response from Facebook. They write in response that they got no evidence in the comment I report.</p>
+<p>Second, when I reported two clearly abusive comments, Facebook responded by saying they found no evidence of a violation in the comments I reported. This is a weak and dismissive response.</p>
 
-<p>Is this good ?</p>
+<p>The accounts posting this abuse have suspicious profiles — fake profile pictures and little to no authentic content — yet they continue to operate freely.</p>
 
-<p>The people who abuse on Facebook write all their comment in abusive way (if you check their profile). the profile have fake image and there is nothing to say if all other thing are also fake.</p>
-
-<p>If Facebook.com have nothing with this problem then why we use it. </p>
+<p>If Facebook is unable or unwilling to address this kind of abuse, it raises a valid question about the value of using the platform at all.</p>

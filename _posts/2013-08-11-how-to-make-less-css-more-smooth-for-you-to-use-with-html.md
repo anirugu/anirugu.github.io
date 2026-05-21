@@ -1,5 +1,5 @@
 ---
-title: "How To Make Less Css More Smooth For You To Use With Html"
+title: "How to Make Writing LESS CSS a Smoother Experience"
 date: 2013-08-11T12:00:00-04:00
 categories:
   - blog
@@ -10,28 +10,28 @@ tags:
   - HTML
   - NuGet
 ---
-<p><font color="#000000">LESS is effective way to use Stylesheet for web-designing. The more technical you goes inside a technology then more rules and care you need in your code. </font>How better your code is depend on how better you can refactor it or modify it in future. The more better your code are the better you can edit them. The trouble is CSS code are very easy to written but hard to write better and usable code.</p>
+<p>LESS is an effective way to write stylesheets for web design. The deeper you dive into any technology, the more rules and best practices you need to follow. The quality of your code depends on how easily you can refactor or modify it in the future. The better structured your code is, the easier it is to maintain. While CSS is easy to write, writing clean, reusable CSS can be a challenge.</p>
 
-<p>Here is somethings I would like to share with you for better coding. </p>
+<p>Here are a few tips I would like to share to help you write better CSS and LESS:</p>
 
-<h1>1 Never try to inherit every object with parent object.</h1>
+<h2>1. Avoid Over-nesting Selectors</h2>
 
-<p>Suppose you put .x . y .z .a .b .c this element that have class c is inside the element have class b. When you do this same more and more code are going hard to refactor in future. Thing for 2 second what object can be move in future.</p>
+<p>Suppose you write a selector chain like <code>.x .y .z .a .b .c</code>. If you nest selectors too deeply, the code becomes rigid and very hard to refactor later. Take a moment to think about which elements might need to move in the future.</p>
 
-<p>Suppose header logo can be move from left to right. The widget on left can be move to right. This way you can easily modify the code in future.</p>
+<p>For example, a header logo might move from the left side to the right, or a sidebar widget might be repositioned. Keeping your selectors shallow allows you to modify the layout easily without breaking your CSS rules.</p>
 
-<h1>2 Formatting LESS file.</h1>
+<h2>2. Format Your LESS Files Properly</h2>
 
-<p>LESS CSS have native support in Visual Studio Express (and above). I have checked it in update2 for VWD. in Visual studio 2012 there is a feature called Hierarchical Indentation. Use it. it’s well design to make your code easy to read.</p>
+<p>LESS has native support in Visual Studio 2012 (including Express editions with Update 2). Take advantage of features like hierarchical indentation. It is designed to make nested rules clean and easy to read at a glance.</p>
 
-<h1>3 tools to compile</h1>
+<h2>3. Choose the Right Compilation Tools</h2>
 
-<p>it’s your choice to use Nuget Package or a tool that will compile the less file on your machine. I personally prefer to use standalone tool which compile my file so I can easily modified them after what they compiled.</p>
+<p>You can use a NuGet package or a standalone tool to compile your LESS files. I personally prefer using a standalone compiler, which lets me inspect and tweak the compiled CSS easily.</p>
 
-<h1>4 Be creative, don’t make your habit to follow every rule from books you read</h1>
+<h2>4. Be Creative and Adapt Rules to Your Needs</h2>
 
-<p>In Every CSS related book you find a lot of Rules, programmer’s habit and idea to follow to solve the puzzle. Every programmer have their habit and idea to solve the same puzzle. Maybe your trick are somehow different. Don’t try to follow every rules. First understand the way why we need such thing then apply it. CSS language have less rule then other language. Try to do thing differently then you already have tried. Sometime you will found some better thing you got when you tried something different.</p>
+<p>Every CSS book contains a lot of rules and patterns to follow. However, every developer has their own style and approach to solving layout challenges. Do not feel constrained to follow every rule blindly. First, understand <em>why</em> a particular rule exists, and then apply it where it makes sense. CSS has fewer strict syntax constraints than other programming languages, so feel free to experiment. You might discover a better way of doing things by trying something unconventional.</p>
 
-<p>If you found any mistake or update on this article please comment. I would like to make it more better for all my readers.</p>
+<p>If you spot any mistakes or have updates to suggest, please leave a comment! I want to make this article as helpful as possible for my readers.</p>
 
-<p>Thanks for read my post <img src="/2013_08_11_how_to_make_less_Image1.png" alt="Smile" /></p>
+<p>Thanks for reading! <img src="/2013_08_11_how_to_make_less_Image1.png" alt="Smile" /></p>

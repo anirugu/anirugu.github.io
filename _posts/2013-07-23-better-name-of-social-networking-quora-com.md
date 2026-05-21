@@ -1,13 +1,14 @@
 ---
-title: "Better Name Of Social Networking Quora Com"
+title: "Quora: A Better Alternative to Traditional Social Networks"
 date: 2013-07-23T12:00:00-04:00
 categories:
   - blog
 tags:
   - .NET
 ---
-<p>After writing my recent post <a href="http://geekswithblogs.net/anirugu/archive/2013/07/04/facebook-allow-you-to-abuse-in-non-english-words.aspx">Facebook allow you to abuse in Non-English words ?</a> I am looking for better social networking site. I found Facebook is not more then time wasting time. People share links and posts. Nowadays Facebook is marketing tool. Twitter is not useful too when you can’t say anything in less then 140 words.</p>
+<p>After writing my recent post, <a href="http://geekswithblogs.net/anirugu/archive/2013/07/04/facebook-allow-you-to-abuse-in-non-english-words.aspx">Facebook Allows Abuse in Non-English Languages?</a>, I started looking for a better social networking platform. I have found that Facebook is little more than a waste of time these days—mostly filled with marketing links and generic posts. Twitter isn't very useful either, since it is difficult to say anything meaningful in under 140 characters.</p>
 
-<p>Now look at <a href="http://quora.com/">quora.com</a> it’s very good site compare to other two. You can read a lot of discussion their. Too many discussion that you want to listen about.</p>
+<p>Then there is <a href="http://quora.com/">Quora</a>, which is a much better platform compared to the other two. It hosts a lot of high-quality discussions on a wide variety of topics that are actually worth reading.</p>
 
-<p>I am happy to use Quora.com no need of Facebook and Twitter. Both are dying already <img src="/2013_07_23_better_name_of_social_Image1.png" alt="Smile" /></p>
+<p>I am really enjoying my time on Quora. I no longer feel the need to use Facebook or Twitter, both of which feel like they are declining in value.</p>
+

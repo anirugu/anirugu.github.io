@@ -1,5 +1,5 @@
 ---
-title: "How To Migrate Asp Net Mvc 3 Mvc4 Project To Asp Net Mvc5"
+title: "How to Migrate an ASP.NET MVC 3 or MVC 4 Project to ASP.NET MVC 5"
 date: 2013-10-16T12:00:00-04:00
 categories:
   - blog
@@ -8,26 +8,29 @@ tags:
   - MVC
   - ASP.NET
 ---
-<p>Soon you will see a new version of MVC5 in VS2013. MVC5 will be incorporated in VS2013. MVC3 will not be supported in VS2013 (<a href="http://geekswithblogs.net/anirugu/archive/2014/01/05/how-to-fix-mvc-3-issues-in-visual-studio-2013.aspx">but I found Any kind of MVC version can be used in MV by my tricks</a>). I confirmed it on channel9 last time. So People who have installed only VS2013 or doesn’t have old version will be got trouble with the project that is still in MVC3. This error happen because MVC4 and 5 installation doesn’t contain the DLL that is used in Version 3 of ASP.NET MVC.</p>
+<p>With the release of Visual Studio 2013, ASP.NET MVC 5 is now the standard framework version. Out of the box, Visual Studio 2013 does not support MVC 3 (though you can use my workaround to make it work). This means developers working exclusively in VS 2013 on legacy MVC 3 projects will run into issues. This happens because the MVC 4 and MVC 5 installers do not include the assemblies for MVC 3.</p>
 
-<p>Don’t be panic. You guys want to upgrade your project. Here is a trick to solve the issue.</p>
+<p>Don't panic—upgrading your project is straightforward. Here is how you can do it.</p>
 
-<p>When you open the project you have seen that in Reference there is some dll that have yellow icon. This means that dll are missing or not found in your configuration or system.</p>
+<p>When you first open your legacy project in Visual Studio 2013, you will likely see a yellow warning icon next to several assemblies in your project's <strong>References</strong> list. This indicates that these DLLs are missing on your system.</p>
 
-<p>Now remember that dll name. Remove them from reference and add them from adding reference. I telling you to remove so VS will not prevent you to add new version of same assembly. Add all those assembly.</p>
+<p>To resolve this, note the names of the missing DLLs, remove them from the project's References, and then add them back using the Reference Manager. Removing the old references first ensures that Visual Studio allows you to reference the newer versions of the same assemblies.</p>
 
-<p>Those dll will be following :</p>
+<p>Typically, you will need to replace the following references:</p>
 
-<p>System.Web.Mvc</p>
+<ul>
+  <li><code>System.Web.Mvc</code></li>
+  <li><code>System.Web.Razor</code></li>
+  <li><code>System.Web.WebPages</code></li>
+  <li><code>System.Web.Helpers</code></li>
+</ul>
 
-<p>Razor and Webpages Dll.</p>
+<p>Once you have updated the references in your project, you will need to update your configuration files.</p>
 
-<p>Remember that in MVC3 we use old version of these assembly. Now When you done by adding all assembly then now open web.config.</p>
+<p>There are typically at least two <code>web.config</code> files in an MVC project: one in the project's root folder and another in the <code>Views</code> folder. You must update the assembly version numbers in both files. For example, if you see references to version <code>3.0.0.0</code> or <code>4.0.0.0</code>, update them to version <code>5.0.0.0</code> (or the exact version you installed). Do this for the Razor and WebPages assemblies as well.</p>
 
-<p>There is 2 web.config file in our mvc project. One is in root folder and second in Views folder. You need to update all those version no. This is not a big deal if you know the name of assembly. Now if you web.config show you assembly version as 3.000.00 then 3 would be replaced with 4 or 5 according to version no. Same thing need to applied all dll for both web.config.</p>
+<p><strong>Note:</strong> While default Visual Studio templates place views in the <code>~/Views</code> directory, if your project uses custom view directories (such as in MVC Areas or custom themes) that contain their own <code>web.config</code> files, make sure to update those as well. Failing to do so might allow the project to compile without errors, but it will fail at runtime.</p>
 
-<p><font color="#ff0000">Note :- In VS Template Views goes in ~/Views folder but if someone use any other folder then Views for views and those folder have also web.config then remember to update them also. Your project will be compile and make no warning and error but that certainly not work. for examples areas/views and themes/views that contain web.config also need to be updated with newer assembly version no.</font></p>
+<p>Once these updates are complete, clean and rebuild your project. It should now run smoothly on MVC 5! <img src="/2013_10_16_how_to_migrate_asp.net_Image1.png" alt="Smile" /></p>
 
-<p>After done these thing you can compile your project and it will be work as it should be <img src="/2013_10_16_how_to_migrate_asp.net_Image1.png" alt="Smile" /></p>
-
-<p>Thanks for read my post. Follow me on FB and Twitter to stay updated <img src="/2013_10_16_how_to_migrate_asp.net_Image2.png" alt="Smile" /></p>
+<p>Thanks for reading! Follow me on Facebook and Twitter to stay updated. <img src="/2013_10_16_how_to_migrate_asp.net_Image2.png" alt="Smile" /></p>
