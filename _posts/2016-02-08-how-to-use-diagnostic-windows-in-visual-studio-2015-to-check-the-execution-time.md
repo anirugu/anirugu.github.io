@@ -1,5 +1,5 @@
 ---
-title: "How To Use Diagnostic Windows In Visual Studio 2015 To Check The Execution Time"
+title: "How to Use the Diagnostic Tools Window in Visual Studio 2015 to Measure Execution Time"
 date: 2016-02-08T12:00:00-04:00
 categories:
   - blog
@@ -8,12 +8,13 @@ tags:
   - .NET
   - Windows
 ---
-<p>Last year Microsoft released VS 15 and add a interesting new feature called “ <a href="https://www.google.co.in/url?sa=t&amp;rct=j&amp;q=&amp;esrc=s&amp;source=web&amp;cd=1&amp;ved=0ahUKEwjN8fu44_LLAhVECY4KHQylBtQQFggfMAA&amp;url=https%3A%2F%2Fblogs.msdn.microsoft.com%2Fvisualstudioalm%2F2015%2F01%2F16%2Fdiagnostic-tools-debugger-window-in-visual-studio-2015%2F&amp;usg=AFQjCNH7waCJydC0DRA-dqYO8V9t-PKvMA&amp;sig2=9E1D0lVoMGdFizUzc05YNA">Diagnostic Tools debugger window</a>”</p>
+With the release of Visual Studio 2015, Microsoft introduced an extremely useful feature: the **Diagnostic Tools** debugger window.
 
-<p>Asy you read on internet when someone trying to show the execution time of 2 different2- function it will use stopwatch and some other kind of thing to prove which one is better. From VS 2015 you have a better option to check the execution time of code. You can exactly figure out how much time it will take.<a href="https://gwb.blob.core.windows.net/anirugu/Open-Live-Writer/How-to-use-Diagnostic-windows-in-Visual_12619/11_2.png"><img src="/2016_02_08_how_to_use_diagnostic_Image1.png" alt="11" title="11" /></a></p>
+Typically, when developers compare the performance of two different functions, they use the `Stopwatch` class or third-party profiling packages to measure execution times. Starting with Visual Studio 2015, you have a built-in option to easily inspect execution times directly inside the IDE.
 
-<p>Just open the diagnostic window and put a breakpoint in code. and another one when execution complete. You can see how much time your code take to execute in diagnostic window as given example.</p>
+[![Diagnostic Tools Execution Time Example](/2016_02_08_how_to_use_diagnostic_Image1.png "Diagnostic Tools Execution Time Example")](https://gwb.blob.core.windows.net/anirugu/Open-Live-Writer/How-to-use-Diagnostic-windows-in-Visual_12619/11_2.png)
 
-<p>For more information look at this article written by Visual studio team </p>
+To use it, open the **Diagnostic Tools** window, set a breakpoint at the start of your code segment, and another one at the end. When you debug and step through or run to the next breakpoint, the Diagnostic Tools window will display exactly how many milliseconds the execution took between the two breakpoints, as shown in the screenshot.
 
-<p><a href="https://blogs.msdn.microsoft.com/visualstudioalm/2015/01/16/diagnostic-tools-debugger-window-in-visual-studio-2015/" title="https://blogs.msdn.microsoft.com/visualstudioalm/2015/01/16/diagnostic-tools-debugger-window-in-visual-studio-2015/">https://blogs.msdn.microsoft.com/visualstudioalm/2015/01/16/diagnostic-tools-debugger-window-in-visual-studio-2015/</a></p>
+For more details, check out the official announcement by the Visual Studio team: [Diagnostic Tools debugger window in Visual Studio 2015](https://blogs.msdn.microsoft.com/visualstudioalm/2015/01/16/diagnostic-tools-debugger-window-in-visual-studio-2015/).
+

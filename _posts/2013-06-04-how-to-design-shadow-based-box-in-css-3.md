@@ -1,5 +1,5 @@
 ---
-title: "How To Design Shadow Based Box In Css 3"
+title: "How to Design a Shadow-Based Box in CSS3"
 date: 2013-06-04T12:00:00-04:00
 categories:
   - blog
@@ -7,64 +7,56 @@ tags:
   - HTML
   - CSS
 ---
-<p>In this post, I will show you how to create a box and page wrapper with a shadow effect using CSS3.</p>
+In this post, I will show you how to create a box and page wrapper with a shadow effect using CSS3.
 
-<p>To create this effect, we use the <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow">box-shadow</a> property.</p>
+To create this effect, we use the [box-shadow](https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow) property.
 
+Here is the HTML structure:
+
+```html
 <div class="container">
-
-<div class="container-hold pull-left">
-
-<div class="container-hold-top pull-left">
-
+  <div class="container-hold pull-left">
+    <div class="container-hold-top pull-left">
+    </div>
+  </div>
 </div>
+```
 
-</div>
+Here is the CSS:
 
-</div>
+```css
+.container {
+  box-shadow: 10px 10px 5px #888;
+}
 
-<p>Here is the CSS:</p>
+.container .container-hold {
+  box-shadow: -8px 10px 5px #888;
+  width: 100%;
+  height: 100%;
+}
 
-<p>.container {</p>
+.container .container-hold .container-hold-top {
+  box-shadow: 10px -10px 8px #888;
+  height: 100%;
+  width: 100%;
+}
+```
 
-<p>box-shadow: 10px 10px 5px #888;</p>
+This code creates shadows on the left, right, and top sides of the wrapper.
 
-<p>}</p>
+Here is the formal syntax for `box-shadow`:
 
-<p>.container .container-hold {</p>
+```css
+box-shadow: none | [inset? && [ <offset-x> <offset-y> <blur-radius>? <spread-radius>? <color>? ] ]#
+```
 
-<p>box-shadow: -8px 10px 5px #888;</p>
+Note that I did not use the `spread-radius` in my example. Feel free to experiment with it to expand the shadow further.
 
-<p>width: 100%;</p>
+Here are some great related posts:
 
-<p>height: 100%;</p>
+- [Fun with Box Shadows - Markus Stange](http://markusstange.wordpress.com/2009/02/15/fun-with-box-shadows/)
+- [Box Shadow Inset Demo](http://www.elektronotdienst-nuernberg.de/bugs/box-shadow_inset.html)
+- [CSS3 Info: Box Shadow](http://www.css3.info/preview/box-shadow/)
 
-<p>}</p>
+If I missed anything, please leave a comment so I can improve this post.
 
-<p>.container .container-hold .container-hold-top {</p>
-
-<p>box-shadow: 10px -10px 8px #888;</p>
-
-<p>height: 100%;</p>
-
-<p>width: 100%;</p>
-
-<p>}</p>
-
-<p>This code creates shadows on the left, right, and top sides of the wrapper.</p>
-
-<p>Here is the formal syntax for <code>box-shadow</code>:</p>
-
-<p><font style="font-size: 10.5pt" color="#333333">Formal syntax: none | [inset? &amp;&amp; [ <offset-x> <offset-y> <blur-radius>? <spread-radius>? <color>? ] ]#</font></p>
-
-<p>Note that I did not use the <code>spread-radius</code> in my example. Feel free to experiment with it to expand the shadow further.</p>
-
-<p>Here are some great related posts:</p>
-
-<p><a href="http://markusstange.wordpress.com/2009/02/15/fun-with-box-shadows/">http://markusstange.wordpress.com/2009/02/15/fun-with-box-shadows/</a></p>
-
-<p><a href="http://www.elektronotdienst-nuernberg.de/bugs/box-shadow_inset.html">http://www.elektronotdienst-nuernberg.de/bugs/box-shadow_inset.html</a></p>
-
-<p><a href="http://www.css3.info/preview/box-shadow/">http://www.css3.info/preview/box-shadow/</a></p>
-
-<p>If I missed anything, please leave a comment so I can improve this post.</p>

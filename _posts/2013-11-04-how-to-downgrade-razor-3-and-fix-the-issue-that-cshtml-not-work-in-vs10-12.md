@@ -1,5 +1,5 @@
 ---
-title: "How To Downgrade Razor 3 And Fix The Issue That Cshtml Not Work In Vs10 12"
+title: "How to Downgrade Razor 3 and Fix CSHTML Issues in VS 2010 and VS 2012"
 date: 2013-11-04T12:00:00-04:00
 categories:
   - blog
@@ -10,22 +10,27 @@ tags:
   - HTML
   - NuGet
 ---
-<p>Few days ago I migrate a project to MVC 4 and suddenly I have seen that MVC project’s cshtml file is no longer working. The problem happen because my project is now based on Razor 3 RC and VS12 doesn’t even have support it. (Remember that VS team will ship support in VS update 4). My migration update it to Razor 3 (which is not related to MVC 4, MVC 4 used old version of Razor 2).</p>
+A few days ago, I migrated a project to ASP.NET MVC 4 and noticed that the project's CSHTML files were no longer working. This problem occurs because the project was upgraded to Razor 3 RC, which is not supported in Visual Studio 2012 by default (support was later shipped in VS 2012 Update 4). My migration had updated it to Razor 3, but MVC 4 uses Razor 2.
 
-<p>So how to fix the problem. Since VS update 4 in development and MVC 3 support exist in both old Version of VS (10,12) then better to migrate back our Razor to old version so we can use our project in VS 10 or 12.</p>
+So, how do we fix this problem? Since Visual Studio Update 4 was still in development and MVC 3/4 support exists in the older versions of VS (2010 and 2012), it is better to downgrade Razor to a supported version so we can work on the project in Visual Studio 2010 or 2012.
 
-<p>If your project have Razor 3 and it seem that Syntax highlighting doesn’t work for you then I suggest you to try this Nuget package <a href="https://www.nuget.org/packages/UpgradeMvc3ToMvc4" title="https://www.nuget.org/packages/UpgradeMvc3ToMvc4">https://www.nuget.org/packages/UpgradeMvc3ToMvc4</a></p>
+If your project has Razor 3 and syntax highlighting is not working, I suggest using this NuGet package: [UpgradeMvc3ToMvc4](https://www.nuget.org/packages/UpgradeMvc3ToMvc4).
 
-<p>Remember that this will not be succeed. What you need to do is delete package folder in your project and now open the packages.config remove all entry of package now.</p>
+Note that this might not succeed immediately. First, you should delete the `packages` folder in your project directory and then open `packages.config` to remove the old package entries.
 
-<p>Now Run this command <code>PM&gt; Install-Package UpgradeMvc3ToMvc4</code></p>
+Then, run the following command in the Package Manager Console:
 
-<p>If this is failed then see what thing make error in console. simply remove the reference and try again. Now run it and see this will work.</p>
+```powershell
+PM> Install-Package UpgradeMvc3ToMvc4
+```
 
-<p>After run this you will see that WebGrease Dll have a version number issue. Simply update it to version 1.5.2 and now you have ready your project to run it in .net 4. If you do bin deployment then you don’t need to have installed MVC 4 on server either.</p>
+If this fails, check the console output to see what caused the error. Often, you just need to manually remove the broken assembly references and try installing again.
 
-<p>Remember that MVC 5 is based on .net 4.5 which simply means you can’t run it in VS10. until VS12 update 4 MVC 5 cshtml page will be work as simple html pages (syntax highlighting and intellisense).</p>
+After running this, you might encounter a version mismatch with the `WebGrease.dll` assembly. Simply update WebGrease to version 1.5.2 (or a matching version) and your project will be ready to target .NET 4. Additionally, if you perform a bin deployment, you do not need to install MVC 4 on the server itself.
 
-<p><img src="/2013_11_04_how_to_downgrade_razor_Image1.png" alt="Smile" /></p>
+Keep in mind that MVC 5 requires .NET 4.5, which means it cannot run in Visual Studio 2010. Furthermore, without Visual Studio 2012 Update 4, MVC 5 CSHTML pages will be treated as plain HTML files without Razor syntax highlighting or IntelliSense.
 
-<p>Thanks for read my post<img src="/2013_11_04_how_to_downgrade_razor_Image2.png" alt="Winking smile" /></p>
+![Smile](/2013_11_04_how_to_downgrade_razor_Image1.png)
+
+Thanks for reading my post! ![Winking smile](/2013_11_04_how_to_downgrade_razor_Image2.png)
+

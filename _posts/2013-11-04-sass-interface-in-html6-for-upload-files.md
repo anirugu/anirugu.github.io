@@ -1,5 +1,5 @@
 ---
-title: "Sass Interface In Html6 For Upload Files"
+title: "SaaS Interface in HTML6 for Uploading Files"
 date: 2013-11-04T12:00:00-04:00
 categories:
   - blog
@@ -8,79 +8,75 @@ tags:
   - HTML
   - Windows
 ---
-<p>[This post is about experiment &amp; imagination]</p>
+*[This post is a concept study exploring an imaginary feature integration.]*
 
-<p>From Windows XP (ever last OS I tried) I have seen a feature that is about send file to pen drive and make shortcut on Desktop. In XP, Win7 (Win8 have this too, not removed) just select the file right click > send to and you can send this file to many places. In my menu it’s show me Skype because I have installed it. this skype confirm that we can add our own app here to make it more easy for user to send file in our app.</p>
+Since Windows XP, the operating system has featured a "Send to" option in the right-click context menu (which is still present in Windows 7 and Windows 8). This allows you to select a file, right-click, and quickly send it to various destinations like a flash drive, a Desktop shortcut, or installed apps (like Skype). This shows how third-party applications can register with the operating system to simplify file transfers.
 
-<p><a href="https://gwb.blob.core.windows.net/anirugu/Windows-Live-Writer/Sass-interface-in-html6_7255/Untitled1_2.png"><img src="/2013_11_04_sass_interface_in_html6_Image1.png" alt="Untitled1" title="Untitled1" /></a></p>
+<a href="https://gwb.blob.core.windows.net/anirugu/Windows-Live-Writer/Sass-interface-in-html6_7255/Untitled1_2.png"><img src="/2013_11_04_sass_interface_in_html6_Image1.png" alt="Send To Context Menu" title="Send To" /></a>
 
-<p>Nowadays Many people use Cloud or online site to store the file. In case of html5 drag and drop you need to have site opened and have opened that page which is about file upload. You need to select all and drag and drop.</p>
+Today, many people rely on cloud storage and online tools to store files. However, modern HTML5 drag-and-drop file uploaders require you to have the website open and navigate to the specific upload page first.
 
-<p>after drag and drop file is simply uploaded to server and site show you on list (if no error happen). but this file upload is seriously not worthy since I have to open the site when I do this operation.</p>
+This drag-and-drop approach works fine if you are already on the site, but it is less convenient when you want to upload files without keeping the browser tab open.
 
-<p>Through this post I want to describe a feature that can make this thing better. This API is simply called <font color="#ff0000">SASS FILE UPLOAD API</font> Through This API when you surf the site and come into file upload page then the page will tell you that we also have SASS FILE API support. Enable it for better result.</p>
+In this post, I want to propose a concept for a built-in browser/OS integration: the **SaaS File Upload API**. If a website supports this API, visiting the site will prompt the browser to register an OS-level integration, allowing you to upload files directly from your system explorer.
 
-<p>How this work <img src="/2013_11_04_sass_interface_in_html6_Image2.png" alt="Smile" /></p>
+### How It Works
 
-<p>This API feature are activated on 2 basis. </p>
+This feature would be activated based on two rules:
 
-<ol>
-<li><p>Feature are disabled by default on site (or you can change it if it’s not)</p></li>
-<li><p>This API allow specific site to upload the files. Files upload may have some rule. For example (minimum or maximum size of file to uploaded, which format the site allowed you to upload). In case of resume site you will be allowed to use .doc (according to code of site)</p></li>
-</ol>
+1. **User Consent:** The feature is disabled by default for each website until explicitly allowed by the user.
+2. **Site Rules:** The API respects site-specific rules, such as file size limits and allowed file extensions (e.g., a resume site might restrict uploads to `.doc` or `.pdf` formats).
 
-<p>How browser recognize that Site have SASS service.</p>
+### How the Browser Detects SaaS Upload Support
 
-<p>In HTML source of the site, the code have a meta tag similar to this</p>
+The website would declare its SaaS upload endpoint using a metadata tag in the HTML source:
 
-<p><meta name=”sass-upload-api” path=”/upload.json”/></p>
+```html
+<meta name="sass-upload-api" path="/upload.json"/>
+```
 
-<p>Remember that upload.json is one file that has define the value of many settings</p>
+The referenced `upload.json` file defines the rules and routes for the service:
 
-<p>{<br />
- "cookie<em>name": "ck</em>file",<br />
- "maximum<em>allowed</em>perday": 24,<br />
- "allowed<em>file</em>extensions","<em>.png,</em>.jpg,<em>.jpeg,</em>.gif",<br />
- "method": [<br />
- {<br />
- "get": "file/get",<br />
- "routing":"/file/get/{fileName}"<br />
- },<br />
- {<br />
- "post": "file/post",<br />
- "routing":"/file/post/{fileName}"<br />
- },<br />
- {<br />
- "delete": "file/delete",<br />
- "routing":"/file/delete/{fileName}"<br />
- },<br />
- {<br />
- "put": "file/put",<br />
- "routing":"/file/put/{fileName}"<br />
- },<br />
- {<br />
- "all": "file/all",<br />
- "routing":"/file/all/{fileName}"<br />
- }<br />
- ]<br />
-}</p>
+```json
+{
+  "cookie_name": "ck_file",
+  "maximum_allowed_perday": 24,
+  "allowed_file_extensions": "*.png,*.jpg,*.jpeg,*.gif",
+  "method": [
+    {
+      "get": "file/get",
+      "routing": "/file/get/{fileName}"
+    },
+    {
+      "post": "file/post",
+      "routing": "/file/post/{fileName}"
+    },
+    {
+      "delete": "file/delete",
+      "routing": "/file/delete/{fileName}"
+    },
+    {
+      "put": "file/put",
+      "routing": "/file/put/{fileName}"
+    },
+    {
+      "all": "file/all",
+      "routing": "/file/all/{fileName}"
+    }
+  ]
+}
+```
 
-<p>cookie name is simply a cookie which should be stored in browser and define in json. we define the cookie_name so we can easily share then with service in Windows system. This cookie will be accessible with the service so it’s security based safe. other cookie will not be shared.</p>
+* **Authentication:** The defined `cookie_name` would be shared with the OS-level helper service so that files are securely uploaded to your authenticated account without exposing your other browser cookies.
+* **Routes:** The endpoints handle GET, POST, DELETE, and PUT actions, allowing you to view your remote directories as a virtual folder structure locally.
 
-<p>The cookie will be post,put, get from this location. The all location will be simply about showing a whole list of file. This will gave a treeview kind of json to show the directories on sever.</p>
+Once the API is active for a site like **example.com**, the operating system's file explorer would include a "Send to example.com" option in the right-click menu. Selecting this option would open a lightweight dialog showing the destination folders and upload progress without needing to open the full web browser.
 
-<p>for example <strong>example.com</strong> if you have activated the API with this site then you will seen a send to option in your explorer.exe when you send you will got a windows open which folder you want to use to send the file.</p>
+For performance and reliability, large files could be transferred over FTP or specialized background protocols.
 
-<p>The windows will also describe the limit and how much you can upload. This thing never required site to opened. </p>
+### Why This is Useful
 
-<p>When you upload the file this will be uploaded through FTP protocol. FTP protocol are better for performance.</p>
+1. **Inline File Selection:** When writing a post on a site like Stack Overflow, instead of searching your hard drive through a file picker, you could immediately select from files you recently pushed to your site's temporary storage.
+2. **Simplified Cloud Backups:** You could back up files to your favorite cloud service straight from your desktop, eliminating the need to drag files into browser windows.
 
-<p>How this API make thing faster.</p>
-
-<p>Suppose you want to ask a question and want to post image. you just do it and get it ready when you open stackoverflow.com now stackoverflow will only tell you which file you want to put on your current question that you asking for.</p>
-
-<p>second use is about people use cloud app.</p>
-
-<p>There is no need of drag and drop anymore. we just need to do it without drag and drop it. we doesn’t need to open the site either.</p>
-
-<p><img src="/2013_11_04_sass_interface_in_html6_Image3.png" alt="Smile" /> This thing is still in experiment level. I will update this post when I got some progress on this API.</p>
+<img src="/2013_11_04_sass_interface_in_html6_Image3.png" alt="Smile" /> This concept remains in the experimental phase. I will update this post as the specifications evolve.

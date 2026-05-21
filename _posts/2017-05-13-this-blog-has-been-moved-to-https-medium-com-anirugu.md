@@ -1,21 +1,20 @@
 ---
-title: "This Blog Has Been Moved To Https Medium Com Anirugu"
+title: "This Blog Has Moved to Medium"
 date: 2017-05-13T12:00:00-04:00
 categories:
   - blog
 tags:
   - .NET
 ---
-<p>Hello everyone, </p>
+Hello everyone! Good evening.
 
-<p>Good evening !</p>
+It has been a pleasure using this blog to write about technical topics, personal experiences, and the tools I use daily. However, this blog has had some technical issues in the past and did not always work properly.
 
-<p>It’s my pleasure to use this blog to write stuff about technical stuff and things that I do or use in my daily life. This blog have a lot of technical issue in past. It’s not work properly.</p>
+There were many times when clicking the publish button failed to work, and during those periods, nothing would get published on the website for hours.
 
-<p>Many time I click on publish button and it was not working. I see on those days nothing has been published on last many hours on whole website. </p>
+Because of this, I am moving my blog to [medium.com/@anirugu](https://medium.com/@anirugu). Please subscribe to my new address for future posts. Currently, I am focusing primarily on .NET Web and Desktop programming.
 
-<p>I am moving my blog to <a href="https://medium.com/@anirugu" title="https://medium.com/@anirugu">https://medium.com/@anirugu</a> for my future post subscribe me on my new address. I am currently focusing on .NET Web &amp; Desktop programming.</p>
+If you have any feedback, please don't hesitate to reach out or tweet to me at [@anirugu](https://twitter.com/anirugu).
 
-<p>I hope We can do in future. If you have any feedback don’t hesitate to tweet to me <a href="https://twitter.com/anirugu" title="https://twitter.com/anirugu">https://twitter.com/anirugu</a></p>
+Happy coding! ![Smile](/2017_05_13_this_blog_has_been_Image1.png)
 
-<p>Happy coding <img src="/2017_05_13_this_blog_has_been_Image1.png" alt="Smile" /></p>
