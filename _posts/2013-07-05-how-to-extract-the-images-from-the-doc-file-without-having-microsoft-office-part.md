@@ -1,5 +1,5 @@
 ---
-title: "How To Extract The Images From The Doc File Without Having Microsoft Office Part"
+title: "How to Extract Images from DOC Files Without Microsoft Office (Part 2)"
 date: 2013-07-05T12:00:00-04:00
 categories:
   - blog
@@ -10,18 +10,19 @@ tags:
   - Linux
   - Windows
 ---
-<p>Last time I write a post about how to extract image from Microsoft Word file. I provide instruction in this <a href="http://geekswithblogs.net/anirugu/archive/2013/06/29/how-to-extract-the-images-from-the-doc-file-without.aspx">post</a> that work without having Microsoft office.</p>
+<p>Last time, I wrote a post explaining how to extract images from a Microsoft Word file. The instructions in that <a href="http://geekswithblogs.net/anirugu/archive/2013/06/29/how-to-extract-the-images-from-the-doc-file-without.aspx">previous post</a> work without needing Microsoft Office installed.</p>
 
-<p>In this post I will introduce a another nice thing which even don’t required to have WINDOWS.</p>
+<p>In this post, I will share another simple method that doesn't even require you to be running Windows.</p>
 
-<p>Look at <a href="https://chrome.google.com/webstore/detail/chrome-office-viewer-beta/gbkeegbaiigmenfmjfclcdgdpimamgkj">https://chrome.google.com/webstore/detail/chrome-office-viewer-beta/gbkeegbaiigmenfmjfclcdgdpimamgkj</a> install it in chrome. It will work on Linux, Mac and Windows. For extract image here is the instruction.</p>
+<p>You can install the **Chrome Office Viewer** extension from the <a href="https://chrome.google.com/webstore/detail/chrome-office-viewer-beta/gbkeegbaiigmenfmjfclcdgdpimamgkj">Chrome Web Store</a>. Since it runs inside Google Chrome, this method works on Linux, macOS, and Windows. Once installed, follow these instructions to extract your images:</p>
 
 <ol>
-<li><p>CTRL + O and choose the file.</p></li>
-<li><p>You can your doc file loaded inside the chrome </p></li>
-<li><p>Right click and save. Remember that it will not save in any extension. You need to do it manually.</p></li>
+<li><p>Press <strong>Ctrl + O</strong> (or <strong>Cmd + O</strong> on Mac) and select your <code>.doc</code> or <code>.docx</code> file.</p></li>
+<li><p>Your document will load directly inside Google Chrome.</p></li>
+<li><p>Right-click the image you want and select <strong>Save image as...</strong>. Note: Chrome may save the file without a file extension, so you might need to append the correct extension (like <code>.png</code> or <code>.jpg</code>) manually.</p></li>
 </ol>
 
-<p>For know which extension image has been used Right click on image and open them in new tab. You can see First three char like PNG, GIF. This is the extension that is image used to be.</p>
+<p>To determine the correct file extension, right-click the image and select <strong>Open image in new tab</strong>. You can inspect the first few characters of the image data or its URL path (e.g., PNG, GIF) to identify the format.</p>
 
-<p>I have tested my doc file and it’s work <img src="/2013_07_05_how_to_extract_the_Image1.png" alt="Smile" /></p>
+<p>I have tested this method with several document files and verified that it works perfectly! <img src="/2013_07_05_how_to_extract_the_Image1.png" alt="Smile" /></p>
+

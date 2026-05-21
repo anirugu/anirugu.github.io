@@ -1,17 +1,17 @@
 ---
-title: "How To Extract The Images From The Doc File Without Having Microsoft Office Part"
+title: "How to Extract Images from a DOC File Without Microsoft Office"
 date: 2013-06-29T12:00:00-04:00
 categories:
   - blog
 tags:
   - Windows
 ---
-<p>Many time we got the doc file which have some images. We need to try to extract them in Microsoft word which come with Windows 7 (not Microsoft office word). Looking to this article <a href="http://www.techrepublic.com/blog/itdojo/save-images-in-microsoft-word-documents-as-separate-files/135" title="http://www.techrepublic.com/blog/itdojo/save-images-in-microsoft-word-documents-as-separate-files/135">http://www.techrepublic.com/blog/itdojo/save-images-in-microsoft-word-documents-as-separate-files/135</a> This article is only useful when you have Microsoft word installed.</p>
+<p>Sometimes we receive a DOC file that contains images we need to extract. One approach is described in this article: <a href="http://www.techrepublic.com/blog/itdojo/save-images-in-microsoft-word-documents-as-separate-files/135">Save Images in Microsoft Word Documents as Separate Files</a>. However, that approach requires Microsoft Word to be installed.</p>
 
-<p>Now if I don’t have Microsoft office then what ?</p>
+<p>But what if you don't have Microsoft Office installed?</p>
 
-<p>No problem, here is a trick. when you open the doc file in Word then select the image and right click on image and choose cut. open the Microsoft paint. paste them here. Without clicking anywhere click on crop icon on toolbar.</p>
+<p>No problem — here is a simple trick. Open the DOC file in WordPad (the built-in word processor in Windows), select the image you want, right-click it, and choose <strong>Cut</strong>. Then open <strong>Microsoft Paint</strong> and paste the image. Without clicking anywhere else, click the <strong>Crop</strong> icon on the toolbar.</p>
 
-<p>Now you got your image in the same size as you have in word file. Don’t worry about Image format. Microsoft paint have support for save them in PNG format.</p>
+<p>You will now have the image at the same dimensions it had in the Word file. You don't need to worry about the image format — Microsoft Paint supports saving images in PNG format.</p>
 
 <p><img src="/2013_06_29_how_to_extract_the_Image1.png" alt="Smile" /></p>

@@ -1,5 +1,5 @@
 ---
-title: "How To Edit Aspx Cshtml And Other Kind Of Files Live On Ftp Server"
+title: "How to Edit ASPX, CSHTML, and Other Files Live on an FTP Server"
 date: 2013-06-27T12:00:00-04:00
 categories:
   - blog
@@ -9,18 +9,18 @@ tags:
   - HTML
   - ASP.NET
 ---
-<p>Many time we just want to make a small changes on site and we don’t want to download the whole project again. In this post I will show you some good way to do it.</p>
+<p>Sometimes we just want to make a small change to a live site without downloading the entire project. In this post, I will share some good ways to do that.</p>
 
-<p>People who have Expression Web 4 can do it. I tried it and it’s work good with aspx file. If you have site in asp.net and use aspx engine then this is a good option. Well, Expression Web is free (previously paid software).</p>
+<p>Users who have <strong>Expression Web 4</strong> can do this. I tried it and it works well with ASPX files. If your site uses ASP.NET with the ASPX view engine, this is a good option. Expression Web is now free (it was previously a paid product).</p>
 
-<p>A another good option is Komodo Edit. You can use komodo edit and few plugin to make FTP editing work for you.</p>
+<p>Another good option is <strong>Komodo Edit</strong>. You can use Komodo Edit with a few plugins to enable FTP-based file editing.</p>
 
-<p>The problem in these 2 apps are they don’t have syntax highlight and support for CSHTML file which are introduced with MVC 3. For this I suggest you to go with webmatrix. You can use Webmatrix to edit cshtml file online.</p>
+<p>The problem with both of these apps is that they lack syntax highlighting and support for CSHTML files, which were introduced with MVC 3. For CSHTML files, I suggest using <strong>WebMatrix</strong>, which supports editing CSHTML files directly over FTP.</p>
 
-<p>Remember that Webmatrix don’t support Compiling of MVC project. You need Visual Web developer Express at-least to compile your project.</p>
+<p>Keep in mind that WebMatrix does not support compiling MVC projects. You will need at least Visual Web Developer Express to compile your project.</p>
 
-<p>if you are in hurry try <a href="https://c9.io/" title="https://c9.io/">https://c9.io/</a> put your FTP settings and you just got your hands ready to make changes on live site.</p>
+<p>If you are in a hurry, try <a href="https://c9.io/" title="Cloud9 IDE">Cloud9 (c9.io)</a>. Enter your FTP settings and you can immediately start making changes to your live site.</p>
 
-<p>If you have anything else in your mind share it here. </p>
+<p>If you have any other suggestions, please share them in the comments.</p>
 
 <p><img src="/2013_06_27_how_to_edit_aspx,_Image1.png" alt="Smile" /></p>

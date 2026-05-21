@@ -1,5 +1,5 @@
 ---
-title: "Twitter Bootstrap Is Part Of Asp Net Mvc 5"
+title: "Twitter Bootstrap is Integrated into ASP.NET MVC 5"
 date: 2013-07-04T12:00:00-04:00
 categories:
   - blog
@@ -9,8 +9,9 @@ tags:
   - MVC
   - Bootstrap
 ---
-<p>Twitter bootstrap is a framework that I discussed earlier on my blog <a href="http://geekswithblogs.net/anirugu/archive/2012/12/16/how-to-get-started-with-twitter-bootstrap.aspx">How to get started with Twitter Bootstrap</a> </p>
+<p>Twitter Bootstrap is a popular front-end framework that I discussed in an earlier post: <a href="http://geekswithblogs.net/anirugu/archive/2012/12/16/how-to-get-started-with-twitter-bootstrap.aspx">How to Get Started with Twitter Bootstrap</a>.</p>
 
-<p>now happy to say that it will be part of mvc 5. you will got default ready to go template done with bootstrap.</p>
+<p>I am happy to share that Bootstrap is now integrated into ASP.NET MVC 5. New projects will come with default, ready-to-go templates designed with Bootstrap out of the box.</p>
 
-<p>for read more about mvc 5 take a look at <a href="http://www.asp.net/mvc/tutorials/mvc-5/introduction/getting-started" title="http://www.asp.net/mvc/tutorials/mvc-5/introduction/getting-started">http://www.asp.net/mvc/tutorials/mvc-5/introduction/getting-started</a></p>
+<p>To learn more about the new features in MVC 5, check out the official documentation: <a href="http://www.asp.net/mvc/tutorials/mvc-5/introduction/getting-started" title="Getting Started with ASP.NET MVC 5">Getting Started with ASP.NET MVC 5</a>.</p>
+
