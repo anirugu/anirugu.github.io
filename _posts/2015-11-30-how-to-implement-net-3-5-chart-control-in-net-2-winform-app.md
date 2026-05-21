@@ -8,24 +8,24 @@ tags:
   - .NET
   - Windows
 ---
-<p>Few months ago I work on a .net project (windows form actually) which I downgrade to .net 2.0 for some reason ( it was.net 4). Downgrade the project is not done easily but at the end we win the War. We finally downgrade the project to .net 2.</p>
+<p>A few months ago, I was working on a .NET project (a Windows Forms application) that I had to downgrade from .NET 4 to .NET 2.0 for specific reasons. Downgrading the project was not easy, but we ultimately succeeded.</p>
 
-<p>For System.Linq I use LinqBridge <a href="http://www.albahari.com/nutshell/linqbridge.aspx" title="http://www.albahari.com/nutshell/linqbridge.aspx">http://www.albahari.com/nutshell/linqbridge.aspx</a> </p>
+<p>For <code>System.Linq</code> support, I used LinqBridge: <a href="http://www.albahari.com/nutshell/linqbridge.aspx" title="LinqBridge">http://www.albahari.com/nutshell/linqbridge.aspx</a></p>
 
-<p>So Chart control will not show to you unless you have a project made in .net 3.5+</p>
+<p>The Chart control is not available in the Visual Studio toolbox unless your project targets .NET 3.5 or higher.</p>
 
-<p>I research a lot and many trick is no longer works.</p>
+<p>I researched quite a bit, and many of the workarounds I found online no longer work.</p>
 
-<p>Here is the trick to implement the Chart control.</p>
+<p>Here is the trick I used to get the Chart control working:</p>
 
-<p>Actually my chart in winform is working (in .net 2 code is ready but only visual studio refuse to run it) so I make a new Winform project in .net 3.5 add the dll reference and add the chart to form. This is all I need to use it in my project.</p>
+<p>The chart itself runs fine in .NET 2 code — the issue was that Visual Studio refused to render it in the designer. My solution was to create a new Windows Forms project targeting .NET 3.5, add the Chart DLL reference, and drag the Chart control onto a form. That gives you all the generated designer code you need to copy over.</p>
 
-<p>When I compile it’s done (.net 3.5)</p>
+<p>I compiled that .NET 3.5 project to confirm everything worked.</p>
 
-<p>Now I copied the same dll to .net 2 project. You can add this dll in .net 2 and it will run on system those contain .net 2 framework. You need to copy local the chart dll (so it will not require anything on client pc).</p>
+<p>Then I copied the same Chart DLL into my .NET 2 project. You can reference this DLL in a .NET 2 project, and it will run on any system that has .NET 2.0 installed. Make sure to set "Copy Local" to true on the DLL reference so that the client machine does not need any additional dependencies.</p>
 
-<p>Now When you open the form it will not show anything but it will run perfectly. My Visual studio 2015 simply refuse it because it’s doesn’t get it. But it will run perfectly. </p>
+<p>When you open the .NET 2 form in the Visual Studio designer, the Chart control will not render — Visual Studio 2015 simply doesn't recognize it in that context. However, the application will run perfectly at runtime.</p>
 
-<p>For any debug issue you can simply make a copy and change it to .net 3.5 and debug it for fix. Copy the same code back in .net 2 and it will run. </p>
+<p>For debugging, you can maintain a separate .NET 3.5 copy of the project. Debug and fix issues there, then copy the corrected code back into the .NET 2 project — it will run without any problems.</p>
 
-<p>The only thing that you will miss is you can’t see when you open the form in design mode. You need to use another copy in .net 3.5 to debug it. Except this, this code will work fine.</p>
+<p>The only limitation is that you cannot preview the Chart control in design mode within the .NET 2 project. You need to use the .NET 3.5 copy for that. Other than this constraint, the code works perfectly fine.</p>

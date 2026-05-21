@@ -6,22 +6,22 @@ categories:
 tags:
   - General
 ---
-<p>If you using using your phone, pc and laptop for a long time on work, you maybe search for a solution to make eye strain easy for you.</p>
+<p>If you use your phone, PC, or laptop for long hours at work, you may have searched for solutions to reduce eye strain.</p>
 
-<p>For some people flux work fine. I have installed it on my desktop and laptop both. If I can’t get it on new device I can feel what is missing in my system.</p>
+<p>For some people, f.lux works well. I have installed it on both my desktop and laptop. If I can't get it on a new device, I can immediately feel what's missing.</p>
 
-<p>I bought Gunnar spectacles from Amazon India. First of all The package come with full of dust but packed well (Amazon packed everything well). I didn’t have any problem with packaging because product was safe in it.</p>
+<p>I bought Gunnar spectacles from Amazon India. The package arrived covered in dust but was otherwise well packed (Amazon generally does a great job with packaging). I didn't have any problem with the packaging itself since the product was safe inside.</p>
 
-<p>After few days I see small small spot on Gunnar. I report them on FB. They disable rating just after my rating. They have paid for rating as I can see 39 people give them rating. So this company pay for Fb rating that is totally fake.</p>
+<p>After a few days, I noticed small spots appearing on the lenses. I reported the issue on their Facebook page. Shortly after my review, they disabled their ratings section. It was clear that the 39-star rating they had was paid for — this company was buying fake Facebook reviews.</p>
 
-<p>I mail them but got no reply. FB them but no reply. Tweet them but still not see anything in my inbox.</p>
+<p>I emailed them but received no reply. I contacted them on Facebook — no reply. I tweeted at them — still nothing in my inbox.</p>
 
 <ol>
-<li>If you closely look at people you will find that all these people talking about it is getting free copy of the gunnar. Gunnar give them free because of marketing.</li>
+<li>If you look closely at the reviewers, you will find that many of them received a free pair of Gunnars in exchange for their review. Gunnar provides free units specifically for marketing purposes.</li>
 </ol>
 
-<p>Marketing too much but no support at all. No one reply when you see a spot in your Gunnar spectacles.</p>
+<p>Heavy on marketing, but zero customer support. Nobody responds when you report a defect in your Gunnar spectacles.</p>
 
-<p>Why there is no comment on FB. Why remove all those comment. Do you see any company doing this with comments. They disable rating option just after my rating. After buying my spectacles they discontinue that list on Amazon.in </p>
+<p>Why are there no comments on their Facebook page? Why were all those comments removed? Have you ever seen another company do that? They disabled their ratings option immediately after my review was posted. And after I purchased my spectacles, they discontinued that listing on Amazon.in.</p>
 
-<p>Be careful with company like this, Too much money spent on marketing but it doesn’t work good if you see a problem in the spectacles.</p>
+<p>Be careful with companies like this. They invest heavily in marketing, but the product falls short the moment you encounter a problem.</p>

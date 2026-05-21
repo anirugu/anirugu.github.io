@@ -7,12 +7,12 @@ tags:
   - Visual-Studio
   - CSS
 ---
-<p>In previous version of Visual studio (2013 actually) Web Essentials 2013 compile everything easily. If you just fork something and start editing less file it’s save the .css file in same folder where the .less file reside.</p>
+<p>In the previous version of Visual Studio (specifically VS 2013), Web Essentials 2013 handled LESS compilation effortlessly. If you forked a project and started editing a LESS file, it would automatically save the compiled <code>.css</code> file in the same folder as the <code>.less</code> file.</p>
 
-<p>In Web Essentials 2015 the compiling process for less has been removed and it’s work no more. If you trying to use tools like Simpless or winless they will not work because currently when I tried to use winless and simpless I got error like the file has been used by another process and visual studio show me file save dialog everytime and after saving it’s not work. </p>
+<p>In Web Essentials 2015, the LESS compilation feature was removed and no longer works. If you try to use third-party tools like SimpLESS or WinLESS as a replacement, you will run into issues. In my experience, both tools threw an error stating the file was already in use by another process, and Visual Studio kept showing a file-save dialog on every change — and even after saving, the compilation did not work reliably.</p>
 
-<p>Don’t worry guys, As mads remove the less compiler from their extension it’s look like he has made another extension to make less compiling work.</p>
+<p>Don't worry though — it looks like Mads Kristensen, who removed the LESS compiler from Web Essentials, has since created a dedicated extension to bring the functionality back.</p>
 
 <p><a href="https://visualstudiogallery.msdn.microsoft.com/3b329021-cd7a-4a01-86fc-714c2d05bb6c">https://visualstudiogallery.msdn.microsoft.com/3b329021-cd7a-4a01-86fc-714c2d05bb6c</a></p>
 
-<p>You can download it from the given link. The only cons of this extension is it’s not automatically compile the less file. You need to right click on file and save the location of file to make it work. </p>
+<p>You can download it from the link above. The only downside of this extension is that it does not compile LESS files automatically on save. You need to right-click the file and trigger the compilation manually to get it working.</p>

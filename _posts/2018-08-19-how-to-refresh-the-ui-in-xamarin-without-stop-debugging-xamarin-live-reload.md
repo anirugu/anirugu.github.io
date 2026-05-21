@@ -1,22 +1,27 @@
 ---
-title: "How To Refresh The Ui In Xamarin Without Stop Debugging Xamarin Live Reload"
+title: "How to Refresh the UI in Xamarin Without Stopping Debugging: Xamarin Live Reload"
 date: 2018-08-19T12:00:00-04:00
 categories:
   - blog
-tags:
-  - Android
-  - C#
-  - Xamarin
----
-<p>Working on xamarin project and looking for hot reload ? Look at Xamarin Live reload. For using Xamarin Live Reload<div><br />
-</div><div>simply go to Extension Manager search for live reload and install the <a href="https://marketplace.visualstudio.com/items?itemName=Xamarin.XamarinLiveReload">xamarin live reload</a> create a xamarin.forms project and switch to ui, you will see a yellow bar with connect option. If this doesn't show go to tools > options > live reload nad click on OK, it will appear.</div><div><br />
-</div><div>after click on connect, give permission and go on, if you are using android project and already deployed app, you need to uninstall it.</div><div><br />
-</div><div>You need to add these 3 magic lines in your xamarin app.xaml.cs</div><div><br />
-</div><div><span style="font-family: Consolas, Menlo, Monaco, "Lucida Console", "Liberation Mono", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Courier New", monospace, sans-serif; font-size: 14px; white-space: pre; background-color: rgb(249, 249, 249);">        </span><span class="hljs-comment" style="box-sizing: inherit; color: green; font-family: Consolas, Menlo, Monaco, "Lucida Console", "Liberation Mono", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Courier New", monospace, sans-serif; font-size: 14px; white-space: pre;">// Initialize Live Reload.</span><span style="font-family: Consolas, Menlo, Monaco, "Lucida Console", "Liberation Mono", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Courier New", monospace, sans-serif; font-size: 14px; white-space: pre; background-color: rgb(249, 249, 249);">
-        </span><span class="hljs-meta" style="box-sizing: inherit; color: rgb(0, 125, 154); font-family: Consolas, Menlo, Monaco, "Lucida Console", "Liberation Mono", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Courier New", monospace, sans-serif; font-size: 14px; white-space: pre;">#<span class="hljs-meta-keyword" style="box-sizing: inherit;">if</span> DEBUG</span><span style="font-family: Consolas, Menlo, Monaco, "Lucida Console", "Liberation Mono", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Courier New", monospace, sans-serif; font-size: 14px; white-space: pre; background-color: rgb(249, 249, 249);">
-        LiveReload.Init();
-        </span><span class="hljs-meta" style="box-sizing: inherit; color: rgb(0, 125, 154); font-family: Consolas, Menlo, Monaco, "Lucida Console", "Liberation Mono", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Courier New", monospace, sans-serif; font-size: 14px; white-space: pre;">#<span class="hljs-meta-keyword" style="box-sizing: inherit;">endif</span></span></div><div><br />
-</div><div><span class="hljs-meta" style="box-sizing: inherit; color: rgb(0, 125, 154); font-family: Consolas, Menlo, Monaco, "Lucida Console", "Liberation Mono", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Courier New", monospace, sans-serif; font-size: 14px; white-space: pre;"><span class="hljs-meta-keyword" style="box-sizing: inherit;"><span style="color: rgb(0, 0, 0); font-family: "Times New Roman"; font-size: medium; white-space: normal;">Now run the project and make changes you will see the ui changed in your android device, As per docs you need to stop project for modify the c# code. For detail look at this page</span></span></span></div><div><br />
-</div><div><span class="hljs-meta" style="box-sizing: inherit;"><span class="hljs-meta-keyword" style="box-sizing: inherit;"><a href="https://docs.microsoft.com/en-us/xamarin/xamarin-forms/xaml/live-reload">https://marketplace.visualstudio.com/items?itemName=Xamarin.XamarinLiveReload</a></span></span></div><div><span class="hljs-meta" style="box-sizing: inherit; color: rgb(0, 125, 154); font-family: Consolas, Menlo, Monaco, "Lucida Console", "Liberation Mono", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Courier New", monospace, sans-serif; font-size: 14px; white-space: pre;"><span class="hljs-meta-keyword" style="box-sizing: inherit;"><br />
-</span></span></div><div>Thanks for reading my article </div><div><br />
-</div><div>Happy coding :)</div></p>
+---\n
+Are you working on a Xamarin project and looking for Hot Reload? Check out Xamarin Live Reload!
+
+To use Xamarin Live Reload, simply open the Extension Manager in Visual Studio, search for "live reload", and install the [Xamarin Live Reload](https://marketplace.visualstudio.com/items?itemName=Xamarin.XamarinLiveReload) extension. Once installed, open your Xamarin.Forms project and switch to a UI file—you should see a yellow bar with a **Connect** option. If this bar does not appear, go to **Tools > Options > Live Reload** and click **OK** to make it appear.
+
+After clicking **Connect**, grant the necessary permissions. If you are working on an Android project and have already deployed the app, you will need to uninstall it from your device or emulator first.
+
+Next, add these three lines of code in your Xamarin `App.xaml.cs` file:
+
+```csharp
+// Initialize Live Reload.
+#if DEBUG
+LiveReload.Init();
+#endif
+```
+
+Now run the project and make changes to your UI—you will see the user interface update instantly on your Android device. Note that, as per the documentation, you will still need to stop debugging to modify C# code. For more details, check out this page:
+
+[Xamarin Live Reload Documentation](https://docs.microsoft.com/en-us/xamarin/xamarin-forms/xaml/live-reload)
+
+Thanks for reading! Happy coding! :)
+

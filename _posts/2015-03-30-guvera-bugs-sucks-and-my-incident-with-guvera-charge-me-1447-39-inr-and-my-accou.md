@@ -1,5 +1,5 @@
 ---
-title: "Guvera Bugs Sucks And My Incident With Guvera Charge Me 1447 39 Inr And My Accou"
+title: "Guvera App Bug and My Incident: Charged 1,447.39 INR by Mistake"
 date: 2015-03-30T12:00:00-04:00
 categories:
   - blog
@@ -7,16 +7,17 @@ tags:
   - .NET
   - Windows
 ---
-<p>Finding a good Music streaming is really so hard. Today I play guvera and thing to let use it for future. Now See what it happen to me.</p>
+<p>Finding a good music streaming service is really hard. Today, I tried Guvera and thought about using it in the future. Now, see what happened to me.</p>
 
-<p>First I tried to pay it doesn’t work. I tell the support and it telling me that give us error so we look into it. It’s error 25004 Payment failed. </p>
+<p>First, I tried to make a payment, but it didn't work. I contacted support, and they asked me to provide the error code so they could look into it. The error was "25004 Payment failed".</p>
 
-<p>It’s working on other site but not in Guvera. I thing it’s hourly issues and it’s maybe has fixed now. I tried to payment again and they charge me 1447.39 (49.91 29 times on same date). the phone that is registered continuously ping by the notification.</p>
+<p>My card works fine on other sites, but not on Guvera. I thought it might be a temporary issue that had been resolved, so I tried making the payment again. However, they charged me 1,447.39 INR (49.91 INR charged 29 times on the same day). My registered phone kept pinging continuously with transaction notifications.</p>
 
-<p>I see nothing has been changed in my account. My account is still free. Now I have contact their support by email. I got no answer. Maybe They don’t send mail after 4 PM. </p>
+<p>Even after this, nothing changed in my account status—it still shows as a free account. I have contacted their support via email, but I haven't received a response yet. Perhaps they don't reply to emails after 4 PM.</p>
 
-<p>I will update this when I get update back from Guvera. Right now Let’s see what happened. </p>
+<p>I will update this post once I receive a response from Guvera. For now, let's see what happens.</p>
 
 <p><a href="https://gwb.blob.core.windows.net/anirugu/Windows-Live-Writer/Guvera-Bugs-Sucks-and-my-incident-with-G_10CE7/Guvera_bug_2.png"><img src="/2015_03_30_guvera_bugs_sucks_and_Image1.png" alt="Guvera_bug" title="Guvera_bug" /></a></p>
 
-<p>Here is the screenshot to show what happened with my account.</p>
+<p>Here is a screenshot showing what happened with my account.</p>
+

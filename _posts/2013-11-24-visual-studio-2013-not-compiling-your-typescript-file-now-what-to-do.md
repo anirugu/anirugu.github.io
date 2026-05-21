@@ -1,5 +1,5 @@
 ---
-title: "Visual Studio 2013 Not Compiling Your Typescript File Now What To Do"
+title: "What to Do When Visual Studio 2013 Is Not Compiling Your TypeScript Files"
 date: 2013-11-24T12:00:00-04:00
 categories:
   - blog
@@ -8,16 +8,17 @@ tags:
   - Visual-Studio
   - MVC
 ---
-<p>If you want to use typescript language in your Visual studio 13 and it doesn’t work for you then don’t be frustrated. There is no reason to wait for fix. </p>
+<p>If you want to use TypeScript in Visual Studio 2013 but find that automatic compilation is not working, don't get frustrated. There is no need to wait for a patch.</p>
 
-<p>Now you can try these other way to compile your Typescript.</p>
+<p>Here are several alternative ways to compile your TypeScript files:</p>
 
 <ol>
-<li><p>If you wish you can use Sublime text. There is a package Called Typescript and Better Typescript. it’s gave you syntax highlight to compile. everything will be done instantly. </p></li>
-<li><p>Another good thing is Microsoft webmatrix. If you are working on mvc project then open the same directory in webmatrix. webmatix will automatically compile your typescript files.</p></li>
-<li><p>There is a feature in Webstorm and Phpstorm for typescript. You can compile your typescript in that tool also.</p></li>
+<li><p><strong>Sublime Text:</strong> You can use Sublime Text with the "TypeScript" or "Better TypeScript" packages. These packages provide syntax highlighting and enable instant compilation on save.</p></li>
+<li><p><strong>Microsoft WebMatrix:</strong> If you are working on an ASP.NET MVC project, you can open your project directory in WebMatrix, which supports automatic compilation of TypeScript files out of the box.</p></li>
+<li><p><strong>JetBrains WebStorm / PhpStorm:</strong> Both IDEs have native support and File Watchers for compiling TypeScript files seamlessly.</p></li>
 </ol>
 
-<p>Typescript also can be compiled through NodeJs pacakages NPM.</p>
+<p>Additionally, TypeScript can be compiled directly via the command line using Node.js and the NPM package manager (by installing the global <code>typescript</code> compiler package).</p>
 
-<p>Thanks for read my post <img src="/2013_11_24_visual_studio_2013_not_Image1.png" alt="Smile" /></p>
+<p>Thanks for reading! <img src="/2013_11_24_visual_studio_2013_not_Image1.png" alt="Smile" /></p>
+
