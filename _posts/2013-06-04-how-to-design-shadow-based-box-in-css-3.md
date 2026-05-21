@@ -7,9 +7,9 @@ tags:
   - HTML
   - CSS
 ---
-<p>In this post I will show you how to create a box and wrapper for page that have shadow effect using css3.</p>
+<p>In this post, I will show you how to create a box and page wrapper with a shadow effect using CSS3.</p>
 
-<p>For make this effect we use <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow">box-shadow</a> </p>
+<p>To create this effect, we use the <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow">box-shadow</a> property.</p>
 
 <div class="container">
 
@@ -23,7 +23,7 @@ tags:
 
 </div>
 
-<p>Here is the css</p>
+<p>Here is the CSS:</p>
 
 <p>.container {</p>
 
@@ -33,9 +33,9 @@ tags:
 
 <p>.container .container-hold {</p>
 
-<p>box-shadow: -8px 10px 5px #888; </p>
+<p>box-shadow: -8px 10px 5px #888;</p>
 
-<p>width: 100%; </p>
+<p>width: 100%;</p>
 
 <p>height: 100%;</p>
 
@@ -43,23 +43,23 @@ tags:
 
 <p>.container .container-hold .container-hold-top {</p>
 
-<p>box-shadow: 10px -10px 8px #888; </p>
+<p>box-shadow: 10px -10px 8px #888;</p>
 
-<p>height: 100%; </p>
+<p>height: 100%;</p>
 
 <p>width: 100%;</p>
 
 <p>}</p>
 
-<p>This code make shadow on left ,right and top side of wrapper. </p>
+<p>This code creates shadows on the left, right, and top sides of the wrapper.</p>
 
-<p>This is the syntax for box-shadow</p>
+<p>Here is the formal syntax for <code>box-shadow</code>:</p>
 
 <p><font style="font-size: 10.5pt" color="#333333">Formal syntax: none | [inset? &amp;&amp; [ <offset-x> <offset-y> <blur-radius>? <spread-radius>? <color>? ] ]#</font></p>
 
-<p>Check my code that I not use spread for box-shadow. You can try it to make spread your box-shadow more.</p>
+<p>Note that I did not use the <code>spread-radius</code> in my example. Feel free to experiment with it to expand the shadow further.</p>
 
-<p>Here is some link to great post</p>
+<p>Here are some great related posts:</p>
 
 <p><a href="http://markusstange.wordpress.com/2009/02/15/fun-with-box-shadows/">http://markusstange.wordpress.com/2009/02/15/fun-with-box-shadows/</a></p>
 
@@ -67,4 +67,4 @@ tags:
 
 <p><a href="http://www.css3.info/preview/box-shadow/">http://www.css3.info/preview/box-shadow/</a></p>
 
-<p>If you miss something in my post Please comment me so I can improve it.</p>
+<p>If I missed anything, please leave a comment so I can improve this post.</p>

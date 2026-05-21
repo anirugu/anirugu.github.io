@@ -6,12 +6,12 @@ categories:
 tags:
   - Firefox
 ---
-<p>Every new version of Firefox Come with new features. Recently people using Firefox 21 Reported that Their Firefox has crashed after click on X-close button.</p>
+<p>Every new version of Firefox comes with new features. Recently, users of Firefox 21 reported that their browser crashed after clicking the close (X) button.</p>
 
-<p>What is the problem ?</p>
+<p>What is the cause?</p>
 
-<p>Actually Firefox have trouble with “hardware acceleration”. You need to disable it. Try to go to Tools > options > Browsing > uncheck the hardware acceleration. This is one of the problem in Firefox.</p>
+<p>Firefox was experiencing trouble with hardware acceleration. To fix this, disable it by going to <strong>Tools &gt; Options &gt; Advanced &gt; Browsing</strong> and unchecking <strong>Use hardware acceleration when available</strong>. This is a known issue in certain Firefox builds.</p>
 
-<p>If you have any kind of trouble then I recommended you to try <a href="https://support.mozilla.org/en-US/questions/new" title="https://support.mozilla.org/en-US/questions/new">https://support.mozilla.org/en-US/questions/new</a> for get official help &amp; support For Firefox </p>
+<p>If you are still experiencing issues, I recommend visiting the official Mozilla Support page for help: <a href="https://support.mozilla.org/en-US/questions/new" title="https://support.mozilla.org/en-US/questions/new">https://support.mozilla.org/en-US/questions/new</a></p>
 
 <p><img src="/2013_06_25_why_your_firefox_21_Image1.png" alt="Smile" /></p>
