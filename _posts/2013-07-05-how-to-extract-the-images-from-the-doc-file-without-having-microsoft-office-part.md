@@ -14,7 +14,7 @@ tags:
 
 <p>In this post, I will share another simple method that doesn't even require you to be running Windows.</p>
 
-<p>You can install the **Chrome Office Viewer** extension from the <a href="https://chrome.google.com/webstore/detail/chrome-office-viewer-beta/gbkeegbaiigmenfmjfclcdgdpimamgkj">Chrome Web Store</a>. Since it runs inside Google Chrome, this method works on Linux, macOS, and Windows. Once installed, follow these instructions to extract your images:</p>
+<p>You can install the <strong>Chrome Office Viewer</strong> extension from the <a href="https://chrome.google.com/webstore/detail/chrome-office-viewer-beta/gbkeegbaiigmenfmjfclcdgdpimamgkj">Chrome Web Store</a>. Since it runs inside Google Chrome, this method works on Linux, macOS, and Windows. Once installed, follow these instructions to extract your images:</p>
 
 <ol>
 <li><p>Press <strong>Ctrl + O</strong> (or <strong>Cmd + O</strong> on Mac) and select your <code>.doc</code> or <code>.docx</code> file.</p></li>
