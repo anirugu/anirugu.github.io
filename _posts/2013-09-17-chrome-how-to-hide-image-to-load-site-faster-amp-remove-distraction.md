@@ -1,5 +1,5 @@
 ---
-title: "Chrome How To Hide Image To Load Site Faster Amp Remove Distraction"
+title: "Chrome: How to Hide Images to Load Sites Faster & Remove Distractions"
 date: 2013-09-17T12:00:00-04:00
 categories:
   - blog
@@ -8,10 +8,10 @@ tags:
   - .NET
   - Chrome
 ---
-<p>Sometime you have seen that article written somewhere is very good but there is a lot of distraction on site. Maybe that is the single reason you hate them. Now I gave you how to remove that distraction.</p>
+<p>Sometimes you find a well-written article online, but the website has a lot of distracting elements. That might be the primary reason you dislike reading there. In this post, I will show you how to remove those distractions.</p>
 
 <p><a href="https://gwb.blob.core.windows.net/anirugu/Windows-Live-Writer/In-chrome-how-to-block-image-to-load-sit_CAA3/block_2.png"><img src="/2013_09_17_chrome_how_to_hide_Image1.png" alt="block" title="block" /></a></p>
 
-<p>Check that this will hide the image on site. This is just a example of how you can do it. You can simply apply on any site you have in your mind. When you do it and refresh the page don’t be confused. you need a to open same thing in next tab instead of refresh.</p>
+<p>Applying this setting will hide images on the website. This is just one example of how you can configure it; you can apply it to any website you want. After applying the change, do not simply refresh the current page (as that might not work immediately) — instead, open the same URL in a new tab to see the effect.</p>
 
 <p><img src="/2013_09_17_chrome_how_to_hide_Image2.png" alt="Smile" /></p>

@@ -1,5 +1,5 @@
 ---
-title: "How To Fix MySQL Version Mismatch With NuGet When It's Make Error When You S"
+title: "How to Fix MySQL Version Mismatch with NuGet in Visual Studio"
 date: 2015-01-16T12:00:00-04:00
 categories:
   - blog
@@ -11,38 +11,32 @@ tags:
   - Visual-Studio
   - NuGet
 ---
-<p>2 Year ago I write a post here to give my view on Mysql and it’s nuget packages <a href="http://geekswithblogs.net/anirugu/archive/2013/11/04/donrsquot-use-mysql-.net-connector-here-is-why.aspx" title="http://geekswithblogs.net/anirugu/archive/2013/11/04/donrsquot-use-mysql-.net-connector-here-is-why.aspx">http://geekswithblogs.net/anirugu/archive/2013/11/04/donrsquot-use-mysql-.net-connector-here-is-why.aspx</a></p>
+<p>Two years ago, I wrote a post sharing my views on MySQL and its NuGet packages: <a href="http://geekswithblogs.net/anirugu/archive/2013/11/04/donrsquot-use-mysql-.net-connector-here-is-why.aspx" title="Why I Don't Recommend MySQL .NET Connector Anymore">Why I Don't Recommend MySQL .NET Connector Anymore</a>.</p>
 
-<p><font color="#e7e7e7">Nuget package is much better way to fix the dll. Just type the command in console and reference has been added to your C# project very easily. You don’t need to do anything to update it every time. </font></p>
+<p>Using a NuGet package is a much better way to manage DLL references. You can simply run the command in the Package Manager Console, and the reference is added to your C# project. You don't have to manually update it every time; Visual Studio makes this process very easy.</p>
 
-<p>Visual studio make this process easier.</p>
+<p>Recently, however, I ran into an issue. When I shared my code with others, it failed to compile or run on machines that had the MySQL Connector installed locally on the system.</p>
 
-<p>From last few days I got a trouble. When I share with my code with other it’s not work on another machine which have Mysql Connector installed on the system.</p>
+<p>Every time I compiled their code on my machine and sent it back, it wouldn't work on theirs. Even though NuGet restored the packages, the local MySQL Connector installation conflicted with the project's references.</p>
 
-<p>Everytime I take there code and compiled on my machine and give them back it’s not working there. Nuget installed the nuget packages again and it’s use nuget packages reference there and it’s installed on there machine which make trouble on c# to run them.</p>
+<p>Although the project might compile, Visual Studio will display warnings or errors. Because the MySQL Connector installs a DLL in the Global Assembly Cache (GAC), it creates version mismatch conflicts.</p>
 
-<p>The code will be compiled, Warning will be shown in Error in visual studio. But because Connector have a DLL installed in GAC it will make issues that “not matched“.</p>
+<p>To resolve this issue, you can try this trick:</p>
 
-<p>Now to fix this issues try this trick.</p>
+<p>Open the <code>.csproj</code> file of your project and search for "mysql". Replace that reference with the following code (previously it referenced the package from the packages folder; referencing it locally from your bin folder helps resolve this GAC conflict):</p>
 
-<p>Open the csproj file of your project. Search for mysql</p>
+<p><code>&lt;Reference Include="MySql.Data, Version=6.9.5.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL"&gt;<br />
+ &lt;SpecificVersion&gt;False&lt;/SpecificVersion&gt;<br />
+ &lt;HintPath&gt;..\projectname\bin\MySql.Data.dll&lt;/HintPath&gt;<br />
+ &lt;Private&gt;True&lt;/Private&gt;<br />
+ &lt;/Reference&gt;</code></p>
 
-<p>replace it with this code, Previously it’s referenced from packages folder, Now if you are making reference from bin folder it will work. </p>
+<p>Note: Replace <code>projectname</code> with your actual project's name, and change the path according to your project's directory structure.</p>
 
-<p><Reference Include="MySql.Data, Version=6.9.5.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL"><br />
- <SpecificVersion>False</SpecificVersion><br />
- <HintPath>..\projectname\bin\MySql.Data.dll</HintPath><br />
- <Private>True</Private><br />
- </Reference>   </p>
+<p>Next, open your <code>packages.config</code> file and remove the MySQL dependency line.</p>
 
-<p>projname is your own projectname. Now it’s called the dll from your bin. Change the path according to your project location.</p>
+<p>If your solution contains multiple projects referencing MySQL, repeat these steps for each project.</p>
 
-<p>Now open the packages.config and where it’s stored the packages settings. Now remove the mysql reference from there but cut the line that have mysql.</p>
-
-<p>If you have attached many project to your project do same on that too if they have mysql too.</p>
-
-<p>Now it fixed. Now VS will not download the dll from Nuget again and again. Now they are calling it from Bin folder.</p>
-
-<p>Yahooooooo. Now Nuget can’t burn my minutes to just fix them again and again.</p>
+<p>Once updated, Visual Studio will build cleanly using the DLL from your local folder instead of attempting to fetch it from the GAC or packages folder each time.</p>
 
 <p>Happy Coding <img src="/2015_01_16_how_to_fix_mysql_Image1.png" alt="Smile" /></p>

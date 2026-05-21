@@ -1,5 +1,5 @@
 ---
-title: "Visual Studio 13 Useful Feature To Work With Javascript Amp Css Effectively"
+title: "Visual Studio 2013: Useful Features to Work with JavaScript & CSS Effectively"
 date: 2013-09-27T12:00:00-04:00
 categories:
   - blog
