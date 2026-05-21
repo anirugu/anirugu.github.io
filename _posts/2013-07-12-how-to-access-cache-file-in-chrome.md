@@ -1,3 +1,12 @@
+---
+title: "How To Access Cache File In Chrome"
+date: 2013-07-12T12:00:00-04:00
+categories:
+  - blog
+tags:
+  - HTML
+  - Chrome
+---
 <p>Browser use Caching for file that is mostly chanced to use again as resources on page.</p>
 
 <p>When you visit any site chrome download these file from http server and cache for you inside the browser. it will help them to make less load on server and loadtime on client side browser.</p>

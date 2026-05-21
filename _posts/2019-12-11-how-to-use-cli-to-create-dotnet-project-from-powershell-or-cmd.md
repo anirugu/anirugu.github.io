@@ -1,3 +1,17 @@
+---
+title: "How To Use Cli To Create Dotnet Project From Powershell Or Cmd"
+date: 2019-12-11T12:00:00-04:00
+categories:
+  - blog
+tags:
+  - PHP
+  - Mac
+  - CSS
+  - .NET
+  - MVC
+  - ASP.NET
+  - Windows
+---
 <p><div>In ASP.NET CORE we can create the project through CLI, For example you need to create a project named Contoso, You need to create a folder Contoso.</div><div><br />
 </div><div>On Windows you can simply do it using md command, like<br />
 </div><div><br />

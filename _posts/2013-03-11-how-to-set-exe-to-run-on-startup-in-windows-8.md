@@ -1,3 +1,12 @@
+---
+title: "How To Set Exe To Run On Startup In Windows 8"
+date: 2013-03-11T12:00:00-04:00
+categories:
+  - blog
+tags:
+  - .NET
+  - Windows
+---
 <p>Do you want to run something when you open your system. Here is a simple way to do this in Windows 8.</p>
 
 <p>press Win + R and type “%appData%” then press Enter</p>

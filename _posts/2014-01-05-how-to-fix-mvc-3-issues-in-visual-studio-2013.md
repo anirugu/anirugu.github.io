@@ -1,3 +1,12 @@
+---
+title: "How To Fix Mvc 3 Issues In Visual Studio 2013"
+date: 2014-01-05T12:00:00-04:00
+categories:
+  - blog
+tags:
+  - Visual-Studio
+  - MVC
+---
 <p>In Initial release of Visual studio 2013 has been dropped. If your VS doesn’t take your MVC3 application and show you the error something like “Project not supported.” then this post will help you.</p>
 
 <p>Create a new project with same namespace and copy the .sln and .csproj file into your project (that we discussed earlier).</p>

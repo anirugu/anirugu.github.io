@@ -1,11 +1,10 @@
 ---
 title: "Azure Sandbox"
-date: 2022-03-01T15:34:30-04:00
+date: 2022-03-01T12:00:00-04:00
 categories:
   - blog
 tags:
   - Azure
-  - Sandbox
 ---
 In this post we will learn how we can sandbox to practice azure. For example, if you want to practice Redis, What you need is just type 'Redis exercise site:https://docs.microsoft.com/en-us/learn/modules/' in Google
 

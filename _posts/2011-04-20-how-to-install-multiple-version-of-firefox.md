@@ -1,3 +1,12 @@
+---
+title: "How To Install Multiple Version Of Firefox"
+date: 2011-04-20T12:00:00-04:00
+categories:
+  - blog
+tags:
+  - Firefox
+  - Windows
+---
 <p>How to install the multiple version of Firefox here i show you some great thing who can help you to setup fx multiple version in your own system.</p>
 
 <p>you need to know that when you run the setup he just override the installed Firefox so you need to install the Fx in two different directories by making a custom installation.</p>

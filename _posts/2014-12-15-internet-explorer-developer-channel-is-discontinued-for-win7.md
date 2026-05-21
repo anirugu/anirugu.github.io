@@ -1,3 +1,12 @@
+---
+title: "Internet Explorer Developer Channel Is Discontinued For Win7"
+date: 2014-12-15T12:00:00-04:00
+categories:
+  - blog
+tags:
+  - .NET
+  - Windows
+---
 <p>Less than six months ago I see a thing like Internet explorer 7 developer channel. It’s look like quite impressive for developer. Now Microsoft has killed it.</p>
 
 <p>Now here is the update from Microsoft</p>

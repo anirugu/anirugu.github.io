@@ -1,3 +1,13 @@
+---
+title: "How To Install Bootstrap 2 3 2 Through Nuget Package Manager"
+date: 2013-09-01T12:00:00-04:00
+categories:
+  - blog
+tags:
+  - Visual-Studio
+  - NuGet
+  - Bootstrap
+---
 <p>When you use Visual studio express (or above) and go to Manage Nuget package for this solution then you see it’s show you the new version you want to install. Till now 3.x has been released.</p>
 
 <p>If you want to use old 2.3.2 version then look at this <a href="https://www.nuget.org/packages/Twitter.Bootstrap/2.3.2" title="https://www.nuget.org/packages/Twitter.Bootstrap/2.3.2">https://www.nuget.org/packages/Twitter.Bootstrap/2.3.2</a></p>

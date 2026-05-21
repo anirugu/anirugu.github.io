@@ -1,3 +1,11 @@
+---
+title: "Bugs In Youtube Android App"
+date: 2013-09-26T12:00:00-04:00
+categories:
+  - blog
+tags:
+  - Android
+---
 <p>Recently Youtube update their android app. In this post I will demonstrate you the feature that is not work correctly (maybe not totally).</p>
 
 <p>When a user want to unsubscribe and click on subscribe it’s look like they have successfully unsubscribed but it’s not. I tried to do same with many channel but none of them unsubscribed.</p>

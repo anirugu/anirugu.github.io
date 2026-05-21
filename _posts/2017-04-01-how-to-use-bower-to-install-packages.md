@@ -1,3 +1,15 @@
+---
+title: "How To Use Bower To Install Packages"
+date: 2017-04-01T12:00:00-04:00
+categories:
+  - blog
+tags:
+  - .NET
+  - Visual-Studio
+  - MVC
+  - ASP.NET
+  - NuGet
+---
 <p>In VS 2017, you have choice to install ui components by using bower. If you work previously in asp.net mvc project in visual studio you know all we use is nuget to install anything from jQuery to Newtonsoft.json.</p>
 
 <p>For using bower right click on project and check manage bower package, this option list next to Manage Nuget Package.</p>

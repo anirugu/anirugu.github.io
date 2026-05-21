@@ -1,3 +1,13 @@
+---
+title: "Firefox 7 Released"
+date: 2011-09-26T12:00:00-04:00
+categories:
+  - blog
+tags:
+  - .NET
+  - Firefox
+  - Windows
+---
 <p>I found a article on <a href="http://www.ghacks.net/2011/09/27/mozilla-firefox-7-released/">ghacks.net</a> about firefox's next release 7. if you trying to find out on the mozilla's officially site they still show you 6.0.2 that means they still not relased it officially but in next 24hours they can be release it.</p>
 
 <p>if you want to get them early. see here</p>

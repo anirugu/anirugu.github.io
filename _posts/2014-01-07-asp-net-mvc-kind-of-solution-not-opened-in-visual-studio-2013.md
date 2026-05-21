@@ -1,3 +1,14 @@
+---
+title: "Asp Net Mvc Kind Of Solution Not Opened In Visual Studio 2013"
+date: 2014-01-07T12:00:00-04:00
+categories:
+  - blog
+tags:
+  - Visual-Studio
+  - .NET
+  - MVC
+  - ASP.NET
+---
 <p>Recently I am trying to open a MVC 3 project which is made at time of VWD 2010. When I opened this I see this kind of project doesn’t work anymore in my VS. I got a problem that project is unable to migrate. On same time I open it in webmatrix 3 as site and it’s work fine. </p>
 
 <p>So how to fix it.</p>

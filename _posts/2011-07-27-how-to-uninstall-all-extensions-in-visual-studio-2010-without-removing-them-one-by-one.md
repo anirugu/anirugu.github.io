@@ -1,3 +1,12 @@
+---
+title: "How To Uninstall All Extensions In Visual Studio 2010 Without Removing Them One By One"
+date: 2011-07-27T12:00:00-04:00
+categories:
+  - blog
+tags:
+  - Visual-Studio
+  - JavaScript
+---
 <p>Visual Studio have a nice integration of Extensions. Sometime when you want a feature you can easily got extensions (plugins) from Visual Studio gallery. Sometime some user have trouble the performance in VS when they got install too many plugins.</p>
 
 <p>As in 2010 Visual studio not have functionality to remove all plugin component by one click. Like javascript extensions you need to remove every component of plugin one by one.</p>

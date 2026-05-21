@@ -1,3 +1,12 @@
+---
+title: "How To Design Bullet List Ul Gtli In Html Css"
+date: 2013-06-12T12:00:00-04:00
+categories:
+  - blog
+tags:
+  - HTML
+  - CSS
+---
 <p>in HTML there is too many option to accomplish a small task. Every kind of option make a different result. In this post I will show you how you can design ul li better way <img src="/2013_06_12_how_to_design_bullet_Image1.png" alt="Smile" /></p>
 
 <ul>

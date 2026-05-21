@@ -1,3 +1,11 @@
+---
+title: "How To Use Google Mail And Outlook Better"
+date: 2014-12-20T12:00:00-04:00
+categories:
+  - blog
+tags:
+  - Chrome
+---
 <p>Google mail and Outlook is two most used software for reading emails. From last few days I got a problem.</p>
 
 <p>The problem is the size of content is bigger than my screen. The problem can be fixed just by remove the right bar in Outlook and Google mail both.</p>

@@ -1,3 +1,20 @@
+---
+title: "What I Thing About 2014 And 2015"
+date: 2015-01-03T12:00:00-04:00
+categories:
+  - blog
+tags:
+  - C#
+  - PHP
+  - CSS
+  - .NET
+  - Android
+  - Visual-Studio
+  - MVC
+  - ASP.NET
+  - Firefox
+  - Windows
+---
 <p>As a ASP.NET Developer when a C# developer meet another kind of developer (Ruby, PHP and anything else) than first thing we hate is </p>
 
 <p>He can choose any kind of IDE. He can use PHP in Sublime text and sublime text code are able to debug the PHP code. Many kind of gap between us and these people will be filled by Microsoft in upcoming years. </p>

@@ -1,3 +1,11 @@
+---
+title: "Why Your Firefox 21 Crash"
+date: 2013-06-25T12:00:00-04:00
+categories:
+  - blog
+tags:
+  - Firefox
+---
 <p>Every new version of Firefox Come with new features. Recently people using Firefox 21 Reported that Their Firefox has crashed after click on X-close button.</p>
 
 <p>What is the problem ?</p>

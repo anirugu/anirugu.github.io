@@ -1,3 +1,12 @@
+---
+title: "How Document Readystate Work"
+date: 2013-01-25T12:00:00-04:00
+categories:
+  - blog
+tags:
+  - JavaScript
+  - HTML
+---
 <p>in javascript we can use document.readyState to know the state of page.</p>
 
 <p>Some state of page is </p>

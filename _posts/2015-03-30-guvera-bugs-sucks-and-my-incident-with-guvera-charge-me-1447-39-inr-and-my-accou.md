@@ -1,3 +1,12 @@
+---
+title: "Guvera Bugs Sucks And My Incident With Guvera Charge Me 1447 39 Inr And My Accou"
+date: 2015-03-30T12:00:00-04:00
+categories:
+  - blog
+tags:
+  - .NET
+  - Windows
+---
 <p>Finding a good Music streaming is really so hard. Today I play guvera and thing to let use it for future. Now See what it happen to me.</p>
 
 <p>First I tried to pay it doesn’t work. I tell the support and it telling me that give us error so we look into it. It’s error 25004 Payment failed. </p>

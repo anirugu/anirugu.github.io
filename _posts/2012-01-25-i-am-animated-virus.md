@@ -1,3 +1,15 @@
+---
+title: "I Am Animated Virus"
+date: 2012-01-25T12:00:00-04:00
+categories:
+  - blog
+tags:
+  - .NET
+  - Chrome
+  - HTML
+  - Firefox
+  - Windows
+---
 <p>I am writing my last post <a href="http://geekswithblogs.net/anirugu/archive/2011/09/26/firefox-7-released.aspx">Firefox 7 Released</a> when Mozilla release Firefox 7 now they have 9 soon they have 12. Now I am show you a little problem with word processor we use daily. let’s take a look at issue</p>
 
 <p>Suppose my name is Anirudha. what happen if I use some different different software.</p>

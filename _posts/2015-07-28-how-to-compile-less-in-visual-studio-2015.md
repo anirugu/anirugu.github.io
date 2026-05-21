@@ -1,3 +1,12 @@
+---
+title: "How To Compile Less In Visual Studio 2015"
+date: 2015-07-28T12:00:00-04:00
+categories:
+  - blog
+tags:
+  - Visual-Studio
+  - CSS
+---
 <p>In previous version of Visual studio (2013 actually) Web Essentials 2013 compile everything easily. If you just fork something and start editing less file it’s save the .css file in same folder where the .less file reside.</p>
 
 <p>In Web Essentials 2015 the compiling process for less has been removed and it’s work no more. If you trying to use tools like Simpless or winless they will not work because currently when I tried to use winless and simpless I got error like the file has been used by another process and visual studio show me file save dialog everytime and after saving it’s not work. </p>

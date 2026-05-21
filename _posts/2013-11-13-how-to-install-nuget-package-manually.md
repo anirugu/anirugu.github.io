@@ -1,3 +1,15 @@
+---
+title: "How To Install Nuget Package Manually"
+date: 2013-11-13T12:00:00-04:00
+categories:
+  - blog
+tags:
+  - .NET
+  - Visual-Studio
+  - NuGet
+  - Bootstrap
+  - Windows
+---
 <p>When you install a nuget package in your project then Visual studio cached it for you for future purpose. If you live offline few time you can add the this cache directory as your nuget source.</p>
 
 <p>For see the folder where nuget cached then just go to </p>

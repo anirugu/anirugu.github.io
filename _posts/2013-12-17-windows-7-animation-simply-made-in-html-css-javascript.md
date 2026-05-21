@@ -1,3 +1,14 @@
+---
+title: "Windows 7 Animation Simply Made In Html Css Javascript"
+date: 2013-12-17T12:00:00-04:00
+categories:
+  - blog
+tags:
+  - JavaScript
+  - HTML
+  - Windows
+  - CSS
+---
 <iframe height="480" src="http://www.youtube.com/embed/hRT2e7hqqjE" frameborder="0" width="640" allowfullscreen="allowfullscreen"></iframe>  
 
 <p>I make this video in Windows 7 just after disable Windows 7’s inbuilt animation.This kind of animation is totally based on html5, css3,Javascript and doesn’t use any kind of functionality built in windows 7. You can made wonderful apps like this in html,css,javascript.</p>

@@ -1,3 +1,16 @@
+---
+title: "Things To Remember When You Work On Responsive Web Design"
+date: 2016-08-27T12:00:00-04:00
+categories:
+  - blog
+tags:
+  - C#
+  - CSS
+  - Android
+  - MySQL
+  - HTML
+  - Bootstrap
+---
 <p>Few years ago When I just start work in office I can hardly see smartphone anywhere. The person sit next to me spent 10,000 or 15,000 in 2010 to get a phone (which is not smart as today). that phone have hardly 1.3 MP camera and 3-4 inch screen. Yeah, Maybe that is touch ( I don’t have remembered those days very well) .</p>
 
 <p>Those days are gone. Now Android phone is everywhere and people use phone day to day for many purpose.</p>

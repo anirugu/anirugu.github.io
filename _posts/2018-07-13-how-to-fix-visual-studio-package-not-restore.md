@@ -1,3 +1,14 @@
+---
+title: "How To Fix Visual Studio Package Not Restore"
+date: 2018-07-13T12:00:00-04:00
+categories:
+  - blog
+tags:
+  - Visual-Studio
+  - C#
+  - NuGet
+  - Xamarin
+---
 <p><div>Today I was busy working in one of WPF apps that I am holding from last few days. Everything is going on, I have made Release build 2 days ago 11 of July.</div><div><br />
 </div><div>Suddenly I need to give it to another person. I delete package and hand over and come back and change to release and compile. Boom, Compile Failed.</div><div><br />
 </div><div>Suddenly my first xaml file (Splash is also failed to work). It's happen in morning, Could be disaster because I just finished my work. I restore the package from Recycle bin but still nothing compiled.</div><div><br />

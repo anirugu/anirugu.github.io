@@ -1,3 +1,13 @@
+---
+title: "How To Run Php In Webmatrix"
+date: 2012-04-21T12:00:00-04:00
+categories:
+  - blog
+tags:
+  - .NET
+  - PHP
+  - ASP.NET
+---
 <p>This post is obsolete. Read New post <a href="http://geekswithblogs.net/anirugu/archive/2012/11/13/how-to-run-php-in-webmatrix-updated.aspx">How to run PHP in Webmatrix (updated) ?</a> regarding same topic.</p>
 
 <p>Do you have tried running PHP application in webmatrix. You can run them as well your ASP.NET application.</p>

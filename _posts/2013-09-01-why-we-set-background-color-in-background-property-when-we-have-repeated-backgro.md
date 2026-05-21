@@ -1,3 +1,12 @@
+---
+title: "Why We Set Background Color In Background Property When We Have Repeated Backgro"
+date: 2013-09-01T12:00:00-04:00
+categories:
+  - blog
+tags:
+  - Firefox
+  - CSS
+---
 <p>This is just a css experiment.</p>
 
 <p>You have seen the code something like this.</p>

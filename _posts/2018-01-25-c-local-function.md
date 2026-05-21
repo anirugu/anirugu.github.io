@@ -1,3 +1,11 @@
+---
+title: "C Local Function"
+date: 2018-01-25T12:00:00-04:00
+categories:
+  - blog
+tags:
+  - C#
+---
 <p>  static void Main(string[] args)<br />
         {<br />
             int Sum(int x, int y)<br />

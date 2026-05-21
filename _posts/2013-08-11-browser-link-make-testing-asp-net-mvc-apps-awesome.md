@@ -1,3 +1,16 @@
+---
+title: "Browser Link Make Testing Asp Net Mvc Apps Awesome"
+date: 2013-08-11T12:00:00-04:00
+categories:
+  - blog
+tags:
+  - .NET
+  - Visual-Studio
+  - JavaScript
+  - MVC
+  - Firefox
+  - Chrome
+---
 <p>Few weeks ago <a href="http://madskristensen.net/">Mads</a> show us a cool demo of new feature in Visual studio 2013 (Express also). The one of the cool feature is Browser link. </p>
 
 <p>Using this feature you can refresh the browser from Visual studio. Now you have open 3 browser for example , Chrome Firefox opera (maybe few more simulator). Now you can refresh all these browser without going to every browser and click refresh button. This is awesome feature.</p>

@@ -1,3 +1,11 @@
+---
+title: "How To Compile The Project Faster In Visual Studio"
+date: 2011-04-20T12:00:00-04:00
+categories:
+  - blog
+tags:
+  - Visual-Studio
+---
 <p><strong>UPDATED 13 January 2013</strong></p>
 
 <p><em>This post is written at a time of Visual studio 2010.</em></p>

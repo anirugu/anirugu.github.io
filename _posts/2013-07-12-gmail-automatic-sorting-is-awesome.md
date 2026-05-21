@@ -1,3 +1,12 @@
+---
+title: "Gmail Automatic Sorting Is Awesome"
+date: 2013-07-12T12:00:00-04:00
+categories:
+  - blog
+tags:
+  - .NET
+  - Windows
+---
 <p>Gmail is a nice app for reading mail. You can use Gmail on your phone, desktop or any other device very easily. Till now it have some kind of trouble for user. now they have fix it.</p>
 
 <p>The problem is with newsletter and mail that Google alert generate and send them to user. I mostly do these spam because they take a lot of space of my inbox and there is hard to check other mail when you got a lot of Google alerts mail.</p>

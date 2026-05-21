@@ -1,3 +1,12 @@
+---
+title: "I Got Too Much Spam Mail From Ibm Dev Donrsquot Know How Better I Can Stop It"
+date: 2013-08-26T12:00:00-04:00
+categories:
+  - blog
+tags:
+  - .NET
+  - Windows
+---
 <p>From last few month I goo too much spam mail from IBM. one day I check my spam and I have 42 mail from their IBM site. I thing there is fault in their system so that is how I got 42 mails.</p>
 
 <p>I have told the person about this spam mail. The person from IBM told me to mail another guys about this. When I have told them this issue They told me that they have delete my account and this will no further happen in my mail.</p>

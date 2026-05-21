@@ -1,3 +1,11 @@
+---
+title: "Linkedin Sued For Hacking Into Users Accounts And Sending Invitations To Friends"
+date: 2013-09-21T12:00:00-04:00
+categories:
+  - blog
+tags:
+  - .NET
+---
 <p><a href="http://geekswithblogs.net/anirugu/archive/2013/09/20/how-linkedin-bugging-its-own-user.aspx"><font color="#000000">Yesterday I write my post </font>How LinkedIn bugging its own user !</a> about spam. I got 4 same mail from LinkedIn. I am amazed that how they can do this mistake with me. How many person got 4 mail (unusually).</p>
 
 <p>Now I read a article that make me thing that LinkedIn has been hacked by someone. Maybe this is how I got 4 spam mail in same minutes.</p>

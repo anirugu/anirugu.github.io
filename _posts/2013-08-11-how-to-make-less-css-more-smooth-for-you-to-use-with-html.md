@@ -1,3 +1,15 @@
+---
+title: "How To Make Less Css More Smooth For You To Use With Html"
+date: 2013-08-11T12:00:00-04:00
+categories:
+  - blog
+tags:
+  - Mac
+  - CSS
+  - Visual-Studio
+  - HTML
+  - NuGet
+---
 <p><font color="#000000">LESS is effective way to use Stylesheet for web-designing. The more technical you goes inside a technology then more rules and care you need in your code. </font>How better your code is depend on how better you can refactor it or modify it in future. The more better your code are the better you can edit them. The trouble is CSS code are very easy to written but hard to write better and usable code.</p>
 
 <p>Here is somethings I would like to share with you for better coding. </p>

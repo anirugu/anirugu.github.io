@@ -1,3 +1,11 @@
+---
+title: "Better Name Of Social Networking Quora Com"
+date: 2013-07-23T12:00:00-04:00
+categories:
+  - blog
+tags:
+  - .NET
+---
 <p>After writing my recent post <a href="http://geekswithblogs.net/anirugu/archive/2013/07/04/facebook-allow-you-to-abuse-in-non-english-words.aspx">Facebook allow you to abuse in Non-English words ?</a> I am looking for better social networking site. I found Facebook is not more then time wasting time. People share links and posts. Nowadays Facebook is marketing tool. Twitter is not useful too when you can’t say anything in less then 140 words.</p>
 
 <p>Now look at <a href="http://quora.com/">quora.com</a> it’s very good site compare to other two. You can read a lot of discussion their. Too many discussion that you want to listen about.</p>

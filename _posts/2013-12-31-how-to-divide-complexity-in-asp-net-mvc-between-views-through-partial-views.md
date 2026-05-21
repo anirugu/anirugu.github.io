@@ -1,3 +1,14 @@
+---
+title: "How To Divide Complexity In Asp Net Mvc Between Views Through Partial Views"
+date: 2013-12-31T12:00:00-04:00
+categories:
+  - blog
+tags:
+  - .NET
+  - MVC
+  - HTML
+  - ASP.NET
+---
 <p>In ASP.NET MVC We use Views and it’s help us to return a web-page back to browser. After Execution the Views we still have control on our response until Response.End() has called from ASP.NET itself.</p>
 
 <p>In asp.net we use ViewBag and ViewData to pass the data. TempData is also can be used which is based on session and stay alive until second view has been returned.</p>

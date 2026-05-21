@@ -1,3 +1,11 @@
+---
+title: "Mozilla Firefox 23 Will Block Mixed Ssl Content"
+date: 2013-07-03T12:00:00-04:00
+categories:
+  - blog
+tags:
+  - Firefox
+---
 <p>If you have a site which is running on SSL and used content that make non-https request then you need to a bit worried.</p>
 
 <p>The default setting of Firefox 23 will block the content that called on non-https address and page is based on SSL.</p>

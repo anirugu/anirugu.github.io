@@ -1,3 +1,11 @@
+---
+title: "Chrome Doesnrsquot Open The Mp3 File That Is Partially Cached How To Get It"
+date: 2013-09-26T12:00:00-04:00
+categories:
+  - blog
+tags:
+  - Chrome
+---
 <p>In your web-application if you are using mp3 file and on client side It’s partially cached and you want them to directly open them in browser it will not work. There is a little trick to get it worked.</p>
 
 <p>Remember the query-string trick that is used for invalidate the cache in jQuery.</p>

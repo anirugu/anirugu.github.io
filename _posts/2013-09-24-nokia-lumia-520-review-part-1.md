@@ -1,3 +1,13 @@
+---
+title: "Nokia Lumia 520 Review Part 1"
+date: 2013-09-24T12:00:00-04:00
+categories:
+  - blog
+tags:
+  - Android
+  - Nokia
+  - Windows
+---
 <p>In the starting of this month I bought a nokia phone. the design and look of the phone is pretty good. I have some issue with the phone that I am going to describe here.</p>
 
 <p>When I got my phone it’s look awesome. I just hold it in my hand and it’s work well. Suddenly my hand make a motion and it’s going restart. I feel it’s feature but it’s not. its’ fault. <em>*UPDATE *</em>This problem has been fixed when I have gone to Nokia care center.</p>

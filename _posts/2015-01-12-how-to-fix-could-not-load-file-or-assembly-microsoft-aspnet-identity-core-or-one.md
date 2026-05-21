@@ -1,3 +1,13 @@
+---
+title: "How To Fix Could Not Load File Or Assembly Microsoft Aspnet Identity Core Or One"
+date: 2015-01-12T12:00:00-04:00
+categories:
+  - blog
+tags:
+  - .NET
+  - ASP.NET
+  - Windows
+---
 <p>On error page you will see something like this</p>
 
 <p>On error page you will see something like this</p>

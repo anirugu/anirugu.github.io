@@ -1,3 +1,21 @@
+---
+title: "Visual Studio 2017 Version 15 4 Preview"
+date: 2017-08-25T12:00:00-04:00
+categories:
+  - blog
+tags:
+  - C#
+  - Mac
+  - Windows
+  - .NET
+  - Android
+  - Visual-Studio
+  - Xamarin
+  - HTML
+  - NuGet
+  - Linux
+  - Azure
+---
 <p><em style="font-size: 14px; box-sizing: inherit; font-family: "Segoe UI", SegoeUI, tahoma, sans-serif; font-weight: inherit; margin: 0px; padding: 0px; vertical-align: baseline; border: 0px; outline: 0px;">This article is copied from Visual studio blog, It has been removed from the main place.  I have no attachment with Microsoft. So Words like "I'm" and "We" are not meant for myself. It's means of OP at the Visual studio blog.*</p>
 
 <p><em style="font-size: 14px; box-sizing: inherit; font-family: "Segoe UI", SegoeUI, tahoma, sans-serif; font-weight: inherit; margin: 0px; padding: 0px; vertical-align: baseline; border: 0px; outline: 0px;">We are looking to improve your experience on the Visual Studio Blog. It would be very helpful if you could share your feedback via this<a href="https://www.research.net/r/M7GZL9D?title=Visual%20Studio%202017%20Version%2015.4%20Preview"> short survey</a> that should take less than 2 minutes. Thanks!*</p>

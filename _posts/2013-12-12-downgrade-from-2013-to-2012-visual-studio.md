@@ -1,3 +1,16 @@
+---
+title: "Downgrade From 2013 To 2012 Visual Studio"
+date: 2013-12-12T12:00:00-04:00
+categories:
+  - blog
+tags:
+  - C#
+  - .NET
+  - Visual-Studio
+  - MVC
+  - HTML
+  - ASP.NET
+---
 <p><strong>UPDATE 19 December 2013</strong></p>
 
 <p>I am using Visual studio 13 from it’s preview time. This year’s release have buggy implementation of many feature that recently have added to Visual studio. There are bunch of issue that we want to get fixed. Here is my own list.</p>

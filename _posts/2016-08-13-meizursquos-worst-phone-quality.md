@@ -1,3 +1,11 @@
+---
+title: "Meizursquos Worst Phone Quality"
+date: 2016-08-13T12:00:00-04:00
+categories:
+  - blog
+tags:
+  - General
+---
 <p>Every Chinese brand come with a once advantage that is called cost-friendly. As these brand continuously fooling Indian customers. Here is my own experience.</p>
 
 <p>Meizu m1 note is a good device but it’s a short term phone. it will broke in 1 year something. You need to repair it after that period. Same happen to most of people ( I watch them on YouTube). You can find them on YouTube.</p>

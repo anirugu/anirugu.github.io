@@ -1,3 +1,11 @@
+---
+title: "How To Solve Ldquogit Is Not Recognized Command In Windowsrdquo When You Have In"
+date: 2013-03-02T12:00:00-04:00
+categories:
+  - blog
+tags:
+  - Windows
+---
 <p>If you have installed Github for Windows and still got trouble when you tried to running command on CMD then here is a sollution to trouble.</p>
 
 <p>Open this C:\Users\myusername\AppData\Local\GitHub\PortableGit_93e8418133eb85e81a81e5e19c272776524496c6\libexec\git-core in your windows explorer. Now copy this path.</p>

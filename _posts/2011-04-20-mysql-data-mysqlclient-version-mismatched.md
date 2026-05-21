@@ -1,3 +1,15 @@
+---
+title: "Mysql Data Mysqlclient Version Mismatched"
+date: 2011-04-20T12:00:00-04:00
+categories:
+  - blog
+tags:
+  - .NET
+  - MySQL
+  - Visual-Studio
+  - ASP.NET
+  - NuGet
+---
 <p><strong>UPDATED 28 December 2013</strong></p>
 
 <p>In this post I am writing how to fix the MySql.Data.MySqlClient issue when server doesn’t make call to same library with same version that is used in development server.</p>

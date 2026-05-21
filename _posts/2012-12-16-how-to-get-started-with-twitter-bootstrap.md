@@ -1,3 +1,17 @@
+---
+title: "How To Get Started With Twitter Bootstrap"
+date: 2012-12-16T12:00:00-04:00
+categories:
+  - blog
+tags:
+  - CSS
+  - .NET
+  - Visual-Studio
+  - JavaScript
+  - HTML
+  - Bootstrap
+  - Windows
+---
 <p><strong>Updated 15 May 13</strong></p>
 
 <p>Through this post I will give you quick overview for using Twitter bootstrap in your web project. </p>

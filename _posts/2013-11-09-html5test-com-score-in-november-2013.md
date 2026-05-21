@@ -1,3 +1,15 @@
+---
+title: "Html5Test Com Score In November 2013"
+date: 2013-11-09T12:00:00-04:00
+categories:
+  - blog
+tags:
+  - .NET
+  - Chrome
+  - HTML
+  - Firefox
+  - Windows
+---
 <p><strong>Firefox 28 Night 64bit</strong></p>
 
 <p><a href="https://gwb.blob.core.windows.net/anirugu/Windows-Live-Writer/Html5-test-score_124A6/firefox_2.png"><img src="/2013_11_09_html5test.com_score_in_november_Image1.png" alt="firefox" title="firefox" /></a></p>

@@ -1,3 +1,13 @@
+---
+title: "How To Migrate Asp Net Mvc 3 Mvc4 Project To Asp Net Mvc5"
+date: 2013-10-16T12:00:00-04:00
+categories:
+  - blog
+tags:
+  - .NET
+  - MVC
+  - ASP.NET
+---
 <p>Soon you will see a new version of MVC5 in VS2013. MVC5 will be incorporated in VS2013. MVC3 will not be supported in VS2013 (<a href="http://geekswithblogs.net/anirugu/archive/2014/01/05/how-to-fix-mvc-3-issues-in-visual-studio-2013.aspx">but I found Any kind of MVC version can be used in MV by my tricks</a>). I confirmed it on channel9 last time. So People who have installed only VS2013 or doesn’t have old version will be got trouble with the project that is still in MVC3. This error happen because MVC4 and 5 installation doesn’t contain the DLL that is used in Version 3 of ASP.NET MVC.</p>
 
 <p>Don’t be panic. You guys want to upgrade your project. Here is a trick to solve the issue.</p>

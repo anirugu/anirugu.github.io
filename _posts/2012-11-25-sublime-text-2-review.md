@@ -1,3 +1,14 @@
+---
+title: "Sublime Text 2 Review"
+date: 2012-11-25T12:00:00-04:00
+categories:
+  - blog
+tags:
+  - JavaScript
+  - PHP
+  - HTML
+  - CSS
+---
 <p>Few months ago I am looking for a editor to doing simply edit on html,css,javascript. Before it I tried notepad++ which is quite awesome to do all works I want to get done with him. I choose 2 editor on my list.</p>
 
 <p>first is sublime text and second is phpstorm. both are cross-plateform. I tried both and both is working fine. I finally go with sublime text 2.</p>

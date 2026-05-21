@@ -1,3 +1,11 @@
+---
+title: "Make Windows 7 Look Like Windows 8"
+date: 2013-11-29T12:00:00-04:00
+categories:
+  - blog
+tags:
+  - Windows
+---
 <p>If you still have Windows 7 and want to make Windows 7 look like Windows without installing Windows 8 then look at this tutorial. <a href="http://www.askvg.com/download-windows-8-rtm-theme-for-windows-7/">http://www.askvg.com/download-windows-8-rtm-theme-for-windows-7/</a></p>
 
 <p>Follow the instruction and you can make your Windows 7 look like Windows 8.</p>

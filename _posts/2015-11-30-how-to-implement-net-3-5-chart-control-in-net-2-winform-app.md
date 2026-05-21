@@ -1,3 +1,13 @@
+---
+title: "How To Implement Net 3 5 Chart Control In Net 2 Winform App"
+date: 2015-11-30T12:00:00-04:00
+categories:
+  - blog
+tags:
+  - Visual-Studio
+  - .NET
+  - Windows
+---
 <p>Few months ago I work on a .net project (windows form actually) which I downgrade to .net 2.0 for some reason ( it was.net 4). Downgrade the project is not done easily but at the end we win the War. We finally downgrade the project to .net 2.</p>
 
 <p>For System.Linq I use LinqBridge <a href="http://www.albahari.com/nutshell/linqbridge.aspx" title="http://www.albahari.com/nutshell/linqbridge.aspx">http://www.albahari.com/nutshell/linqbridge.aspx</a> </p>

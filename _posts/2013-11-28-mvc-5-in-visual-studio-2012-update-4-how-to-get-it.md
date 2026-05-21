@@ -1,3 +1,15 @@
+---
+title: "Mvc 5 In Visual Studio 2012 Update 4 How To Get It"
+date: 2013-11-28T12:00:00-04:00
+categories:
+  - blog
+tags:
+  - .NET
+  - Visual-Studio
+  - ASP.NET
+  - MVC
+  - Windows
+---
 <p>When you have installed Visual studio update 4 you still see there is no template for MVC 5. For now you need to install <em>*ASP.NET and Web Tools 2013.1 *</em>Read this post for more information <a href="http://blogs.msdn.com/b/webdev/archive/2013/11/18/announcing-release-of-asp-net-and-web-tools-2013-1-for-visual-studio-2012.aspx" title="http://blogs.msdn.com/b/webdev/archive/2013/11/18/announcing-release-of-asp-net-and-web-tools-2013-1-for-visual-studio-2012.aspx">http://blogs.msdn.com/b/webdev/archive/2013/11/18/announcing-release-of-asp-net-and-web-tools-2013-1-for-visual-studio-2012.aspx</a></p>
 
 <p>You can install it through WPI. the windows after installation look like this.</p>

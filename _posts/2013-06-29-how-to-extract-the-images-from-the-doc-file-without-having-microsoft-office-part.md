@@ -1,3 +1,11 @@
+---
+title: "How To Extract The Images From The Doc File Without Having Microsoft Office Part"
+date: 2013-06-29T12:00:00-04:00
+categories:
+  - blog
+tags:
+  - Windows
+---
 <p>Many time we got the doc file which have some images. We need to try to extract them in Microsoft word which come with Windows 7 (not Microsoft office word). Looking to this article <a href="http://www.techrepublic.com/blog/itdojo/save-images-in-microsoft-word-documents-as-separate-files/135" title="http://www.techrepublic.com/blog/itdojo/save-images-in-microsoft-word-documents-as-separate-files/135">http://www.techrepublic.com/blog/itdojo/save-images-in-microsoft-word-documents-as-separate-files/135</a> This article is only useful when you have Microsoft word installed.</p>
 
 <p>Now if I don’t have Microsoft office then what ?</p>

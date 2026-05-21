@@ -1,3 +1,12 @@
+---
+title: "Why I Switch From Asana Com"
+date: 2013-10-24T12:00:00-04:00
+categories:
+  - blog
+tags:
+  - HTML
+  - Windows
+---
 <p>I used Asana.com from 1-2 years. have nice experience to use it. it’s not so easy. When I started using it it’s make many confusion. Now I switch from it. </p>
 
 <p>When I first time see I really didn’t understand how to make a private list. There is a icon on top click on it and make it private. After doing that I still not sure if this is working. There is a lot of confusion made that time. I discuss too much to figure out small small things.</p>

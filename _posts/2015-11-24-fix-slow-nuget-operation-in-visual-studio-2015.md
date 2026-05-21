@@ -1,3 +1,12 @@
+---
+title: "Fix Slow Nuget Operation In Visual Studio 2015"
+date: 2015-11-24T12:00:00-04:00
+categories:
+  - blog
+tags:
+  - Visual-Studio
+  - NuGet
+---
 <p>If your visual studio run too slow for download the nuget package that is common to the most project you build in daily rutine then you can follow same trick as 2013.</p>
 
 <p>open the local appdata folder by this</p>

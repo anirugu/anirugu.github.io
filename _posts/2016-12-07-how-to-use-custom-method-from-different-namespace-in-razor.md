@@ -1,3 +1,11 @@
+---
+title: "How To Use Custom Method From Different Namespace In Razor"
+date: 2016-12-07T12:00:00-04:00
+categories:
+  - blog
+tags:
+  - General
+---
 <p>For using method from custom library what you need is adding namespace in views/web.config</p>
 
 <p>for example if you want to use linq methods you need to put something like this</p>

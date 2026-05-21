@@ -1,3 +1,12 @@
+---
+title: "How Cnet Com Install Spyware In My Pc"
+date: 2014-01-14T12:00:00-04:00
+categories:
+  - blog
+tags:
+  - .NET
+  - Chrome
+---
 <p>CNET Is one of the worst service ever. Today when I installed the software through it because that software is not available anywhere on internet. I installed it. </p>
 
 <p>After the installer open I run it there is no option that tell me that it install it anything on my PC. Maybe this design very cheaply to enter a spyware in someone’s computer. </p>

@@ -1,3 +1,14 @@
+---
+title: "How To Edit Aspx Cshtml And Other Kind Of Files Live On Ftp Server"
+date: 2013-06-27T12:00:00-04:00
+categories:
+  - blog
+tags:
+  - .NET
+  - MVC
+  - HTML
+  - ASP.NET
+---
 <p>Many time we just want to make a small changes on site and we don’t want to download the whole project again. In this post I will show you some good way to do it.</p>
 
 <p>People who have Expression Web 4 can do it. I tried it and it’s work good with aspx file. If you have site in asp.net and use aspx engine then this is a good option. Well, Expression Web is free (previously paid software).</p>

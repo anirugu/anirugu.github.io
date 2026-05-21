@@ -1,3 +1,18 @@
+---
+title: "Why I Donrsquot Recommanded Mysql Net Connector Anymore"
+date: 2013-11-04T12:00:00-04:00
+categories:
+  - blog
+tags:
+  - Mac
+  - .NET
+  - MySQL
+  - MVC
+  - HTML
+  - NuGet
+  - ASP.NET
+  - Windows
+---
 <p><strong>UPDATED 6 JANUARY 2014</strong></p>
 
 <p>If you are installing .net connector in your PC then it’s registered the assembly in machine.config. Now if you want to run a single asp.net website you need to have Mysql.Data dll in your project no matter you use Mysql or any other kind of database connectivity.</p>

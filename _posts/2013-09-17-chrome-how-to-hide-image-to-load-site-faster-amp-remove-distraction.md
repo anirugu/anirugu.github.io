@@ -1,3 +1,13 @@
+---
+title: "Chrome How To Hide Image To Load Site Faster Amp Remove Distraction"
+date: 2013-09-17T12:00:00-04:00
+categories:
+  - blog
+tags:
+  - Windows
+  - .NET
+  - Chrome
+---
 <p>Sometime you have seen that article written somewhere is very good but there is a lot of distraction on site. Maybe that is the single reason you hate them. Now I gave you how to remove that distraction.</p>
 
 <p><a href="https://gwb.blob.core.windows.net/anirugu/Windows-Live-Writer/In-chrome-how-to-block-image-to-load-sit_CAA3/block_2.png"><img src="/2013_09_17_chrome_how_to_hide_Image1.png" alt="block" title="block" /></a></p>

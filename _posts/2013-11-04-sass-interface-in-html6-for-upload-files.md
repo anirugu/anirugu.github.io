@@ -1,3 +1,13 @@
+---
+title: "Sass Interface In Html6 For Upload Files"
+date: 2013-11-04T12:00:00-04:00
+categories:
+  - blog
+tags:
+  - .NET
+  - HTML
+  - Windows
+---
 <p>[This post is about experiment &amp; imagination]</p>
 
 <p>From Windows XP (ever last OS I tried) I have seen a feature that is about send file to pen drive and make shortcut on Desktop. In XP, Win7 (Win8 have this too, not removed) just select the file right click > send to and you can send this file to many places. In my menu it’s show me Skype because I have installed it. this skype confirm that we can add our own app here to make it more easy for user to send file in our app.</p>

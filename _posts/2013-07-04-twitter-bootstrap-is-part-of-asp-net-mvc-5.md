@@ -1,3 +1,14 @@
+---
+title: "Twitter Bootstrap Is Part Of Asp Net Mvc 5"
+date: 2013-07-04T12:00:00-04:00
+categories:
+  - blog
+tags:
+  - ASP.NET
+  - .NET
+  - MVC
+  - Bootstrap
+---
 <p>Twitter bootstrap is a framework that I discussed earlier on my blog <a href="http://geekswithblogs.net/anirugu/archive/2012/12/16/how-to-get-started-with-twitter-bootstrap.aspx">How to get started with Twitter Bootstrap</a> </p>
 
 <p>now happy to say that it will be part of mvc 5. you will got default ready to go template done with bootstrap.</p>

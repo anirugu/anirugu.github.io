@@ -1,3 +1,13 @@
+---
+title: "Visual Studio 2013 Not Compiling Your Typescript File Now What To Do"
+date: 2013-11-24T12:00:00-04:00
+categories:
+  - blog
+tags:
+  - PHP
+  - Visual-Studio
+  - MVC
+---
 <p>If you want to use typescript language in your Visual studio 13 and it doesn’t work for you then don’t be frustrated. There is no reason to wait for fix. </p>
 
 <p>Now you can try these other way to compile your Typescript.</p>

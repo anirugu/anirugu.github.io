@@ -1,3 +1,13 @@
+---
+title: "Visual Studio Editor Mistakenly Released Visual Studio 2013 On Twitter"
+date: 2013-10-17T12:00:00-04:00
+categories:
+  - blog
+tags:
+  - Visual-Studio
+  - .NET
+  - Windows
+---
 <p>From the first tweet shown in the image it’s look like Microsoft have released Visual Studio 2013. The link is certainly not worked. The given link show that post not found <strong>Not Found: Resource Not Found</strong></p>
 
 <p>The Account who posted this can be found here <a href="https://twitter.com/VSEditor" title="https://twitter.com/VSEditor">https://twitter.com/VSEditor</a></p>

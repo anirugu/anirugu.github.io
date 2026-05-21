@@ -1,3 +1,14 @@
+---
+title: "Nuget Is Not Installed Or Out Of Date"
+date: 2011-04-20T12:00:00-04:00
+categories:
+  - blog
+tags:
+  - .NET
+  - MVC
+  - NuGet
+  - ASP.NET
+---
 <p><strong>UPDATED 6 JAN 14</strong></p>
 
 <p>In last days I Installed MVC 3 update in my PC. Today I got chance to take a look on MVC 3. I create a sample project and see a kind of problem “Nuget is not installed or out of date”.</p>

@@ -1,3 +1,13 @@
+---
+title: "Syncfusionrsquos Succinctly Series"
+date: 2013-03-08T12:00:00-04:00
+categories:
+  - blog
+tags:
+  - JavaScript
+  - .NET
+  - Windows
+---
 <p>Few days ago I hear about Succinctly series that syncfusion made for us. You can check all these resources at <a href="http://www.syncfusion.com/resources/techportal">http://www.syncfusion.com/resources/techportal</a> The good thing about these books are they are freely available &amp; it’s nicely written for beginners. </p>
 
 <p><a href="http://gwb.blob.core.windows.net/anirugu/WindowsLiveWriter/syncfusionsSuccinctlyseries_7866/11_2.png"><img src="/2013_03_08_syncfusion’s_succinctly_series_Image1.png" alt="11" title="11" /></a> </p>

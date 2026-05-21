@@ -1,3 +1,11 @@
+---
+title: "Access Denied In Sublime Text 3"
+date: 2013-11-10T12:00:00-04:00
+categories:
+  - blog
+tags:
+  - General
+---
 <p>In sublime text 3 if you are unable to save your file then try this trick.</p>
 
 <p>open Settings > user and paste </p>

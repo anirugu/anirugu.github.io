@@ -1,3 +1,13 @@
+---
+title: "How To Refresh The Ui In Xamarin Without Stop Debugging Xamarin Live Reload"
+date: 2018-08-19T12:00:00-04:00
+categories:
+  - blog
+tags:
+  - Android
+  - C#
+  - Xamarin
+---
 <p>Working on xamarin project and looking for hot reload ? Look at Xamarin Live reload. For using Xamarin Live Reload<div><br />
 </div><div>simply go to Extension Manager search for live reload and install the <a href="https://marketplace.visualstudio.com/items?itemName=Xamarin.XamarinLiveReload">xamarin live reload</a> create a xamarin.forms project and switch to ui, you will see a yellow bar with connect option. If this doesn't show go to tools > options > live reload nad click on OK, it will appear.</div><div><br />
 </div><div>after click on connect, give permission and go on, if you are using android project and already deployed app, you need to uninstall it.</div><div><br />

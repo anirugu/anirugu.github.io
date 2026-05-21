@@ -1,3 +1,11 @@
+---
+title: "This Blog Has Been Moved To Https Medium Com Anirugu"
+date: 2017-05-13T12:00:00-04:00
+categories:
+  - blog
+tags:
+  - .NET
+---
 <p>Hello everyone, </p>
 
 <p>Good evening !</p>

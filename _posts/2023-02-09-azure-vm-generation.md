@@ -1,11 +1,13 @@
 ---
-title: "The Power and Savings of Azure Virtual Machines: A Look at Latest Generation"
-date: 2023-02-10T13:34:30-04:00
+title: "Azure Vm Generation"
+date: 2023-02-09T12:00:00-04:00
 categories:
   - blog
 tags:
+  - Windows
+  - Mac
+  - Linux
   - Azure
-  - Virtual-Machine
 ---
 Are you tired of constantly upgrading your older virtual machines just to keep up with the latest technology? Look no further! Azure has just released their latest generation of virtual machines (VMs) that are not only more powerful, but also more affordable than their predecessors.
 

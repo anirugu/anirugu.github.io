@@ -1,3 +1,13 @@
+---
+title: "How To Run Php In Webmatrix Updated"
+date: 2012-11-13T12:00:00-04:00
+categories:
+  - blog
+tags:
+  - .NET
+  - PHP
+  - Windows
+---
 <p>I have write <a href="http://geekswithblogs.net/anirugu/archive/2012/04/21/how-to-run-php-in-webmatrix.aspx">How to run PHP in Webmatrix ?</a> few months ago. In this post I will try to explain it little bit better.</p>
 
 <p>When you create a website in webmatrix then try to go to site > settings > here you can find the option for enble the PHP for your website on IIS express.</p>

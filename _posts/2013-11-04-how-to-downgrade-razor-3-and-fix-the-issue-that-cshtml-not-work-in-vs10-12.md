@@ -1,3 +1,15 @@
+---
+title: "How To Downgrade Razor 3 And Fix The Issue That Cshtml Not Work In Vs10 12"
+date: 2013-11-04T12:00:00-04:00
+categories:
+  - blog
+tags:
+  - .NET
+  - Visual-Studio
+  - MVC
+  - HTML
+  - NuGet
+---
 <p>Few days ago I migrate a project to MVC 4 and suddenly I have seen that MVC project’s cshtml file is no longer working. The problem happen because my project is now based on Razor 3 RC and VS12 doesn’t even have support it. (Remember that VS team will ship support in VS update 4). My migration update it to Razor 3 (which is not related to MVC 4, MVC 4 used old version of Razor 2).</p>
 
 <p>So how to fix the problem. Since VS update 4 in development and MVC 3 support exist in both old Version of VS (10,12) then better to migrate back our Razor to old version so we can use our project in VS 10 or 12.</p>

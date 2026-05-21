@@ -1,3 +1,14 @@
+---
+title: "Indian Government Department Have More Unsecure Website Then Others"
+date: 2013-10-26T12:00:00-04:00
+categories:
+  - blog
+tags:
+  - Windows
+  - .NET
+  - Firefox
+  - Chrome
+---
 <p>One of my friend share his college experience with me. He is not related with computer science. One day he told me that <strong>Ankia Fadia</strong> come to their college. In front of many student he show how to hack BSNL website by tricks. he break the flow how BSNL site work. I have told them BSNL is one of the most unsecure website of India <img src="/2013_10_26_indian_government_department_have_Image1.png" alt="Sad smile" /></p>
 
 <p>If you logged-in to website maybe it’s run in few seconds but sometime it run in 58 minute. OK this is not grammar mistake 58 minute is less then 1 hour. This means open a tab and put the link to open. it will open in hours.</p>

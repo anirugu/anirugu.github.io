@@ -1,3 +1,15 @@
+---
+title: "How To Extract The Images From The Doc File Without Having Microsoft Office Part"
+date: 2013-07-05T12:00:00-04:00
+categories:
+  - blog
+tags:
+  - Mac
+  - .NET
+  - Chrome
+  - Linux
+  - Windows
+---
 <p>Last time I write a post about how to extract image from Microsoft Word file. I provide instruction in this <a href="http://geekswithblogs.net/anirugu/archive/2013/06/29/how-to-extract-the-images-from-the-doc-file-without.aspx">post</a> that work without having Microsoft office.</p>
 
 <p>In this post I will introduce a another nice thing which even don’t required to have WINDOWS.</p>

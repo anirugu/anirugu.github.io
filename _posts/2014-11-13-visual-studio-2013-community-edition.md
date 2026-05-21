@@ -1,3 +1,11 @@
+---
+title: "Visual Studio 2013 Community Edition"
+date: 2014-11-13T12:00:00-04:00
+categories:
+  - blog
+tags:
+  - Visual-Studio
+---
 <p>Few months ago I got my Visual studio express got running Web-essentials 2013 extension. I find it awesome for me since I do most of my work related to web-programming. </p>
 
 <p>Now there is a good news from Microsoft that they have a new thing for us called “Community edition”.</p>

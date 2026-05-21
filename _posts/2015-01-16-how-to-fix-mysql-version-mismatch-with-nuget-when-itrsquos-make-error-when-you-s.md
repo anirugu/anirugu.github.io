@@ -1,3 +1,16 @@
+---
+title: "How To Fix Mysql Version Mismatch With Nuget When Itrsquos Make Error When You S"
+date: 2015-01-16T12:00:00-04:00
+categories:
+  - blog
+tags:
+  - C#
+  - Mac
+  - .NET
+  - MySQL
+  - Visual-Studio
+  - NuGet
+---
 <p>2 Year ago I write a post here to give my view on Mysql and it’s nuget packages <a href="http://geekswithblogs.net/anirugu/archive/2013/11/04/donrsquot-use-mysql-.net-connector-here-is-why.aspx" title="http://geekswithblogs.net/anirugu/archive/2013/11/04/donrsquot-use-mysql-.net-connector-here-is-why.aspx">http://geekswithblogs.net/anirugu/archive/2013/11/04/donrsquot-use-mysql-.net-connector-here-is-why.aspx</a></p>
 
 <p><font color="#e7e7e7">Nuget package is much better way to fix the dll. Just type the command in console and reference has been added to your C# project very easily. You don’t need to do anything to update it every time. </font></p>

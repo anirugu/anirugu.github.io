@@ -1,3 +1,11 @@
+---
+title: "Visual Studio 2015 Update 1 Bug Ldquoan Error Was Encountered During Code Genera"
+date: 2016-01-12T12:00:00-04:00
+categories:
+  - blog
+tags:
+  - Visual-Studio
+---
 <p>If you work in Visual studio 2015 update 1 and got issue like this“ </p>
 
 <p>An error was encountered during code generation. The changes you have made in the designer have not been committed to the source code”</p>

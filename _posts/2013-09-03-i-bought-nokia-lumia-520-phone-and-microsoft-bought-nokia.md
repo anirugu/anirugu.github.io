@@ -1,3 +1,11 @@
+---
+title: "I Bought Nokia Lumia 520 Phone And Microsoft Bought Nokia"
+date: 2013-09-03T12:00:00-04:00
+categories:
+  - blog
+tags:
+  - Nokia
+---
 <p>I just bought Nokia Lumia 520 in last week and this week I hear that Microsoft Bought Nokia.   </p>
 
 <p>Few months ago My asha 311 have some problem and stop working. I go to Service center and they refuse to fix my issue. I have no other option to do anything. In last day I bought a brand New Lumia 520 phone.</p>

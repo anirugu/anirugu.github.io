@@ -1,3 +1,13 @@
+---
+title: "Responsive Select2 In Html"
+date: 2017-09-05T12:00:00-04:00
+categories:
+  - blog
+tags:
+  - HTML
+  - Bootstrap
+  - CSS
+---
 <p>From last few years I use select2 for making effective dropdown in bootstrap. In last days I am trying to make it responsive but it doesn’t perform so well.</p>
 
 <p>Here is a nice thread to make it work.</p>

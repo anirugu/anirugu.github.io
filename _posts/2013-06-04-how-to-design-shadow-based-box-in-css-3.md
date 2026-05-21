@@ -1,3 +1,12 @@
+---
+title: "How To Design Shadow Based Box In Css 3"
+date: 2013-06-04T12:00:00-04:00
+categories:
+  - blog
+tags:
+  - HTML
+  - CSS
+---
 <p>In this post I will show you how to create a box and wrapper for page that have shadow effect using css3.</p>
 
 <p>For make this effect we use <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow">box-shadow</a> </p>

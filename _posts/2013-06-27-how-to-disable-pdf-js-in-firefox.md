@@ -1,3 +1,13 @@
+---
+title: "How To Disable Pdf Js In Firefox"
+date: 2013-06-27T12:00:00-04:00
+categories:
+  - blog
+tags:
+  - .NET
+  - Firefox
+  - Windows
+---
 <p>From last few version Firefox natively have integration of Pdf.js. Sometime you (maybe) feel that it’s run very slow. very slow to scroll down the PDF. Now you want to disable it.</p>
 
 <p>How you can do it.</p>

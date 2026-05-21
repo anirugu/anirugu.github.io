@@ -1,3 +1,14 @@
+---
+title: "Html Element Search In Firebug 13"
+date: 2013-10-26T12:00:00-04:00
+categories:
+  - blog
+tags:
+  - .NET
+  - HTML
+  - Windows
+  - CSS
+---
 <p>Firebug 13 are currently in development process. </p>
 
 <p>In firebug 13 you can search the element the way we do in CSS. This is much better and save time. Now just put your selector in search bar and now you are moving to your code. <a href="https://gwb.blob.core.windows.net/anirugu/Windows-Live-Writer/Html-Element-search-in-Firebug-13-_6B5B/Untitled_2.png"><img src="/2013_10_26_html_element_search_in_Image1.png" alt="Untitled" title="Untitled" /></a></p>

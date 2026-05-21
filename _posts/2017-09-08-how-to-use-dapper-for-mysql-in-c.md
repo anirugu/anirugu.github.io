@@ -1,3 +1,12 @@
+---
+title: "How To Use Dapper For Mysql In C"
+date: 2017-09-08T12:00:00-04:00
+categories:
+  - blog
+tags:
+  - C#
+  - MySQL
+---
 <p>Few days ago I look for a solution so I can just save my time writing CRUD. So I found a solution. It’s called Dapper.</p>
 
 <p>For creating c# class from the database you can use this code </p>

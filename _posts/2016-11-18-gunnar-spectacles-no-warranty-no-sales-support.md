@@ -1,3 +1,11 @@
+---
+title: "Gunnar Spectacles No Warranty No Sales Support"
+date: 2016-11-18T12:00:00-04:00
+categories:
+  - blog
+tags:
+  - General
+---
 <p>If you using using your phone, pc and laptop for a long time on work, you maybe search for a solution to make eye strain easy for you.</p>
 
 <p>For some people flux work fine. I have installed it on my desktop and laptop both. If I can’t get it on new device I can feel what is missing in my system.</p>

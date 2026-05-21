@@ -1,3 +1,15 @@
+---
+title: "Visual Studio Real Dark Mode 2010 2012 2013"
+date: 2013-11-02T12:00:00-04:00
+categories:
+  - blog
+tags:
+  - .NET
+  - Visual-Studio
+  - Chrome
+  - Firefox
+  - Windows
+---
 <p>When Visual studio 2010 released back in 3 year ago I soon show a demo to some people that how Dark mode of Visual studio will be great idea. Soon we got some theme plugin which make us able to modify the look of visual studio.</p>
 
 <p><a href="http://studiostyl.es/" title="http://studiostyl.es/">http://studiostyl.es/</a> already provide lots of wonderful color scheme that make you able to modify the theme. These themes are also work in webmatrix 2. Webmatrix 2 have a plugin for themes that is made by <a href="http://webmatrix.uservoice.com/users/16389197-yishai-galatzer-webmatrix-developer-">Yishai Galatzer</a> that is awesome for webmatrix 2.</p>

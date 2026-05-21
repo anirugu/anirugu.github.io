@@ -1,3 +1,12 @@
+---
+title: "Better Way To Use Ltselectgt In Html Through Select2"
+date: 2013-09-02T12:00:00-04:00
+categories:
+  - blog
+tags:
+  - HTML
+  - Bootstrap
+---
 <p>If you want to tried better way to use select tag in html then look at bootstrap based select2 at <a href="http://ivaynberg.github.io/select2/">http://ivaynberg.github.io/select2/</a></p>
 
 <p>Using this plugin you can easily search for option you want to choose. </p>

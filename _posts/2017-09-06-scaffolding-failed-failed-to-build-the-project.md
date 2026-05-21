@@ -1,3 +1,11 @@
+---
+title: "Scaffolding Failed Failed To Build The Project"
+date: 2017-09-06T12:00:00-04:00
+categories:
+  - blog
+tags:
+  - MVC
+---
 <p>If you are adding a view and you see this error, your project is not in the state it can be compiled. If you compile your software it will fail. </p>
 
 <p>For fix the issue , fix the error in Errors List in your current MVC project and then add the view it will work.</p>

@@ -1,3 +1,12 @@
+---
+title: "How Portableapps Com Save Time Of People"
+date: 2013-01-27T12:00:00-04:00
+categories:
+  - blog
+tags:
+  - Firefox
+  - Chrome
+---
 <p>Sometime people things to get back the settings of software they used last time on another computer. Sometime installing OS means lost the Settings made in Firefox and Chrome browser.</p>
 
 <p>portableapps.com provide the portable version of software which you can backup and able to use them on another computer without loosing any settings.</p>

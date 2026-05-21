@@ -1,3 +1,15 @@
+---
+title: "How To Write Css Only For Internet Explorer 10"
+date: 2013-03-02T12:00:00-04:00
+categories:
+  - blog
+tags:
+  - CSS
+  - Chrome
+  - HTML
+  - Firefox
+  - Windows
+---
 <p>Recently I hear about IE 10 launch for windows 7. It’s sound pretty good to me. I have check if this have something good for me as a designer’s prospective. I start checking the code that is break in Ie9 or old browser. I found this code still not work in IE10 for me . Same way code work without any issue in Firefox and Chrome perfectly.</p>
 
 <p>So all I want is writing Custom CSS for IE browser. Unfortunately it will not work In IE10. Microsoft have removed this feature in Ie10 see <a href="http://blogs.msdn.com/b/ie/archive/2011/07/06/html5-parsing-in-ie10.aspx">link1</a> <a href="http://msdn.microsoft.com/en-us/library/ms537512(v=VS.85).aspx">link2</a> This means the code I have written for legacy support doesn’t work in Ie10.</p>

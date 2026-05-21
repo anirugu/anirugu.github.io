@@ -1,3 +1,14 @@
+---
+title: "Things To Do After Installing Visual Studio Express 12"
+date: 2013-06-25T12:00:00-04:00
+categories:
+  - blog
+tags:
+  - Visual-Studio
+  - HTML
+  - Windows
+  - CSS
+---
 <ol>
 <li>Environment > Document > Check the option for auto-load changes.</li>
 </ol>

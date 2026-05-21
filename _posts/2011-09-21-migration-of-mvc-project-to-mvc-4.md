@@ -1,3 +1,14 @@
+---
+title: "Migration Of Mvc Project To Mvc 4"
+date: 2011-09-21T12:00:00-04:00
+categories:
+  - blog
+tags:
+  - Visual-Studio
+  - .NET
+  - MVC
+  - ASP.NET
+---
 <p>In this post i show you how you can migrate your existing project to MVC4 and make compitable for vnext.</p>
 
 <p>for visual studio 2010 you can install the MVC4 in your own system through WPI</p>

@@ -1,3 +1,12 @@
+---
+title: "Mcdonalds India Pune Throws Out A Poor Street Kid Trying To Buy A Fanta Float Wi"
+date: 2015-01-16T12:00:00-04:00
+categories:
+  - blog
+tags:
+  - .NET
+  - Windows
+---
 <p><a href="http://www.reddit.com/r/india/comments/2sisgw/mcdonalds_india_pune_throws_out_a_poor_street_kid/" title="http://www.reddit.com/r/india/comments/2sisgw/mcdonalds_india_pune_throws_out_a_poor_street_kid/">http://www.reddit.com/r/india/comments/2sisgw/mcdonalds<em>india</em>pune<em>throws</em>out<em>a</em>poor<em>street</em>kid/</a></p>
 
 <p><a href="http://i.imgur.com/p94JQN1.png" title="http://i.imgur.com/p94JQN1.png">http://i.imgur.com/p94JQN1.png</a></p>

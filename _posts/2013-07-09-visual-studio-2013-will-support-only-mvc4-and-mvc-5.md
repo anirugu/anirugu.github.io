@@ -1,3 +1,14 @@
+---
+title: "Visual Studio 2013 Will Support Only Mvc4 And Mvc 5"
+date: 2013-07-09T12:00:00-04:00
+categories:
+  - blog
+tags:
+  - Visual-Studio
+  - .NET
+  - MVC
+  - ASP.NET
+---
 <p>Recently I confirmed on channel9 about MVC support in Visual studio 2013.</p>
 
 <ul>

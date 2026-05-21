@@ -1,3 +1,11 @@
+---
+title: "Div Vs Span In Html"
+date: 2013-07-24T12:00:00-04:00
+categories:
+  - blog
+tags:
+  - HTML
+---
 <p>There is many difference between Div and html.</p>
 
 <p>Div is block element and span is inline. If you give padding to div it will work but not to span without set display :block or :inline-block</p>

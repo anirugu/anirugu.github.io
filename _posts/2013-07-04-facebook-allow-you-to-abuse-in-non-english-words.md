@@ -1,3 +1,11 @@
+---
+title: "Facebook Allow You To Abuse In Non English Words"
+date: 2013-07-04T12:00:00-04:00
+categories:
+  - blog
+tags:
+  - General
+---
 <p>Last month I see post of some of pages that I like on Facebook. Because they have a lot of comment on single post on FB they can’t check every comment. Now see what happen to them.</p>
 
 <p>Few bad people who even don’t live in Same country and have a bad mentality start abusing it. Because both country are near so they can abuse in their local language that people can read.</p>
